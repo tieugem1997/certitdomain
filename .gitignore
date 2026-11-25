@@ -1,0 +1,10 @@
+# Cookie / dữ liệu nhạy cảm
+_tstudy-data/cookies.txt
+*-capture.json
+
+# File cá nhân không thuộc dự án
+Share với bà con mấy tiệm thuốc đan.txt
+
+# Tạm
+*.zip
+__pycache__/

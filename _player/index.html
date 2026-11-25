@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ôn luyện chứng chỉ — Offline</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" class="app">
+
+  <!-- ============ MÀN CHỌN BỘ ĐỀ ============ -->
+  <section id="deck-screen" class="deck-screen">
+    <div class="deck-header">
+      <h1>📚 Ôn luyện chứng chỉ <span class="badge">Offline</span></h1>
+      <p>Học mọi lúc, mọi nơi — không cần mạng. Tiến độ được lưu trên máy bạn.</p>
+    </div>
+    <div class="deck-list" id="deck-list"></div>
+    <div class="import-zone">
+      <button id="import-btn" class="btn-ghost">📂 Import bộ đề khác (file <code>*-qa.json</code>)</button>
+      <input type="file" id="import-input" accept=".json" hidden>
+      <p class="hint">Bộ đề import phải có cấu trúc giống <code>qa.json</code> (cùng format với bộ ccar-p).</p>
+    </div>
+  </section>
+
+  <!-- ============ MÀN LUYỆN TẬP ============ -->
+  <section id="study-screen" class="study-screen" hidden>
+    <header class="study-header">
+      <button id="back-btn" class="btn-icon" title="Về màn chọn bộ đề">←</button>
+      <div class="study-title">
+        <h1 id="deck-title">—</h1>
+        <div class="study-stats">
+          <span id="mode-badge" class="mode-badge">📝 Thi thử</span>
+          <span id="stat-answered"></span>
+          <span id="stat-correct" class="ok"></span>
+          <span id="stat-incorrect" class="bad"></span>
+        </div>
+      </div>
+      <div class="study-actions">
+        <button id="theme-btn" class="btn-icon" title="Đổi giao diện sáng/tối">🌓</button>
+        <button id="submit-btn" class="btn-submit" hidden>📤 Nộp bài</button>
+        <button id="reset-btn" class="btn-ghost">↺ Xóa tiến độ</button>
+      </div>
+    </header>
+    <div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div>
+
+    <div class="study-layout">
+      <!-- Sidebar: bản đồ câu hỏi -->
+      <aside class="study-sidebar">
+        <div class="filter-tabs" id="filter-tabs"></div>
+        <div class="map-grid" id="map-grid"></div>
+      </aside>
+
+      <!-- Khu vực câu hỏi -->
+      <main class="study-main">
+        <div id="question-card" class="question-card"></div>
+        <div class="question-actions">
+          <button id="prev-btn" class="btn-nav">← Câu trước</button>
+          <span id="question-pos" class="question-pos"></span>
+          <button id="next-btn" class="btn-nav primary">Câu tiếp theo →</button>
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- ============ KẾT QUẢ BÀI THI ============ -->
+  <div id="result-overlay" class="result-overlay" hidden>
+    <div class="result-box">
+      <h2>🏆 Kết quả bài thi</h2>
+      <div id="result-score" class="result-score"></div>
+      <div id="result-breakdown" class="result-breakdown"></div>
+      <div class="result-actions">
+        <button id="review-btn" class="btn-nav primary">🔍 Xem lại bài làm</button>
+        <button id="retake-btn" class="btn-nav">🔄 Làm lại</button>
+        <button id="result-close-btn" class="btn-ghost">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

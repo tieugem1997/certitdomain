@@ -1,0 +1,3736 @@
+window.__PC_DECK_LAST__ = [
+ {
+  "no": 1,
+  "id": "ab731-q001",
+  "type": "single",
+  "select": 1,
+  "question": "Your company manages an online catalog of office supplies. You plan to use a generative AI solution to create product\ndescriptions for your company's website. The solution must meet the following requirements:\n• Ensure that the descriptions can be posted immediately after they are created.\n• Enable the selection and inclusion of product details in each description.\n• Be fast and simple for non-technical staff to use.\nWhat is the best type of solution to use?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "custom Azure Machine Learning model"
+   },
+   {
+    "key": "B",
+    "text": "the Researcher agent in Microsoft 365 Copilot"
+   },
+   {
+    "key": "C",
+    "text": "an interactive AI agent"
+   },
+   {
+    "key": "D",
+    "text": "a fine-tuned large language model (LLM)"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. an interactive AI agent\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-001-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=0s"
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "id": "ab731-q002",
+  "type": "single",
+  "select": 1,
+  "question": "Your company plans to use generative AI to help build a website that will showcase various existing products.\nWhich capability best describes a benefit of using generative AI for this project?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "creating product descriptions based on product specifications"
+   },
+   {
+    "key": "B",
+    "text": "designing a new product based on customer requirements"
+   },
+   {
+    "key": "C",
+    "text": "translating product descriptions into a different language"
+   },
+   {
+    "key": "D",
+    "text": "analyzing product sales to identify patterns and trends"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. creating product descriptions based on product specifications\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-002-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=110s"
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "id": "ab731-q003",
+  "type": "multiple",
+  "select": 2,
+  "question": "Your company wants to ensure that AI solutions are used responsibly and align with company values and compliance\nrequirements.\nYou need to establish governance principles for AI use.\nWhich two actions should you perform?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Allow each department to tailor governance processes for its own AI initiatives."
+   },
+   {
+    "key": "B",
+    "text": "Define accountability norms for AI decisions across business and technical teams."
+   },
+   {
+    "key": "C",
+    "text": "Create a process to review AI initiatives for responsible AI alignment."
+   },
+   {
+    "key": "D",
+    "text": "Assign governance ownership primarily to the AI engineering and data science teams."
+   },
+   {
+    "key": "E",
+    "text": "Focus governance efforts on AI systems that handle regulated or sensitive data."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. Define accountability norms for AI decisions across business and technical teams.\nC. Create a process to review AI initiatives for responsible AI alignment.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-003-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=220s"
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "id": "ab731-q004",
+  "type": "multiple",
+  "select": 3,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Using incomplete or poor-quality data during generative AI model training can increase costs."
+   },
+   {
+    "key": "B",
+    "text": "AI models rely on training data to learn patterns and identify relationships to produce outputs."
+   },
+   {
+    "key": "C",
+    "text": "Generative AI models trained on non-representative datasets can produce inaccurate or unbalanced results."
+   }
+  ],
+  "correct": [
+   "A",
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-004-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=330s"
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "id": "ab731-q005",
+  "type": "single",
+  "select": 1,
+  "question": "Your company plans to use generative AI to help summarize and analyze internal business documents.\nYou need to recommend a solution to prevent generative AI from accessing confidential or classified information. What\nshould you include in the recommendation?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "an information barrier(IB) policy"
+   },
+   {
+    "key": "B",
+    "text": "communication monitoring"
+   },
+   {
+    "key": "C",
+    "text": "a data retention policy"
+   },
+   {
+    "key": "D",
+    "text": "data governance"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. data governance\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-005-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=410s"
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "id": "ab731-q006",
+  "type": "single",
+  "select": 1,
+  "question": "Your company sells hiking and camping gear online.\nYou need a generative AI solution that can interact with customers and ask questions about their needs. What should you\ninclude in the solution?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "a chatbot"
+   },
+   {
+    "key": "B",
+    "text": "predictive AI"
+   },
+   {
+    "key": "C",
+    "text": "computer vision"
+   },
+   {
+    "key": "D",
+    "text": "a recommendation engine"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. a chatbot\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-006-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=520s"
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "id": "ab731-q007",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nWhen you use Microsoft 365 Copilot connectors to connect external content to [blank], your users can find, summarize, and learn from line-of-business (LOB) data by using natural language prompts.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Graph"
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Purview"
+   },
+   {
+    "key": "C",
+    "text": "Microsoft SharePoint"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The Microsoft service that completes the sentence is → Microsoft Graph)\n\nCorrect answer(s) from the source:\nThe Microsoft service that completes the sentence is: Microsoft Graph\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-007-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=610s"
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "id": "ab731-q008",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nAn organization that runs continuous, large-scale workloads with Azure OpenAI models should choose the [blank] pricing model.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Batch API"
+   },
+   {
+    "key": "B",
+    "text": "Provisioned (PTUs)"
+   },
+   {
+    "key": "C",
+    "text": "Standard (On-Demand)"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The pricing model is → Provisioned (PTUs))\n\nCorrect answer(s) from the source:\nThe pricing model is: Provisioned (PTUs)\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-008-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=690s"
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "id": "ab731-q009",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Copilot in Outlook can automatically send follow-up replies to emails."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Copilot in Outlook can identify and surface tasks mentioned in your emails."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft Copilot in Outlook can summarize long email threads and highlight action items and deadlines."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-009-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=780s"
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "id": "ab731-q010",
+  "type": "single",
+  "select": 1,
+  "question": "You have a business unit that uses an AI solution to process loan applications.\nYou discover that the solution rejects the application of all applicants that are older than 60 years of age. Which Microsoft\nresponsible AI principle is this violating?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "accountability"
+   },
+   {
+    "key": "B",
+    "text": "transparency"
+   },
+   {
+    "key": "C",
+    "text": "reliability and safety"
+   },
+   {
+    "key": "D",
+    "text": "fairness"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. fairness\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-010-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=850s"
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "id": "ab731-q011",
+  "type": "multiple",
+  "select": 4,
+  "question": "Match the Microsoft responsible AI principles to the appropriate descriptions.\nTo answer, drag the principle from the column on the left to its description on the right. Each principle may be used once,\nmore than once, or not at all.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Fairness"
+   },
+   {
+    "key": "B",
+    "text": "Reliability and safety"
+   },
+   {
+    "key": "C",
+    "text": "Privacy and security"
+   },
+   {
+    "key": "D",
+    "text": "Inclusiveness"
+   },
+   {
+    "key": "E",
+    "text": "Transparency"
+   },
+   {
+    "key": "F",
+    "text": "Accountability"
+   }
+  ],
+  "correct": [
+   "C",
+   "E",
+   "D",
+   "F"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Protect personal information and apply strong safeguards to keep data secure. → Privacy and security; Make AI solutions understandable by explaining how and why decisions are made. → Transparency; Design AI solutions that are accessible to people of all abilities and experiences. → Inclusiveness; Involve human oversight in the control of AI solutions. → Accountability)\n\nCorrect answer(s) from the source:\nProtect personal information and apply strong safeguards to keep data secure.: Privacy and security\nMake AI solutions understandable by explaining how and why decisions are made.: Transparency\nDesign AI solutions that are accessible to people of all abilities and experiences.: Inclusiveness\nInvolve human oversight in the control of AI solutions.: Accountability\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-011-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=930s"
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "id": "ab731-q012",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Retrieval Augmented Generation (RAG) architectures require that a large language model (LLM) be retrained on proprietary data."
+   },
+   {
+    "key": "B",
+    "text": "Retrieval-Augmented Generation (RAG) grounds a language model to produce more factual and context-relevant responses."
+   },
+   {
+    "key": "C",
+    "text": "Retrieval Augmented Generation (RAG) retrieves information from external knowledge sources at runtime instead of relying solely on the knowledge of a generative AI model."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-012-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1100s"
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "id": "ab731-q013",
+  "type": "single",
+  "select": 1,
+  "question": "Your company is deploying Microsoft 365 Copilot. The deployment must provide users with access to the Researcher\nagent to search across data in Microsoft SharePoint.\nYou need to recommend a licensing plan for the solution. What should you recommend?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "a Microsoft 365 Copilot per-user add-on license"
+   },
+   {
+    "key": "B",
+    "text": "pay-as-you-go"
+   },
+   {
+    "key": "C",
+    "text": "a Microsoft 365 subscription entitlement"
+   },
+   {
+    "key": "D",
+    "text": "a usage-based consumption license in Azure"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. a Microsoft 365 Copilot per-user add-on license\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-013-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1190s"
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "id": "ab731-q014",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nThe Researcher agent in Microsoft 365 Copilot [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "creates visual dashboards from structured data in Microsoft Excel and Power Bl."
+   },
+   {
+    "key": "B",
+    "text": "generates a pivot table and performs time series forecasting."
+   },
+   {
+    "key": "C",
+    "text": "performs complex, multi-step, data analysis and code execution tasks over arbitrary datasets."
+   },
+   {
+    "key": "D",
+    "text": "uses reasoning capabilities to generate deep insights based on organizational data and the web."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The Researcher agent → uses reasoning capabilities to generate deep insights based on organizational data and the web.)\n\nCorrect answer(s) from the source:\nThe Researcher agent: uses reasoning capabilities to generate deep insights based on organizational data and the web.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-014-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1300s"
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "id": "ab731-q015",
+  "type": "single",
+  "select": 1,
+  "question": "You plan to meet with a group of stakeholders to discuss how generative AI can benefit your company.\nYou need to provide the stakeholders with a relevant description of generative AI during the meeting. Which description\nshould you use?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Generative AI is designed to generate responses based on a user's natural language prompts."
+   },
+   {
+    "key": "B",
+    "text": "Generative AI is designed to translate documents into other languages."
+   },
+   {
+    "key": "C",
+    "text": "Generative AI is designed to predict future trends based on historical data."
+   },
+   {
+    "key": "D",
+    "text": "Generative AI is designed to recommend products based on user behavior."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Generative AI is designed to generate responses based on a user's natural language prompts.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-015-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1410s"
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "id": "ab731-q016",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nEffective prompt engineering increases the [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "storage capacity required for AI data."
+   },
+   {
+    "key": "B",
+    "text": "training time required for generative AI models."
+   },
+   {
+    "key": "C",
+    "text": "accuracy and relevance of AI-generated responses."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Effective prompt engineering increases the → accuracy and relevance of AI-generated responses.)\n\nCorrect answer(s) from the source:\nEffective prompt engineering increases the: accuracy and relevance of AI-generated responses.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-016-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1500s"
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "id": "ab731-q017",
+  "type": "single",
+  "select": 1,
+  "question": "Your company uses a generative AI solution.\nYou need to improve the quality of responses by using grounding.\nWhich statement accurately describes how grounding improves accuracy and relevancy?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "references a diverse set of people, disciplines, and perspectives"
+   },
+   {
+    "key": "B",
+    "text": "explains how and why AI models generate content"
+   },
+   {
+    "key": "C",
+    "text": "anchors the responses in specific data sources"
+   },
+   {
+    "key": "D",
+    "text": "specifies the strengths and weaknesses of the AI model"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. anchors the responses in specific data sources\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-017-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1580s"
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "id": "ab731-q018",
+  "type": "single",
+  "select": 1,
+  "question": "Your company uses Microsoft 365 Copilot.\nYou identify several business processes that require custom workflows and specialized automation.\nYou need to recommend a solution that extends Copilot capabilities while minimizing development effort and costs.\nWhat should you recommend?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Create an agent by using Microsoft Foundry."
+   },
+   {
+    "key": "B",
+    "text": "Deploy a Copilot connector."
+   },
+   {
+    "key": "C",
+    "text": "Build a custom agent by using the full experience of Microsoft Copilot Studio."
+   },
+   {
+    "key": "D",
+    "text": "Build a declarative agent by using the lite experience of Microsoft Copilot Studio."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. Build a declarative agent by using the lite experience of Microsoft Copilot Studio.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-018-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1700s"
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "id": "ab731-q019",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nThe Analyst agent in Microsoft 365 Copilot [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "compiles background research for a new market or initiative."
+   },
+   {
+    "key": "B",
+    "text": "enables you to generate audio summaries of select references."
+   },
+   {
+    "key": "C",
+    "text": "uses a conversational agent to answer employee FAQs."
+   },
+   {
+    "key": "D",
+    "text": "uses structured data and provides insights by using text, charts, tables, and other visuals."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The Analyst agent in Microsoft 365 Copilot → uses structured data and provides insights by using text, charts, tables, and other visuals.)\n\nCorrect answer(s) from the source:\nThe Analyst agent in Microsoft 365 Copilot: uses structured data and provides insights by using text, charts, tables, and other visuals.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-019-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1800s"
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "id": "ab731-q020",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "A manufacturer can use Azure Vision in Foundry Tools to identify product defects on an assembly line."
+   },
+   {
+    "key": "B",
+    "text": "A logistics company can use Azure Vision in Foundry Tools to recognize package shipping labels."
+   },
+   {
+    "key": "C",
+    "text": "The HR department at your company can only use Azure Vision in Foundry Tools to extract written content from Microsoft Word files."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-020-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1890s"
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "id": "ab731-q021",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\n[blank] can analyze internal documents to detect Personally Identifiable Information (PII) and redact the PII from the output.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure Language in Foundry Tools"
+   },
+   {
+    "key": "B",
+    "text": "Azure AI Search"
+   },
+   {
+    "key": "C",
+    "text": "Azure Vision in Foundry Tools"
+   },
+   {
+    "key": "D",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The Azure service is → Azure Language in Foundry Tools)\n\nCorrect answer(s) from the source:\nThe Azure service is: Azure Language in Foundry Tools\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-021-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=1990s"
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "id": "ab731-q022",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft 365 Copilot can help users compose professional emails and summarize conversations."
+   },
+   {
+    "key": "B",
+    "text": "When prompted, Microsoft 365 Copilot can autonomously update a spreadsheet that contains sales data."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft 365 Copilot can summarize recent updates in business documents, A spreadsheets, and presentations."
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: No\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-022-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2110s"
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "id": "ab731-q023",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nWhen Microsoft 365 Copilot accesses company data using the principle of least privilege, this is an example of a [blank] control.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "data classification"
+   },
+   {
+    "key": "B",
+    "text": "data compliance"
+   },
+   {
+    "key": "C",
+    "text": "data loss prevention (DLP)"
+   },
+   {
+    "key": "D",
+    "text": "data security"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: This is an example of a data → data security)\n\nCorrect answer(s) from the source:\nThis is an example of a data: data security\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-023-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2200s"
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "id": "ab731-q024",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Generative AI can be used in the automation of complex workflows."
+   },
+   {
+    "key": "B",
+    "text": "Generative AI can be used to generate new content, such as text, images, and music."
+   },
+   {
+    "key": "C",
+    "text": "Generative AI is best suited to perform mathematical calculations and solve equations."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-024-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2270s"
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "id": "ab731-q025",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nAdopting Microsoft responsible AI principles is important for your organization because the principles [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "because the principles"
+   },
+   {
+    "key": "B",
+    "text": "ensure that AI models deliver consistent and equitable results."
+   },
+   {
+    "key": "C",
+    "text": "help organizations increase trust in fully autonomous AI systems."
+   },
+   {
+    "key": "D",
+    "text": "promote the ethical and accountable use of AI."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The principles → promote the ethical and accountable use of AI.)\n\nCorrect answer(s) from the source:\nThe principles: promote the ethical and accountable use of AI.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-025-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2360s"
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "id": "ab731-q026",
+  "type": "single",
+  "select": 1,
+  "question": "Your company has a Microsoft 365 subscription and uses Microsoft 365 Copilot Chat. Some users need to build and\nuse declarative agents that can access work data.\nWhich type of license should you recommend for the users?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "a Microsoft 365 Copilot add-on license"
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Copilot Studio user license"
+   },
+   {
+    "key": "C",
+    "text": "a Copilot Chat pay-as-you-go plan"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. a Microsoft 365 Copilot add-on license\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-026-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2460s"
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "id": "ab731-q027",
+  "type": "multiple",
+  "select": 3,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Foundry helps organizations securely build and manage generative AI solutions in a governed environment."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Foundry provides built-in scalability to enable organizations to expand AI workloads as usage increases."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft Foundry can be used for image recognition and computer vision tasks."
+   }
+  ],
+  "correct": [
+   "A",
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-027-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2580s"
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "id": "ab731-q028",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nPrompt engineering is the process of [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "integrating AI-powered tools into business workflows."
+   },
+   {
+    "key": "B",
+    "text": "identifying and fixing errors in AI-generated content."
+   },
+   {
+    "key": "C",
+    "text": "designing, developing, and training generative AI models to produce contextually relevant content."
+   },
+   {
+    "key": "D",
+    "text": "crafting clear instructions to guide generative AI solutions in generating context-appropriate content."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Prompt engineering is the process of → crafting clear instructions to guide generative AI solutions in generating context-appropriate content.)\n\nCorrect answer(s) from the source:\nPrompt engineering is the process of: crafting clear instructions to guide generative AI solutions in generating context-appropriate content.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-028-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2690s"
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "id": "ab731-q029",
+  "type": "single",
+  "select": 1,
+  "question": "Your company plans to build a generative AI solution based on internal data.\nYou recommend using Microsoft Foundry as a starting point to develop and manage the solution. What is a key benefit of\nusing Microsoft Foundry for this project?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Provides a scalable platform for developing and deploying generative AI solutions."
+   },
+   {
+    "key": "B",
+    "text": "Removes the need to select or configure the underlying AI model."
+   },
+   {
+    "key": "C",
+    "text": "Enables business users to build generative AI solutions."
+   },
+   {
+    "key": "D",
+    "text": "Offers a low-code platform for developing generative AI solutions."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Provides a scalable platform for developing and deploying generative AI solutions.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-029-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2770s"
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "id": "ab731-q030",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nThe primary goal of generative AI is [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "to analyze trends and classify data sources."
+   },
+   {
+    "key": "B",
+    "text": "to create new content, such as text, images, or code."
+   },
+   {
+    "key": "C",
+    "text": "to make predictions based on historical data."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The primary goal of generative AI is → to create new content, such as text, images, or code.)\n\nCorrect answer(s) from the source:\nThe primary goal of generative AI is: to create new content, such as text, images, or code.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-030-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2860s"
+   }
+  ]
+ },
+ {
+  "no": 31,
+  "id": "ab731-q031",
+  "type": "single",
+  "select": 1,
+  "question": "Your company uses generative AI to assist with content creation and customer interactions.\nYou need to evaluate whether Azure Machine Learning can add value to the current customer management. For which use\ncase should you use Machine Learning?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "predicting customer retention"
+   },
+   {
+    "key": "B",
+    "text": "creating product descriptions from images"
+   },
+   {
+    "key": "C",
+    "text": "generating marketing campaigns"
+   },
+   {
+    "key": "D",
+    "text": "summarizing customer service transcripts"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. predicting customer retention\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-031-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=2950s"
+   }
+  ]
+ },
+ {
+  "no": 32,
+  "id": "ab731-q032",
+  "type": "multiple",
+  "select": 3,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Lack of trust in the security and accuracy of AI solutions is a common barrier to AI adoption."
+   },
+   {
+    "key": "B",
+    "text": "AI adoption efforts often fail when organizations overlook the importance of high-quality data."
+   },
+   {
+    "key": "C",
+    "text": "AI adoption is most successful when implemented with business and compliance stakeholders."
+   }
+  ],
+  "correct": [
+   "A",
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-032-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3060s"
+   }
+  ]
+ },
+ {
+  "no": 33,
+  "id": "ab731-q033",
+  "type": "single",
+  "select": 1,
+  "question": "Your company plans to use an AI-powered solution to analyze customer feedback for insights related to future product\ndesigns.\nYou need to mitigate the privacy risks associated with the solution.\nWhat is the best approach to achieve the goal?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Delete all the feedback data immediately after analysis."
+   },
+   {
+    "key": "B",
+    "text": "Ensure that feedback is attributable to the customer so that it can be deleted upon request."
+   },
+   {
+    "key": "C",
+    "text": "Limit privacy reviews to the final stage of the AI project lifecycle."
+   },
+   {
+    "key": "D",
+    "text": "Anonymize the source data to remove customer Personally Identifiable Information (PII) from the feedback."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. Anonymize the source data to remove customer Personally Identifiable Information (PII) from the feedback.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-033-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3170s"
+   }
+  ]
+ },
+ {
+  "no": 34,
+  "id": "ab731-q034",
+  "type": "single",
+  "select": 1,
+  "question": "Your company creates a custom Azure Machine Learning model that uses a generative AI assistant.\nThe mode initially delivers strong results. However, six months later, the model predictions become noticeably less\naccurate.\nWhat is a possible cause of the issue?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "The model requires additional compute resources."
+   },
+   {
+    "key": "B",
+    "text": "The input data changed over time."
+   },
+   {
+    "key": "C",
+    "text": "The model was trained incorrectly."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. The input data changed over time.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-034-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3280s"
+   }
+  ]
+ },
+ {
+  "no": 35,
+  "id": "ab731-q035",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nYou use [blank] to train a model that will forecast product demand based on historical sales data.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure Machine Learning"
+   },
+   {
+    "key": "B",
+    "text": "Azure AI Search"
+   },
+   {
+    "key": "C",
+    "text": "Azure OpenAI"
+   },
+   {
+    "key": "D",
+    "text": "Microsoft Foundry"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: You use → Azure Machine Learning)\n\nCorrect answer(s) from the source:\nYou use: Azure Machine Learning\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-035-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3380s"
+   }
+  ]
+ },
+ {
+  "no": 36,
+  "id": "ab731-q036",
+  "type": "single",
+  "select": 1,
+  "question": "Your company uses a non-reasoning generative AI model to create textual content.\nYou discover that the model's responses are inconsistent and do NOT meet expectations. You need to improve the prompts.\nWhat should you do?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Provide the prompts with extensive examples of the expected output."
+   },
+   {
+    "key": "B",
+    "text": "Add the context, sources, and expectations to the prompts."
+   },
+   {
+    "key": "C",
+    "text": "Use technical terms in the prompts to enhance AI comprehension."
+   },
+   {
+    "key": "D",
+    "text": "Add only a single concise requirement to the prompts."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. Add the context, sources, and expectations to the prompts.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-036-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3460s"
+   }
+  ]
+ },
+ {
+  "no": 37,
+  "id": "ab731-q037",
+  "type": "single",
+  "select": 1,
+  "question": "You have a historical dataset that contains 1,000 records.\nYou need an AI solution that can analyze the data to identify patterns and predict future outcomes. What should you include\nin the solution?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Foundry"
+   },
+   {
+    "key": "B",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   },
+   {
+    "key": "C",
+    "text": "Azure Machine Learning"
+   },
+   {
+    "key": "D",
+    "text": "Azure Content Understanding in Foundry Tools"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. Azure Machine Learning\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-037-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3570s"
+   }
+  ]
+ },
+ {
+  "no": 38,
+  "id": "ab731-q038",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Copilot provides a single AI app that has identical features and experiences across all Microsoft products."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft 365 Copilot delivers AI capabilities for business users that use Microsoft 365 apps."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft Security Copilot helps companies understand risks and the organizational security posture."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-038-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3680s"
+   }
+  ]
+ },
+ {
+  "no": 39,
+  "id": "ab731-q039",
+  "type": "single",
+  "select": 1,
+  "question": "Your company plans to adopt AI across multiple business units.\nYou need to ensure that all AI projects align with the company's business strategy and are implemented responsibly.\nWhat is the best approach to achieve the goal?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Allow each department to deploy its own AI tools and workflows."
+   },
+   {
+    "key": "B",
+    "text": "Delegate AI decision-making to the company's IT department."
+   },
+   {
+    "key": "C",
+    "text": "Outsource AI development to an external vendor."
+   },
+   {
+    "key": "D",
+    "text": "Establish an AI council to provide guidance, oversight, and coordination."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. Establish an AI council to provide guidance, oversight, and coordination.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-039-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3800s"
+   }
+  ]
+ },
+ {
+  "no": 40,
+  "id": "ab731-q040",
+  "type": "single",
+  "select": 1,
+  "question": "Your company stores hundreds of internal business reports.\nYou need to recommend a generative AI solution that uses an agent to answer questions based on the content in the\nreports.\nWhat should you include in the recommendation?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "natural language processing"
+   },
+   {
+    "key": "B",
+    "text": "Azure Machine Learning"
+   },
+   {
+    "key": "C",
+    "text": "Retrieval Augmented Generation (RAG)"
+   },
+   {
+    "key": "D",
+    "text": "Generative Adversarial Network (GAN)"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. Retrieval Augmented Generation (RAG)\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-040-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=3900s"
+   }
+  ]
+ },
+ {
+  "no": 41,
+  "id": "ab731-q041",
+  "type": "multiple",
+  "select": 3,
+  "question": "You need to recommend an AI solution for each task. The solutions must use prebuilt AI capabilities to reduce development time. What should you recommend for each task?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure AI Search"
+   },
+   {
+    "key": "B",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   },
+   {
+    "key": "C",
+    "text": "Azure Machine Learning"
+   },
+   {
+    "key": "D",
+    "text": "Azure Content Understanding in Foundry Tools"
+   },
+   {
+    "key": "E",
+    "text": "Azure Speech in Foundry Tools"
+   },
+   {
+    "key": "F",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   },
+   {
+    "key": "G",
+    "text": "Azure Language in Foundry Tools"
+   },
+   {
+    "key": "H",
+    "text": "Azure Machine Learning"
+   },
+   {
+    "key": "I",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   }
+  ],
+  "correct": [
+   "B",
+   "E",
+   "G"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Extract information from invoices and credit notes: → Azure Document Intelligence in Foundry Tools; Identify discussion topics in customer service call recordings: → Azure Speech in Foundry Tools; Detect customer sentiment and opinions: → Azure Language in Foundry Tools)\n\nCorrect answer(s) from the source:\nExtract information from invoices and credit notes:: Azure Document Intelligence in Foundry Tools\nIdentify discussion topics in customer service call recordings:: Azure Speech in Foundry Tools\nDetect customer sentiment and opinions:: Azure Language in Foundry Tools\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-041-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4040s"
+   }
+  ]
+ },
+ {
+  "no": 42,
+  "id": "ab731-q042",
+  "type": "single",
+  "select": 1,
+  "question": "Your company sells hiking and camping gear online.\nYou need a generative AI solution that can interact with customers, ask questions about their needs, and escalate to a human agent if necessary.\nWhat solution should you use?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "a chatbot"
+   },
+   {
+    "key": "B",
+    "text": "predictive AI"
+   },
+   {
+    "key": "C",
+    "text": "a recommendation engine"
+   },
+   {
+    "key": "D",
+    "text": "computer vision"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. a chatbot\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-042-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4200s"
+   }
+  ]
+ },
+ {
+  "no": 43,
+  "id": "ab731-q043",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure Vision in Foundry Tools can extract and analyze key phrases from PDF files."
+   },
+   {
+    "key": "B",
+    "text": "Azure Vision in Foundry Tools can generate images based on natural language descriptions."
+   },
+   {
+    "key": "C",
+    "text": "Azure Document Intelligence in Foundry Tools can be used to automate the processing of invoices and credit notes."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: No\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-043-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4290s"
+   }
+  ]
+ },
+ {
+  "no": 44,
+  "id": "ab731-q044",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nA [blank] AI solution recognizes patterns in large and complex datasets to create new and original content.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "prescriptive"
+   },
+   {
+    "key": "B",
+    "text": "predictive"
+   },
+   {
+    "key": "C",
+    "text": "generative"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: An AI solution that recognizes patterns in large and complex datasets to create new and original content is → generative)\n\nCorrect answer(s) from the source:\nAn AI solution that recognizes patterns in large and complex datasets to create new and original content is: generative\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-044-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4430s"
+   }
+  ]
+ },
+ {
+  "no": 45,
+  "id": "ab731-q045",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft 365 Copilot enables users to search across emails, files, chats, meetings, and connected apps, by using natural language queries."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft 365 Copilot provides data protection, and helps ensure that user prompts and chat data are secure."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft 365 Copilot is included in all Microsoft 365 subscriptions."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-045-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4510s"
+   }
+  ]
+ },
+ {
+  "no": 46,
+  "id": "ab731-q046",
+  "type": "single",
+  "select": 1,
+  "question": "Your company's HR department spends a large amount time answering repetitive questions and updating policy\ndocuments.\nYou need a solution that can automate employee interactions, respond to HR-related questions, and connect to internal\nbusiness data sources.\nWhat solution should you recommend?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Security Copilot"
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Copilot Studio"
+   },
+   {
+    "key": "C",
+    "text": "Microsoft 365 Copilot"
+   },
+   {
+    "key": "D",
+    "text": "Microsoft Copilot in Azure"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. Microsoft Copilot Studio\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-046-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4600s"
+   }
+  ]
+ },
+ {
+  "no": 47,
+  "id": "ab731-q047",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Larger datasets can increase the cost of a generative AI solution that uses an Azure Machine Learning workspace."
+   },
+   {
+    "key": "B",
+    "text": "The cost of consuming Azure OpenAI models is primarily identified by the number of input and output tokens processed."
+   },
+   {
+    "key": "C",
+    "text": "The cost of custom generative AI solutions always remains the same regardless of the model version or capability used."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-047-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4720s"
+   }
+  ]
+ },
+ {
+  "no": 48,
+  "id": "ab731-q048",
+  "type": "single",
+  "select": 1,
+  "question": "You need to recommend a service that supports indexing information and knowledge mining by extracting insights\nfrom documents.\nWhat should you recommend?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Foundry"
+   },
+   {
+    "key": "B",
+    "text": "Azure Vision in Foundry Tools"
+   },
+   {
+    "key": "C",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   },
+   {
+    "key": "D",
+    "text": "Azure AI Search"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. Azure AI Search\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-048-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4830s"
+   }
+  ]
+ },
+ {
+  "no": 49,
+  "id": "ab731-q049",
+  "type": "single",
+  "select": 1,
+  "question": "Your company uses a fine-tuned generative AI solution trained on data that is representative of the general population.\nYou discover that some of the generated responses include inappropriate or exclusionary language based on ableist\nassumptions.\nYou need to prevent the inappropriate responses. Your solution must minimize costs. What should you do?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Apply a newer version of the generative AI model."
+   },
+   {
+    "key": "B",
+    "text": "Apply a content-moderation filter."
+   },
+   {
+    "key": "C",
+    "text": "Create a new version of the solution that is trained on only inclusive and representative content."
+   },
+   {
+    "key": "D",
+    "text": "Create a new version of the solution that is trained on only exclusionary content."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. Apply a content-moderation filter.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-049-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=4920s"
+   }
+  ]
+ },
+ {
+  "no": 50,
+  "id": "ab731-q050",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "A generative AI model guarantees factually accurate responses if the model is trained on a large dataset."
+   },
+   {
+    "key": "B",
+    "text": "Content filtering and responsible AI safeguards help a generative AI model generate safe and inoffensive content."
+   },
+   {
+    "key": "C",
+    "text": "A generative AI model always produces fair and unbiased results when the training data has been properly prepared and reviewed for fairness."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-050-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5050s"
+   }
+  ]
+ },
+ {
+  "no": 51,
+  "id": "ab731-q051",
+  "type": "single",
+  "select": 1,
+  "question": "What is considered a best practice when forming an AI adoption team in an enterprise environment?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Include primarily IT and project management staff initially to streamline deployment, adding governance and compliance roles later."
+   },
+   {
+    "key": "B",
+    "text": "Include procurement and vendor management specialists early to evaluate AI tools, involving business teams once a platform is selected."
+   },
+   {
+    "key": "C",
+    "text": "Include representatives from legal, leadership, and business units to align AI initiatives with organizational priorities."
+   },
+   {
+    "key": "D",
+    "text": "Include only data scientists and engineers at first to validate technical feasibility, then add other stakeholders later."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. Include representatives from legal, leadership, and business units to align AI initiatives with organizational priorities.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-051-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5240s"
+   }
+  ]
+ },
+ {
+  "no": 52,
+  "id": "ab731-q052",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "You can use Azure Language in Foundry Tools to analyze the sentiment of customer reviews."
+   },
+   {
+    "key": "B",
+    "text": "languages. You can use Azure Language in Foundry Tools to translate internal reports into multiple"
+   },
+   {
+    "key": "C",
+    "text": "You can use Azure Language in Foundry Tools to extract text from scanned documents."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-052-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5340s"
+   }
+  ]
+ },
+ {
+  "no": 53,
+  "id": "ab731-q053",
+  "type": "multiple",
+  "select": 3,
+  "question": "What should you use for each task? To answer, select the appropriate options in the answer area.\nExtracting structured data from forms and invoices:\nSummarizing written content from business reports:",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure Language in Foundry Tools"
+   },
+   {
+    "key": "B",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   },
+   {
+    "key": "C",
+    "text": "Azure Vision in Foundry Tools"
+   }
+  ],
+  "correct": [
+   "B",
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Extracting structured data from forms and invoices: → Azure Document Intelligence in Foundry Tools; Summarizing written content from business reports: → Azure Language in Foundry Tools; Generating descriptive text for uploaded images: → Azure Vision in Foundry Tools)\n\nCorrect answer(s) from the source:\nExtracting structured data from forms and invoices:: Azure Document Intelligence in Foundry Tools\nSummarizing written content from business reports:: Azure Language in Foundry Tools\nGenerating descriptive text for uploaded images:: Azure Vision in Foundry Tools\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-053-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5460s"
+   }
+  ]
+ },
+ {
+  "no": 54,
+  "id": "ab731-q054",
+  "type": "single",
+  "select": 1,
+  "question": "You are exploring how Microsoft 365 Copilot uses Microsoft Graph to deliver AI-powered experiences. Which information\nin Microsoft Graph can Copilot use by default?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "emails, files, meetings, and chats in Microsoft 365"
+   },
+   {
+    "key": "B",
+    "text": "data stored in a file share"
+   },
+   {
+    "key": "C",
+    "text": "social media activity"
+   },
+   {
+    "key": "D",
+    "text": "content from public websites"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. emails, files, meetings, and chats in Microsoft 365\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-054-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5560s"
+   }
+  ]
+ },
+ {
+  "no": 55,
+  "id": "ab731-q055",
+  "type": "multiple",
+  "select": 3,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "A barrier to AI adoption can include data limitations and a lack of AI readiness and skills."
+   },
+   {
+    "key": "B",
+    "text": "Organizations often struggle with AI adoption because they prioritize technology selection before defining clear business use cases."
+   },
+   {
+    "key": "C",
+    "text": "A lack of cross-functional collaboration is a common barrier to AI adoption."
+   }
+  ],
+  "correct": [
+   "A",
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-055-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5700s"
+   }
+  ]
+ },
+ {
+  "no": 56,
+  "id": "ab731-q056",
+  "type": "single",
+  "select": 1,
+  "question": "Your company is building a portfolio of AI-powered business solutions.\nCompany executives want to understand how Microsoft responsible AI principles can support the company's long-term goals.\nWhich benefit best demonstrates the importance of responsible AI?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "reduces the need for executive oversight in AI decision-making"
+   },
+   {
+    "key": "B",
+    "text": "enhances stakeholder trust and fosters sustainable AI adoption throughout the organization"
+   },
+   {
+    "key": "C",
+    "text": "guarantees that AI models provide accurate and relevant responses"
+   },
+   {
+    "key": "D",
+    "text": "reduces the need for data protection policies and governance"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. enhances stakeholder trust and fosters sustainable AI adoption throughout the organization\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-056-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5800s"
+   }
+  ]
+ },
+ {
+  "no": 57,
+  "id": "ab731-q057",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "To use Microsoft 365 Copilot Chat, you must have a Microsoft 365 Copilot license."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft 365 Copilot Chat provides context-aware assistance in Microsoft 365 apps."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft 365 Copilot Chat can only access information in open files and read emails."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-057-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=5910s"
+   }
+  ]
+ },
+ {
+  "no": 58,
+  "id": "ab731-q058",
+  "type": "single",
+  "select": 1,
+  "question": "Which statement accurately describes the difference between a pretrained generative AI model and a fine-tuned\ngenerative AI model?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "A pretrained model requires labeled data, while a fine-tuned model does not."
+   },
+   {
+    "key": "B",
+    "text": "A pretrained model is faster to train than a fine-tuned model because the pretrained model uses fewer parameters."
+   },
+   {
+    "key": "C",
+    "text": "A pretrained model is trained on broad datasets, while a fine-tuned model is adapted to perform well on a narrower, domain-specific dataset."
+   },
+   {
+    "key": "D",
+    "text": "A pretrained model is optimized for a specific task, while a fine-tuned model is designed for general-purpose use."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. A pretrained model is trained on broad datasets, while a fine-tuned model is adapted to perform well on a narrower, domain-specific dataset.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-058-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6040s"
+   }
+  ]
+ },
+ {
+  "no": 59,
+  "id": "ab731-q059",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Foundry provides a unified platform for developers and data professionals to create custom end-to-end AI solutions."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Foundry provides a unified platform for low-code developers and business users to create custom end-to-end AI solutions."
+   },
+   {
+    "key": "C",
+    "text": "You need a Microsoft 365 Copilot license to access Microsoft Foundry services."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: No\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-059-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6150s"
+   }
+  ]
+ },
+ {
+  "no": 60,
+  "id": "ab731-q060",
+  "type": "single",
+  "select": 1,
+  "question": "Your company deploys an AI-powered loan approval solution that enables applicants to request an explanation as to why\ntheir loan application was denied.\nWhich Microsoft responsible AI principle is this an example of?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "fairness"
+   },
+   {
+    "key": "B",
+    "text": "privacy and security"
+   },
+   {
+    "key": "C",
+    "text": "transparency"
+   },
+   {
+    "key": "D",
+    "text": "inclusiveness"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. transparency\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-060-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6250s"
+   }
+  ]
+ },
+ {
+  "no": 61,
+  "id": "ab731-q061",
+  "type": "multiple",
+  "select": 2,
+  "question": "Your company is developing an AI-powered customer support agent.\nYou need to ensure that the solution follows Microsoft responsible AI principles.\nWhich two actions should you perform?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Retain all customer conversations."
+   },
+   {
+    "key": "B",
+    "text": "Test the agent to ensure that responses are inclusive and culturally sensitive."
+   },
+   {
+    "key": "C",
+    "text": "Enable the agent to operate independently."
+   },
+   {
+    "key": "D",
+    "text": "Ensure that the agent can be used for multiple purposes."
+   },
+   {
+    "key": "E",
+    "text": "Provide a clear disclaimer that users are interacting with an AI solution."
+   }
+  ],
+  "correct": [
+   "B",
+   "E"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. Test the agent to ensure that responses are inclusive and culturally sensitive.\nE. Provide a clear disclaimer that users are interacting with an AI solution.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-061-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6350s"
+   }
+  ]
+ },
+ {
+  "no": 62,
+  "id": "ab731-q062",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "A generative AI solution is well-suited to predict next-quarter sales trends."
+   },
+   {
+    "key": "B",
+    "text": "A generative AI solution can summarize lengthy policy documents."
+   },
+   {
+    "key": "C",
+    "text": "A generative AI solution can create product descriptions from product specifications."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-062-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6480s"
+   }
+  ]
+ },
+ {
+  "no": 63,
+  "id": "ab731-q063",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nAn organization's AI champions program includes [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "technical teams responsible for designing advanced analytics solutions to track adoption."
+   },
+   {
+    "key": "B",
+    "text": "users who advocate for the value of AI by learning, sharing, and identifying use cases."
+   },
+   {
+    "key": "C",
+    "text": "users who are dedicated to building the infrastructure required to support AI across the organization."
+   },
+   {
+    "key": "D",
+    "text": "users who come together and define the organization's overall AI strategy."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: An organization's AI champions program includes → users who advocate for the value of AI by learning, sharing, and identifying use cases.)\n\nCorrect answer(s) from the source:\nAn organization's AI champions program includes: users who advocate for the value of AI by learning, sharing, and identifying use cases.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-063-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6600s"
+   }
+  ]
+ },
+ {
+  "no": 64,
+  "id": "ab731-q064",
+  "type": "single",
+  "select": 1,
+  "question": "Your company plans to implement a proof of concept (PoC) agent that uses Azure OpenAI. The solution must start small\nand provide flexibility to scale usage as demand grows.\nWhich pricing model should you use?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft 365 Copilot"
+   },
+   {
+    "key": "B",
+    "text": "Batch API"
+   },
+   {
+    "key": "C",
+    "text": "Provisioned (PTUs)"
+   },
+   {
+    "key": "D",
+    "text": "Standard (On-Demand)"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. Standard (On-Demand)\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-064-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6690s"
+   }
+  ]
+ },
+ {
+  "no": 65,
+  "id": "ab731-q065",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nAn effective way to scale AI proficiency and adoption amongst employees is to [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "launch an internal campaign to promote AI awareness."
+   },
+   {
+    "key": "B",
+    "text": "offer a self-paced online training course for employees."
+   },
+   {
+    "key": "C",
+    "text": "define performance metrics for AI tool usage."
+   },
+   {
+    "key": "D",
+    "text": "establish a champions program for your company."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: An effective way to scale AI proficiency and adoption amongst employees is to → establish a champions program for your company.)\n\nCorrect answer(s) from the source:\nAn effective way to scale AI proficiency and adoption amongst employees is to: establish a champions program for your company.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-065-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6790s"
+   }
+  ]
+ },
+ {
+  "no": 66,
+  "id": "ab731-q066",
+  "type": "single",
+  "select": 1,
+  "question": "Your company manages a website that publishes daily news articles.\nYou need to recommend an AI solution that can analyze text and identify the main people, locations, and companies mentioned\nin the articles.\nWhat should you include in the recommendation?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure Language in Foundry Tools"
+   },
+   {
+    "key": "B",
+    "text": "Azure Vision in Foundry Tools"
+   },
+   {
+    "key": "C",
+    "text": "ContentSafety in Foundry Control Plane"
+   },
+   {
+    "key": "D",
+    "text": "Azure Speech in Foundry Tools"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Azure Language in Foundry Tools\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-066-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6880s"
+   }
+  ]
+ },
+ {
+  "no": 67,
+  "id": "ab731-q067",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nThe cost of using generative AI language models is based typically on the number of [blank] processed.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "documents"
+   },
+   {
+    "key": "B",
+    "text": "requests"
+   },
+   {
+    "key": "C",
+    "text": "tokens"
+   },
+   {
+    "key": "D",
+    "text": "words"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The cost of using generative AI language models is based typically on the number of → tokens)\n\nCorrect answer(s) from the source:\nThe cost of using generative AI language models is based typically on the number of: tokens\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-067-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=6980s"
+   }
+  ]
+ },
+ {
+  "no": 68,
+  "id": "ab731-q068",
+  "type": "single",
+  "select": 1,
+  "question": "Your company is preparing to adopt Microsoft 365 Copilot and wants to follow Microsoft responsible AI principles. As a\nbusiness leader, you propose establishing an AI governance council to ensure alignment with the responsible AI principles.\nWhat is the primary purpose of the council?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "to monitor user behavior and enforce compliance with internal IT policies"
+   },
+   {
+    "key": "B",
+    "text": "to train employees on how to use Copilot features effectively"
+   },
+   {
+    "key": "C",
+    "text": "to oversee implementation, manage technical performance, and ensure successful AI deployment"
+   },
+   {
+    "key": "D",
+    "text": "to guide strategy, provide oversight, and ensure cross-functional alignment for responsible AI adoption"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. to guide strategy, provide oversight, and ensure cross-functional alignment for responsible AI adoption\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-068-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7080s"
+   }
+  ]
+ },
+ {
+  "no": 69,
+  "id": "ab731-q069",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Users that want to reason over work data by using a natural language prompt in Microsoft 365 Copilot must have a Copilot add-on license."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft 365 Copilot is included in Microsoft 365 E3 and Microsoft 365 E5 licenses."
+   },
+   {
+    "key": "C",
+    "text": "Some Microsoft 365 Copilot services are available through a pay-as-you-go plan."
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: No\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-069-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7180s"
+   }
+  ]
+ },
+ {
+  "no": 70,
+  "id": "ab731-q070",
+  "type": "single",
+  "select": 1,
+  "question": "Your company receives thousands of scanned invoices each month.\nYou need to recommend an AI solution that can automatically extract key details, such as invoice numbers, vendor names, and\ntotal amounts.\nWhat is the best solution to recommend?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Azure Document Intelligence in Foundry Tools"
+   },
+   {
+    "key": "B",
+    "text": "Azure Vision in Foundry Tools"
+   },
+   {
+    "key": "C",
+    "text": "Azure AI Search"
+   },
+   {
+    "key": "D",
+    "text": "Azure Machine Learning"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Azure Document Intelligence in Foundry Tools\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-070-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7290s"
+   }
+  ]
+ },
+ {
+  "no": 71,
+  "id": "ab731-q071",
+  "type": "multiple",
+  "select": 4,
+  "question": "Match the business scenario to the appropriate AI solution design approach.\nTo answer, drag the AI solution from the column on the left to its business scenario on the right. Each solution may be used\nonce, more than once, or not at all.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Build with Azure Machine Learning"
+   },
+   {
+    "key": "B",
+    "text": "Build with Microsoft Copilot Studio"
+   },
+   {
+    "key": "C",
+    "text": "Extend with Microsoft 365 Copilot connectors"
+   },
+   {
+    "key": "D",
+    "text": "Use Microsoft 365 Copilot"
+   }
+  ],
+  "correct": [
+   "D",
+   "B",
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The marketing department at your company wants AI to summarize emails and create presentations. → Use Microsoft 365 Copilot; The HR department at your company wants a conversational agent for policy questions and leave requests. → Build with Microsoft Copilot Studio; The manufacturing department at your company wants AI to predict maintenance schedules. → Build with Azure Machine Learning; The finance department at your company wants AI-powered access to enterprise resource planning (ERP) data by using familiar productivity tools. → Extend with Microsoft 365 Copilot connectors)\n\nCorrect answer(s) from the source:\nThe marketing department at your company wants AI to summarize emails and create presentations.: Use Microsoft 365 Copilot\nThe HR department at your company wants a conversational agent for policy questions and leave requests.: Build with Microsoft Copilot Studio\nThe manufacturing department at your company wants AI to predict maintenance schedules.: Build with Azure Machine Learning\nThe finance department at your company wants AI-powered access to enterprise resource planning (ERP) data by using familiar productivity tools.: Extend with Microsoft 365 Copilot connectors\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-071-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7380s"
+   }
+  ]
+ },
+ {
+  "no": 72,
+  "id": "ab731-q072",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Prompt engineering involves specifying guidelines that help a generative AI model generate useful and accurate responses."
+   },
+   {
+    "key": "B",
+    "text": "The instruction is the part of the prompt that includes examples to show the AI what its response should look like."
+   },
+   {
+    "key": "C",
+    "text": "The context is the part of the prompt that helps a generative AI model understand which information to use when generating a response."
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: No\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-072-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7540s"
+   }
+  ]
+ },
+ {
+  "no": 73,
+  "id": "ab731-q073",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nTo ensure that your organization follows trustworthy AI principles, the organization should establish an AI governance council to [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "configure and deploy AI models in the organization's Azure environment."
+   },
+   {
+    "key": "B",
+    "text": "guide AI strategy, ensure responsible AI oversight, and promote alignment across business units."
+   },
+   {
+    "key": "C",
+    "text": "manage day-to-day model training and labeling tasks for AI development teams."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: An AI governance council should → guide AI strategy, ensure responsible AI oversight, and promote alignment across business units.)\n\nCorrect answer(s) from the source:\nAn AI governance council should: guide AI strategy, ensure responsible AI oversight, and promote alignment across business units.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-073-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7640s"
+   }
+  ]
+ },
+ {
+  "no": 74,
+  "id": "ab731-q074",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Allowing AI models to make autonomous decisions supports the Microsoft responsible AI principle of accountability."
+   },
+   {
+    "key": "B",
+    "text": "Regularly testing AI models for fairness and inclusiveness helps ensure they align with Microsoft's Responsible AI principles."
+   },
+   {
+    "key": "C",
+    "text": "Protecting user data and limiting access to personal information supports the Microsoft responsible AI principles of privacy and security."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-074-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7740s"
+   }
+  ]
+ },
+ {
+  "no": 75,
+  "id": "ab731-q075",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\n[blank] is a unified platform for enterprise AI development, where you can build, customize, evaluate, and manage AI apps and models.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft Foundry"
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Power Platform"
+   },
+   {
+    "key": "C",
+    "text": "Azure Machine Learning"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The platform is → Microsoft Foundry)\n\nCorrect answer(s) from the source:\nThe platform is: Microsoft Foundry\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-075-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7870s"
+   }
+  ]
+ },
+ {
+  "no": 76,
+  "id": "ab731-q076",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Prompt engineering changes how a generative AI model was trained."
+   },
+   {
+    "key": "B",
+    "text": "Prompt engineering focuses on designing clear, concise, and context-rich instructions."
+   },
+   {
+    "key": "C",
+    "text": "Effective prompt engineering involves maximizing the number of tokens used in each request."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-076-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=7950s"
+   }
+  ]
+ },
+ {
+  "no": 77,
+  "id": "ab731-q077",
+  "type": "single",
+  "select": 1,
+  "question": "You need to create a custom Azure Machine Learning model. The data used to train the model is consistent and uniform.\nWhat should you do first?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Prepare the training data."
+   },
+   {
+    "key": "B",
+    "text": "Evaluate the model."
+   },
+   {
+    "key": "C",
+    "text": "Train the model."
+   },
+   {
+    "key": "D",
+    "text": "Tune hyperparameters."
+   },
+   {
+    "key": "E",
+    "text": "Deploy the model."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Prepare the training data.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-077-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8050s"
+   }
+  ]
+ },
+ {
+  "no": 78,
+  "id": "ab731-q078",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "A text-to-image generator can be used to translate content into other languages."
+   },
+   {
+    "key": "B",
+    "text": "A predictive analytics model can generate new marketing content for a company's online ads."
+   },
+   {
+    "key": "C",
+    "text": "A generative AI chatbot can engage customers in personalized conversations and recommend products."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: No\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-078-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8150s"
+   }
+  ]
+ },
+ {
+  "no": 79,
+  "id": "ab731-q079",
+  "type": "single",
+  "select": 1,
+  "question": "What is a key feature of Microsoft 365 Copilot that aligns with the Microsoft responsible AI principles of transparency, reliability, and safety?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Automatically approves AI-generated content for company-wide publishing."
+   },
+   {
+    "key": "B",
+    "text": "Removes the need for a human to review AI-generated outputs."
+   },
+   {
+    "key": "C",
+    "text": "Provides grounded, verifiable responses based on organizational data."
+   },
+   {
+    "key": "D",
+    "text": "Enables users to select from an authorized catalog of AI models."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nC. Provides grounded, verifiable responses based on organizational data.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-079-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8260s"
+   }
+  ]
+ },
+ {
+  "no": 80,
+  "id": "ab731-q080",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "For a user to access organizational data from a mobile device, the user needs a Microsoft 365 Copilot license."
+   },
+   {
+    "key": "B",
+    "text": "To reason over your organizational data by using Microsoft Graph, you need a Microsoft 365 Copilot license."
+   },
+   {
+    "key": "C",
+    "text": "To use the Analyst agent, you need a Microsoft 365 Copilot license."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-080-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8360s"
+   }
+  ]
+ },
+ {
+  "no": 81,
+  "id": "ab731-q081",
+  "type": "multiple",
+  "select": 2,
+  "question": "Match the business processes to the appropriate Microsoft Copilot solutions.\nTo answer, drag the Copilot solution from the column on the left to its business process on the right. Each solution may be\nused once, more than once, or not at all.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Copilot in Power Automate"
+   },
+   {
+    "key": "B",
+    "text": "GitHub Copilot"
+   },
+   {
+    "key": "C",
+    "text": "Microsoft 365 Copilot"
+   },
+   {
+    "key": "D",
+    "text": "Microsoft Copilot Studio"
+   }
+  ],
+  "correct": [
+   "C",
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Creating financial summaries and visual reports from Microsoft Excel workbooks. → Microsoft 365 Copilot; Building an autonomous agent by using a low-code approach. → Microsoft Copilot Studio)\n\nCorrect answer(s) from the source:\nCreating financial summaries and visual reports from Microsoft Excel workbooks.: Microsoft 365 Copilot\nBuilding an autonomous agent by using a low-code approach.: Microsoft Copilot Studio\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-081-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8450s"
+   }
+  ]
+ },
+ {
+  "no": 82,
+  "id": "ab731-q082",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft 365 Copilot can amplify existing data governance challenges."
+   },
+   {
+    "key": "B",
+    "text": "Implementing Microsoft 365 Copilot reduces data management costs."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft 365 Copilot can help IT teams manage data risks."
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: No\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-082-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8540s"
+   }
+  ]
+ },
+ {
+  "no": 83,
+  "id": "ab731-q083",
+  "type": "single",
+  "select": 1,
+  "question": "You have a large language model (LLM) that was pretrained by using public data.\nYou want the LLM to generate responses that incorporate frequently updated proprietary content, such as internal documents\nand knowledge bases.\nYou need to recommend a solution to ensure that the LLM uses the most current information without retraining the model.\nWhat should you include in the recommendation?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Retrieval Augmented Generation (RAG)"
+   },
+   {
+    "key": "B",
+    "text": "prompt engineering"
+   },
+   {
+    "key": "C",
+    "text": "content filtering"
+   },
+   {
+    "key": "D",
+    "text": "model fine-tuning"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Retrieval Augmented Generation (RAG)\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-083-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8650s"
+   }
+  ]
+ },
+ {
+  "no": 84,
+  "id": "ab731-q084",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nMicrosoft 365 Copilot can be used to [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "monitor network traffic and alerts in real time."
+   },
+   {
+    "key": "B",
+    "text": "create a Microsoft Word document."
+   },
+   {
+    "key": "C",
+    "text": "create a list in Microsoft SharePoint."
+   },
+   {
+    "key": "D",
+    "text": "modify administrative permissions for Microsoft SharePoint files."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Microsoft 365 Copilot can be used to → create a Microsoft Word document.)\n\nCorrect answer(s) from the source:\nMicrosoft 365 Copilot can be used to: create a Microsoft Word document.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-084-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8750s"
+   }
+  ]
+ },
+ {
+  "no": 85,
+  "id": "ab731-q085",
+  "type": "single",
+  "select": 1,
+  "question": "Which business requirement most closely relates to grounding a generative AI model?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "supporting multiple languages"
+   },
+   {
+    "key": "B",
+    "text": "measuring the number of user interactions per day"
+   },
+   {
+    "key": "C",
+    "text": "enabling users to interact by using natural language queries"
+   },
+   {
+    "key": "D",
+    "text": "ensuring that verified company data sources are used for response generation"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. ensuring that verified company data sources are used for response generation\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-085-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8830s"
+   }
+  ]
+ },
+ {
+  "no": 86,
+  "id": "ab731-q086",
+  "type": "multiple",
+  "select": 1,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft 365 Copilot helps users create and analyze content in Microsoft 365 apps."
+   },
+   {
+    "key": "B",
+    "text": "Microsoft Copilot Studio can only be used to customize Microsoft 365 Copilot."
+   },
+   {
+    "key": "C",
+    "text": "Microsoft Security Copilot uses AI to assign sensitivity labels to documents."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: No\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-086-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=8920s"
+   }
+  ]
+ },
+ {
+  "no": 87,
+  "id": "ab731-q087",
+  "type": "single",
+  "select": 1,
+  "question": "Your company stores thousands of reports and documents across multiple systems.\nYou recommend using Azure AI Search as part of a new generative AI solution to improve information discovery. What is a key\nbenefit of using Azure AI Search in this scenario?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "generates responses to customer questions without referencing the existing data"
+   },
+   {
+    "key": "B",
+    "text": "queries and retrieves information from large collections of data by using natural language"
+   },
+   {
+    "key": "C",
+    "text": "automates document workflows based on the document content"
+   },
+   {
+    "key": "D",
+    "text": "improves model accuracy by fine-tuning organizational data"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. queries and retrieves information from large collections of data by using natural language\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-087-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9050s"
+   }
+  ]
+ },
+ {
+  "no": 88,
+  "id": "ab731-q088",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nThe main difference between generative AI and predictive AI is that generative AI [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "uses a smaller dataset."
+   },
+   {
+    "key": "B",
+    "text": "produces more accurate results."
+   },
+   {
+    "key": "C",
+    "text": "can produce new and original content."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The main difference is that generative AI → can produce new and original content.)\n\nCorrect answer(s) from the source:\nThe main difference is that generative AI: can produce new and original content.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-088-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9150s"
+   }
+  ]
+ },
+ {
+  "no": 89,
+  "id": "ab731-q089",
+  "type": "single",
+  "select": 1,
+  "question": "You need to recommend a generative AI solution that meets the following business requirements:\n•Processes both images and text\n• Summarizes the design of a building\n• Answers user questions about a building's design\n• Extracts information from blueprints, such as the location of electrical, heating, and plumbing systems\nWhat should you recommend?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "a multi-modal solution"
+   },
+   {
+    "key": "B",
+    "text": "an optical character recognition (OCR) solution"
+   },
+   {
+    "key": "C",
+    "text": "a text completion solution"
+   },
+   {
+    "key": "D",
+    "text": "a document summarization solution"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. a multi-modal solution\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-089-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9240s"
+   }
+  ]
+ },
+ {
+  "no": 90,
+  "id": "ab731-q090",
+  "type": "single",
+  "select": 1,
+  "question": "Your company discovers that several employees use personal ChatGPT accounts to assist with work tasks. You are\nconcerned about proprietary data being shared externally.\nYou need to evaluate the business value of rolling out Microsoft 365 Copilot.\nWhich capability is a key benefit of using Copilot instead of a personal ChatGPT account?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "analyzing and producing reports based on complex data"
+   },
+   {
+    "key": "B",
+    "text": "generating ideas and solving issues"
+   },
+   {
+    "key": "C",
+    "text": "drafting documents, emails, presentations, and marketing materials"
+   },
+   {
+    "key": "D",
+    "text": "accessing internal data in accordance with existing Microsoft 365 policies"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nD. accessing internal data in accordance with existing Microsoft 365 policies\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-090-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9360s"
+   }
+  ]
+ },
+ {
+  "no": 91,
+  "id": "ab731-q091",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nWhen a generative AI model produces output that seems realistic but contains incorrect information, the behavior is known as [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "data leakage."
+   },
+   {
+    "key": "B",
+    "text": "model inaccuracy."
+   },
+   {
+    "key": "C",
+    "text": "overreliance."
+   },
+   {
+    "key": "D",
+    "text": "prompt injection."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: The behavior is known as → model inaccuracy.)\n\nCorrect answer(s) from the source:\nThe behavior is known as: model inaccuracy.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-091-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9560s"
+   }
+  ]
+ },
+ {
+  "no": 92,
+  "id": "ab731-q092",
+  "type": "multiple",
+  "select": 2,
+  "question": "Your company is evaluating the use of Microsoft Copilot Studio to support business process automation and employee\nself-service.\nWhich two capabilities are directly supported in Copilot Studio?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "drafting and summarizing files in Microsoft Word and PowerPoint"
+   },
+   {
+    "key": "B",
+    "text": "customizing agent behavior and responses"
+   },
+   {
+    "key": "C",
+    "text": "using agents to identify and respond to security incidents"
+   },
+   {
+    "key": "D",
+    "text": "building agents that connect to business data and automate user interactions"
+   },
+   {
+    "key": "E",
+    "text": "configuring document security"
+   }
+  ],
+  "correct": [
+   "B",
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. customizing agent behavior and responses\nD. building agents that connect to business data and automate user interactions\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-092-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9670s"
+   }
+  ]
+ },
+ {
+  "no": 93,
+  "id": "ab731-q093",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft 365 Copilot connectors enable you to index data from multiple sources to make the data available in Copilot."
+   },
+   {
+    "key": "B",
+    "text": "You can build a custom Microsoft 365 Copilot connector when the available connectors do NOT meet your data integration requirements."
+   },
+   {
+    "key": "C",
+    "text": "To use Microsoft 365 Copilot connectors, you need a Microsoft Copilot Studio license."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-093-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9760s"
+   }
+  ]
+ },
+ {
+  "no": 94,
+  "id": "ab731-q094",
+  "type": "multiple",
+  "select": 1,
+  "question": "Select the answer that correctly completes the sentence.\nUsing high-quality grounding data in a generative AI solution [blank].",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "ensures that all responses are factually accurate."
+   },
+   {
+    "key": "B",
+    "text": "increases performance of an AI model."
+   },
+   {
+    "key": "C",
+    "text": "improves the accuracy and reliability of the predictions and outputs of AI."
+   },
+   {
+    "key": "D",
+    "text": "increases the amount of storage required to host an AI model."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: ghép cặp — đáp án: Using high-quality grounding data → improves the accuracy and reliability of the predictions and outputs of AI.)\n\nCorrect answer(s) from the source:\nUsing high-quality grounding data: improves the accuracy and reliability of the predictions and outputs of AI.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-094-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9880s"
+   }
+  ]
+ },
+ {
+  "no": 95,
+  "id": "ab731-q095",
+  "type": "multiple",
+  "select": 2,
+  "question": "Your company purchases Microsoft 365 Copilot for its sales department.\nThe sales department needs to find and summarize information across internal documents quickly.\nFrom which two data sources can the sales department obtain results by default?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Microsoft OneDrive"
+   },
+   {
+    "key": "B",
+    "text": "an on-premises file share"
+   },
+   {
+    "key": "C",
+    "text": "Microsoft SharePoint"
+   },
+   {
+    "key": "D",
+    "text": "Microsoft Sway"
+   },
+   {
+    "key": "E",
+    "text": "a custom customer relationship management (CRM) system"
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Microsoft OneDrive\nC. Microsoft SharePoint\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-095-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=9970s"
+   }
+  ]
+ },
+ {
+  "no": 96,
+  "id": "ab731-q096",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Content filtering controls can prevent AI-generated responses from exposing confidential and sensitive information."
+   },
+   {
+    "key": "B",
+    "text": "AI-generated content can unintentionally reveal sensitive information if the generative AI model has access to unsecured data sources."
+   },
+   {
+    "key": "C",
+    "text": "To prevent data exposure, only the prompts used by users must be protected by using policies."
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: Yes\nStatement 2: Yes\nStatement 3: No\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-096-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=10060s"
+   }
+  ]
+ },
+ {
+  "no": 97,
+  "id": "ab731-q097",
+  "type": "single",
+  "select": 1,
+  "question": "Your company is reviewing a new AI solution before deploying it. The company wants to ensure that the solution follows\nMicrosoft responsible AI principles.\nWhat is the best approach to achieve the goal?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Design the AI solution to automatically approve or reject customer loan applications."
+   },
+   {
+    "key": "B",
+    "text": "Test the AI solution to identify and mitigate potential unfair or inconsistent outcomes in its outputs."
+   },
+   {
+    "key": "C",
+    "text": "Prioritize model performance when tuning the AI solution."
+   },
+   {
+    "key": "D",
+    "text": "Enable the AI solution to collect and store personal data."
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nB. Test the AI solution to identify and mitigate potential unfair or inconsistent outcomes in its outputs.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-097-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=10160s"
+   }
+  ]
+ },
+ {
+  "no": 98,
+  "id": "ab731-q098",
+  "type": "multiple",
+  "select": 2,
+  "question": "Your company has an AI solution that uses a prebuilt Azure OpenAI model to generate content.\nYou need to reduce the cost of solution while minimizing the impact on the quality of the generated output. Which two actions\nshould you perform?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Switch to an alternate model."
+   },
+   {
+    "key": "B",
+    "text": "Apply content moderation."
+   },
+   {
+    "key": "C",
+    "text": "Optimize the prompts."
+   },
+   {
+    "key": "D",
+    "text": "Decrease the number of hosting hours for the model."
+   },
+   {
+    "key": "E",
+    "text": "Fine-tune the existing model."
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Switch to an alternate model.\nC. Optimize the prompts.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-098-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=10250s"
+   }
+  ]
+ },
+ {
+  "no": 99,
+  "id": "ab731-q099",
+  "type": "multiple",
+  "select": 2,
+  "question": "For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Retrieval Augmented Generation (RAG) requires model fine-tuning."
+   },
+   {
+    "key": "B",
+    "text": "Retrieval Augmented Generation (RAG) is helpful when you need a generative AI solution that can access current, verifiable information."
+   },
+   {
+    "key": "C",
+    "text": "Retrieval Augmented Generation (RAG) enables you to get more relevant responses based on your organization's documents without retraining the base model."
+   }
+  ],
+  "correct": [
+   "B",
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "(Dạng gốc: Đúng/Sai — chọn các phát biểu đúng.)\n\nCorrect answer(s) from the source:\nStatement 1: No\nStatement 2: Yes\nStatement 3: Yes\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-099-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=10360s"
+   }
+  ]
+ },
+ {
+  "no": 100,
+  "id": "ab731-q100",
+  "type": "single",
+  "select": 1,
+  "question": "In which scenario is Azure Machine Learning most likely to deliver strategic value for an organization?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Using historical sales data to forecast demand across product categories."
+   },
+   {
+    "key": "B",
+    "text": "Digitizing a paper-based process to reduce errors."
+   },
+   {
+    "key": "C",
+    "text": "Entering customer feedback into a spreadsheet to understand sentiment."
+   },
+   {
+    "key": "D",
+    "text": "Sending personalized emails to customers based on the customer location."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer(s) from the source:\nA. Using historical sales data to forecast demand across product categories.\n\n🖼 [Source answer frame from the supplied YouTube video.](https://tstudy.vercel.app/content/ab-731/q-100-answer.jpg)",
+  "references": [
+   {
+    "title": "AB-731: AI Transformation Leader - All 100 Exam Prep Practice Questions with Answers (YouTube video)",
+    "url": "https://www.youtube.com/watch?v=C4m8LS2Jzqs&t=10460s"
+   }
+  ]
+ }
+];

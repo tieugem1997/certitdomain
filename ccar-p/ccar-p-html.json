@@ -1,0 +1,2974 @@
+[
+  {
+    "id": 837,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">1</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are compiling guardrail tactics for a customer-facing assistant.\n</p><p>Which two tactics belong on the guardrail list?\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Rely on a single hardened system prompt that enumerates every disallowed behavior.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Embed approved override phrases that let trusted users relax guardrails on demand.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Lower sampling temperature globally to reduce the chance of off-policy completions.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Validate the model output against a structured schema before downstream actions are taken.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Layer prompt-level guardrails with runtime content checks rather than relying on either alone.</p>"
+      }
+    ]
+  },
+  {
+    "id": 838,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">2</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect is implementing safety controls for a customer-facing advice assistant that must never provide regulated investment recommendations.</p><p>Which two guardrail implementations most directly enforce this constraint? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Add an output classifier that detects and blocks responses containing regulated investment- recommendation language.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Increase response temperature to introduce variability that reduces the likelihood of specific recommendations.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Log all user queries to a SIEM for post-hoc compliance review.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Define explicit out-of-scope categories in the system prompt with fixed refusal phrasing for investment advicerequests.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Limit session length to reduce the volume of queries processed per user per day.</p>"
+      }
+    ]
+  },
+  {
+    "id": 839,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">3</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are configuring tool permissions for a Claude-based assistant. The assistant's defined responsibilities require read access to a knowledge base and write access to a draft queue, and nothing else.</p><p>Which scoping design best applies least privilege?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Allow access to all tools with read permissions globally and restrict write permissions to the draft- queue tool, without scoping to only the specific tools required for defined tasks.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Per-role allow-list of exactly the read-knowledge-base and write-draft-queue tools, enforced at the orchestration layer.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Allow access to every tool in the catalog and rely on the model to decline tools it should not use.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Disable all tools entirely to achieve a minimal permission surface, accepting that the assistant can no longer perform the read-knowledge-base or write-draft-queue tasks it was designed for.</p>"
+      }
+    ]
+  },
+  {
+    "id": 840,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">4</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are compiling team-setup practices for a Claude Code rollout across an engineering organization.</p><p>Which two practices belong on the list? (Select two.)</p><p>Each correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Apply managed configuration centrally for security-critical settings that must not be overridden by individual engineers.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Use user scope for team-shared MCP servers so every engineer on the team has consistent access.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Use project scope for personal editor preferences so the preferences apply consistently within the project.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Use local scope for security-critical permission rules so each engineer can adapt them to ongoing work.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Use project scope for team-shared Model Context Protocol (MCP) servers and permission rules under version control.</p>"
+      }
+    ]
+  },
+  {
+    "id": 841,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">5</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are designing a content moderation classifier that processes high volumes of user-generated comments under a tight per-message latency budget using well-defined classification labels.</p><p>Which model selection best aligns with the workload?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Sonnet, because larger general-purpose models are preferred even when workload latency requirements are strict.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Sonnet with extended thinking enabled, because deeper reasoning should be applied to every moderation request to improve edge-case handling.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Haiku, because its latency and cost profile align with high-volume classification workloads that require limited reasoning depth.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Opus, because every moderation decision requires maximum reasoning depth regardless of classification complexity.</p>"
+      }
+    ]
+  },
+  {
+    "id": 842,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">6</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are supporting an engineer whose Claude Code session reports a permission denial when the engineer expected the action to be allowed.</p><p>Which resolution step is most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Inspect the active permission rules across all scopes-managed, command-line, local, project, and user-to identify which rule is denying the action and confirm whether it should be amended or remain denied.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Disable the permission system entirely across all scopes to remove the denial, eliminating all tool-pattern and deny-rule controls rather than identifying and amending the specific rule.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Grant the engineer unrestricted Bash access to bypass the specific rule causing the denial, removing all tool- pattern constraints rather than amending only the rule in</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Tell the engineer to retry the denied action verbatim repeatedly until the denial stops appearing, without inspecting the active permission rules to determine whether the denial is intentional.</p>"
+      }
+    ]
+  },
+  {
+    "id": 843,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">7</span>\n<div class=\"practice-question-content text-on-surface\"><p>A managed agent deployment for claims triage has grown from <strong>6 tools</strong> to <strong>34 tools</strong> over <strong>18 months</strong> as product teams added capabilities. Triage accuracy has declined from <strong>91 percent</strong> to <strong>78 percent</strong>, and average tool- selection latency has increased by <strong>2.3 second</strong>s. A junior engineer has proposed adding a tool-router agent in front of the current agent to filter the tool list per request.</p><p>Which two findings should you present to justify capability decomposition before adding the router? (Select two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>The proposed router introduces an additional model call on every incoming request.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Tool descriptions overlap across multiple claim categories within the agent's tool set.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>The router pattern is well documented across publicly available agent literature.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>The 34 tools serve four distinct claim-workflow domains within the triage scope.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Several tools have not been invoked across the most recent 90 days of traffic.</p>"
+      }
+    ]
+  },
+  {
+    "id": 844,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">8</span>\n<div class=\"practice-question-content text-on-surface\"><p>A technical team is debating whether to implement a new capability for generating regulatory filings from internal data as a Claude Skill or as an MCP server. The capability requires a fixed authoring procedure with embedded examples, does not need to call live external systems, and must be portable across three Claude deployments: claude.ai, an internal API integration, and Claude Code.</p><p>Which factor most strongly favors implementing the capability as a Skill?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>The capability is procedural knowledge with no live external-system calls required.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The capability requires direct authentication against the corporate identity provider.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>The capability must also be callable from a developer's command-line interface.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>The capability needs to query a live database for the most recent regulatory filings.</p>"
+      }
+    ]
+  },
+  {
+    "id": 845,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">9</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect is auditing configuration scope assignments.</p><p>Which two statements correctly identify an appropriate use of user-scope configuration versus other scopes?\n(Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Saving a preferred Claude response language that applies to all repositories the engineer uses.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Persisting personal editor theme preferences that follow an engineer across projects.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Enforcing a company-wide policy that disables a feature for all engineers.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Defining MCP server endpoints shared by all contributors to a specific repository.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Storing API authentication keys so they are not committed to version control.</p>"
+      }
+    ]
+  },
+  {
+    "id": 846,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">10</span>\n<div class=\"practice-question-content text-on-surface\"><p>A research summarization assistant has been deployed for six months. A user has flagged that a generated summary contained a fabricated citation. The product team has asked whether the incident requires architectural action or whether it is an isolated case.</p><p>Which two Diligence-competency actions should you take? (Select two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Sample recent summaries to estimate the fabrication frequency across the population.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Treat the incident as an anecdotal isolated case and take no further investigative action.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Disable the assistant immediately for all current users without any prior diagnostic analysis.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Review whether citation-grounding controls exist anywhere in the current generation pipeline.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Communicate to users that the assistant does not fabricate output as a matter of design.</p>"
+      }
+    ]
+  },
+  {
+    "id": 847,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">11</span>\n<div class=\"practice-question-content text-on-surface\"><p>A customer support team has proposed delegating customer refund decisions to a Claude-driven workflow with no human review for refunds under 50 USD. The team's reasoning is that small refunds are low-risk and human review would erase the efficiency gain.</p><p>Which Delegation-competency principle should quide your response?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Delegation should always include human review on every decision the workflow produces.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Delegation scope should be set primarily by maximizing efficiency gains across the workflow.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Delegation scope should reflect the type of risk involved, not the transaction size alone.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Delegation should be avoided entirely wherever financial transactions occur in the workflow.</p>"
+      }
+    ]
+  },
+  {
+    "id": 848,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">12</span>\n<div class=\"practice-question-content text-on-surface\"><p>You must present an architectural recommendation to deploy a Claude-based contract review assistant to a steering committee that includes the CFO, the general counsel, and the CIO. Each stakeholder cares about different aspects of the decision.</p><p>How should you structure the recommendation document?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Present the same dense narrative throughout with no stakeholder differentiation in any section.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Lead with the technical architecture diagram and the full component list before any other section.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Lead with detailed cost projections across the full multi-year horizon before the rationale section.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Lead with the architectural decision, then address each stakeholder's primary concerns directly.</p>"
+      }
+    ]
+  },
+  {
+    "id": 849,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">13</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are investigating an MCP server that fails on first launch but succeeds on subsequent runs. System permission dialogs appeared during the first launch.</p><p>Which response is most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Recognize the first-run permission grant as the cause, document the expected behavior in onboarding guidance, and confirm that subsequent runs succeed.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Treat the first-run failure as a permanent fault, replace the MCP server, and do not verify whether subsequent runs succeed.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Disable operating-system permission dialogs entirely, accept the resulting security implications, and proceed without confirming whether the failure recurs.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Reinstall the operating system to clear all permission state without first confirming whether the one- time permission grant caused the failure.</p>"
+      }
+    ]
+  },
+  {
+    "id": 850,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">14</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are producing an architecture guide for a new deployment and must complete the planning steps before drafting each section.</p><p>Which two steps must be completed BEFORE drafting each section of the guide? (Select two.) Each correct\nanswer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Translate the guide into the supported regional languages for the candidate population.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Outline the guide sections covering the overview, components, contracts, flows, runbooks, and limitations.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Validate the guide with the implementation team and incorporate corrections.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Identify the audience and the questions the guide must answer for that audience.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Establish the document under version control with a defined review cadence and approver list.</p>"
+      }
+    ]
+  },
+  {
+    "id": 851,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">15</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are responding to an adversarial input pattern in which users include text claiming admin authority and instructing the model to bypass safety restrictions.</p><p>Which combination of controls most effectively mitigates this attack pattern?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Removing all safety restrictions and guardrails to eliminate the attack surface that bypass attempts target, accepting that this makes the assistant unrestricted for all inputs.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Granting users any privilege level they assert in their message content, on the assumption that cooperative behavior requires honoring self-declared authority without independent verification.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Trusting that the model will intrinsically recognize and reject all bypass attempts without prompt-level instructions, runtime classifiers, scoped permissions, or audit logging.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Prompt-level instructions that treat user content as untrusted data, runtime classifiers that detect override attempts, scoped tool permissions that cannot be elevated by user content, and audit logging of attempts.</p>"
+      }
+    ]
+  },
+  {
+    "id": 852,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">16</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are a solution architect designing a Claude-based assistant with access to 60 internal tools across multiple business domains. Loading every tool definition on every request increases token usage and time to first response.</p><p>Which design pattern best addresses this issue without sacrificing capability breadth?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Increase the maximum context length and load all 60 tool definitions on every request, accepting the higher token cost and latency as necessary for full capability.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Apply progressive tool discovery so a curated initial subset is exposed and additional tools are loaded on demand based on the task.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Hard-code a fixed set of five tools per request to reduce token usage, regardless of whether those tools are relevant to the current task.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Use a separate model call to summarize all 60 tool definitions before each user turn.</p>"
+      }
+    ]
+  },
+  {
+    "id": 853,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">17</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are presenting an architectural decision to a mixed audience that includes an executive sponsor and the engineering leads who will implement the decision.</p><p>Which presentation strategy best serves both audiences?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Lead with the decision, the business outcomes it serves, and the trade-offs accepted; follow with the technical rationale, alternatives, and implementation implications for the engineering audience.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Skip the rationale, alternatives, and trade-off discussion entirely and simply announce the chosen decision, leaving both audiences without the context needed to implement or validate it.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Open with a deep dive into low-level implementation details targeted at engineering leads, and stop there without addressing the business outcomes or trade-offs the executive sponsor needs.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Present a single undifferentiated narrative that addresses technical and business concerns with equal weight throughout, treating both audiences as requiring the same depth on every section.</p>"
+      }
+    ]
+  },
+  {
+    "id": 854,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">18</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are designing a test strategy for a Claude-based pipeline that handles sensitive financial data.&nbsp;</p><p>Which two test\ntypes should be prioritized to cover both safety under attack and cross-component correctness?\n(Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Smoke tests that verify core paths after each deployment.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Adversarial tests using prompt-injection and malformed-input cases.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Regression tests against a stable reference set of previously known-good outputs.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Unit tests targeting only individual prompt-template rendering logic.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Integration tests that verify end-to-end pipeline behavior across all components.</p>"
+      }
+    ]
+  },
+  {
+    "id": 855,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">19</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are running a risk assessment on a planned Claude-based deployment and must complete the inventory steps\nbefore assessing threats against assets.\n</p><p>Which two steps must be completed BEFORE assessing threats against assets to estimate likelihood and impact?\n(Select two.) Each correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Recommend mitigations and residual-risk acceptance for risks that remain.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Document the assessment outcome with risks, mitigations, residual risk, and acceptance owners.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Identify the assets that the deployment touches, along with the sensitivity of each asset.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Enumerate the threat actors and attack vectors relevant to the deployment.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Recommend mitigations and residual-risk acceptance for the risks that remain after analysis.</p>"
+      }
+    ]
+  },
+  {
+    "id": 856,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">20</span>\n<div class=\"practice-question-content text-on-surface\"><p>A senior architect is managing stakeholder expectations for a Claude-based reporting assistant midway through\ndevelopment. Stakeholders have escalating concerns about response latency.\n</p><p>Which two actions most directly address stakeholder expectation alignment in this situation? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Present measured p50 and p95 latency baselines against the agreed SLA thresholds so stakeholders have accurate data.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Revise the SLA definition collaboratively with stakeholders if current targets are not achievable given production constraints.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Communicate that latency concerns are a known LLM limitation and outside the architecture team's control.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Pause all development and reallocate engineering resources entirely to latency optimization.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Replace the current Claude model with a third-party model that may offer lower latency without evaluation.</p>"
+      }
+    ]
+  },
+  {
+    "id": 857,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">21</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect is designing a HIPAA-compliant pipeline that processes patient records.\n</p><p>Which two design decisions directly support HIPAA compliance requirements? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Ensuring patient data is never included in training feedback loops sent to the model provider without a BAA in place.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Setting max _ tokens to a low value to minimize the volume of text generated per request.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Enforcing role-based access controls so that PH is retrievable only by authorized personnel.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Selecting the highest-capability Claude model to maximize diagnostic accuracy.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Using streaming responses to reduce perceived latency for clinical users.</p>"
+      }
+    ]
+  },
+  {
+    "id": 858,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">22</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are preparing an operational runbook for a Claude-based service.\n</p><p>Which content is essential to include in the runbook?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Common alerts and their triage steps, escalation paths, rollback procedures, and references to the relevant dashboards and logs.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Dashboard and log references only, without alert definitions, triage steps, escalation paths, or rollback procedures for the on-call engineer to act on.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Escalation paths and rollback procedures only, without alert definitions, triage steps, or dashboard references to guide initial incident response.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Alert definitions and triage steps only, without escalation paths, rollback procedures, or references to dashboards and logs for on-call use.</p>"
+      }
+    ]
+  },
+  {
+    "id": 859,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">23</span>\n<div class=\"practice-question-content text-on-surface\"><p>A technical team is cataloguing risks specific to Claude's use in a document-grounded Q &amp; A system.\n</p><p>Which two items represent failure modes intrinsic to LLM-based systems rather than generic software defects?\n(Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>The model refuses a legitimate query because surface features trigger an overly broad safety pattern.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>A misconfigured load balancer routes requests to a deprecated API version.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>An expired TLS certificate blocks outbound API calls to Claude.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>The model generates a plausible-sounding answer unsupported by any retrieved document.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>A database connection timeout causes retrieval to return an empty result set.</p>"
+      }
+    ]
+  },
+  {
+    "id": 860,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">24</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are rolling out monitoring for a Claude-based deployment and must complete the specification steps efore\ninstrumenting the deployment.\n</p><p>Which two steps must be completed BEFORE instrumenting the deployment to emit metrics and traces?\n(Select two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Document the dashboards, alerts, and runbooks for the on-call rotation that will respond.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Define the metrics and the slices the deployment will monitor across normal and adversarial traffic.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Tune the alert thresholds based on observed normal-state distributions to reduce false positives.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Build the dashboards that surface metrics across slices at the cadence the team operates on.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Define the service-level objectives (SLOs) and the error budgets the deployment will be held to.</p>"
+      }
+    ]
+  },
+  {
+    "id": 861,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">25</span>\n<div class=\"practice-question-content text-on-surface\"><p>A document analysis service processes legal filings averaging 80,000 tokens each. Each filing is queried by\nattorneys an average of 14 times during a case. The current architecture sends the full filing on every query.\nThe CFO has asked you to reduce per-query costs while preserving response quality. The security officer requires\nthat filing contents not be stored outside Fabrikam's tenancy.\n</p><p>Which optimization approach should you recommend?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Summarize each filing once at intake and run all subsequent queries against the summary.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Cache the filing as the prompt prefix for reuse across the 14 queries per case.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Index filings in a vector store and retrieve only the relevant passages per query.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Move the workload to a smaller Claude model to reduce the per-token cost paid.</p>"
+      }
+    ]
+  },
+  {
+    "id": 862,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">26</span>\n<div class=\"practice-question-content text-on-surface\"><p>When communicating an architectural decision to a security and compliance reviewer, which content set is most\naligned with that audience's primary concerns?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Decision rationale, business outcomes, and high-level risk summary for executive review.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Feature delivery schedule, roadmap dependencies, and scope boundaries for the product manager.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Implementation timeline, component interfaces, and deployment sequence for the engineering team.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Threat model, control mappings, residual-risk acceptance criteria, and audit traceability.</p>"
+      }
+    ]
+  },
+  {
+    "id": 863,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">27</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are integrating Claude Code into a workflow that runs against a production database.\n</p><p>Which guardrail design most directly preserves safety on data-modifying operations?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Disable all logging and auditing on database operations through the MCP server to reduce alert noise, removing the observability needed to detect unintended data modifications.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Allow Claude Code to write directly to the production database without subagent scoping, read-only credential defaults, or human confirmation gates on data-modifying operations.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Configure the database MCP server with a fully privileged credential that can perform any read or write operation, and allow all operations to proceed without explicit human confirmation.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Configure the database MCP server with a read-only credential by default, restrict the subagent's tool list to read-only operations, and require explicit human confirmation on any operation that would modify data.</p>"
+      }
+    ]
+  },
+  {
+    "id": 864,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">28</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are identifying signals that a deployment should re-enter design rather than continue iterating in place.\n</p><p>Which signal most directly indicates the need for a new design cycle?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>A dashboard alert threshold needs a small numerical adjustment to reduce false-positive noise, which can be handled as an operational configuration change without a new design cycle.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>The system's current architecture cannot meet the new requirements without changes to component responsibilities or core contracts.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>A minor copy edit is requested in a customer-facing string within the existing Ul, which can be handled as a localized content change without altering component responsibilities or contracts.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>A runbook step requires a clarification edit to improve on-call guidance accuracy, which can be handled as a documentation update without changes to component responsibilities or core contracts.</p>"
+      }
+    ]
+  },
+  {
+    "id": 865,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">29</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are reviewing a peer's Claude Code permission rules for an enterprise rollout. The rules grant unrestricted\nBash access to all projects across all developers.\n</p><p>Which response is most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Add unrestricted access to additional tool categories as well, so that Bash is not asymmetrically more permissive than other tools, expanding the attack surface further in the name of consistency.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Replace unrestricted Bash with narrowly scoped tool patterns that allow only the specific commands the workflows require, and add explicit deny rules for sensitive operations.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Approve the unrestricted Bash access as written on the grounds that narrowing the rules would add nfiguration complexity, accepting the full attack surface for all engineers across all projects.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Disable all permission rules for the enterprise rollout so every command across every project runs without any tool-pattern scoping or explicit deny rules for sensitive operations.</p>"
+      }
+    ]
+  },
+  {
+    "id": 866,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">30</span>\n<div class=\"practice-question-content text-on-surface\"><p>A solutions architect is analyzing stakeholder feedback collected after the first quarter of a Claude-powered\nprocurement automation deployment. The feedback includes four statements:\n</p><p>(1) \"Our procurement team is processing 3x more purchase orders per analyst per day.\n\"\n</p><p>(2) \"We have eliminated the manual data entry role entirely and redeployed those staff to vendor relationship\nmanagement.\n\"\n</p><p>(3) \"The API integration costs are running 40% over the projected per-transaction budget.\n\"\n</p><p>(4) \"Response latency during end-of-month batch runs is averaging 11 seconds, against our committed 5-second\nSLA.\n\"\n</p><p>Which of the following correctly identifies the primary business value pillar each stakeholder statement\nrepresents?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<ol><li>Statement 1: Efficiency;&nbsp;</li><li>Statement 2: Transformation;&nbsp;</li><li>Statement 3: Solution Cost;&nbsp;</li><li>Statement 4:Performance SLA</li></ol>"
+      },
+      {
+        "key": "B",
+        "html": "<ol><li>Statement 1: Productivity;&nbsp;</li><li>Statement 2: Efficiency;&nbsp;</li><li>Statement 3: Solution Cost;&nbsp;</li><li>Statement 4:Performance SLA</li></ol>"
+      },
+      {
+        "key": "D",
+        "html": "<ol><li>Statement 1: Efficiency;&nbsp;</li><li>Statement 2: Productivity;&nbsp;</li><li>Statement 3: Performance SLA;&nbsp;</li><li>Statement 4:Solution Cost</li></ol>"
+      },
+      {
+        "key": "C",
+        "html": "<ol><li>Statement 1: Transformation;&nbsp;</li><li>Statement 2: Productivity;&nbsp;</li><li>Statement 3: Solution Cost;&nbsp;</li><li>Statement 4:Efficiency</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">31</span>\n<div class=\"practice-question-content text-on-surface\"><p>An operations engineer reports that a Claude-based pipeline began returning malformed JSON responses after a\nscheduled maintenance window, causing downstream processing failures.\n</p><p>Which two investigative steps most directly isolate the root cause? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Clear the prompt cache and resubmit all pending requests to eliminate stale cached prefixes.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Compare the current system prompt and output schema configuration against the last known good version from before the maintenance window.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Replay a set of premaintenance requests against the current configuration and inspect the raw model output before downstream parsing.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Increase the max _ tokens limit to determine whether output truncation is causing incomplete JSON structures.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Switch to a different Claude model tier to rule out provider-side changes as a contributing factor.</p>"
+      }
+    ]
+  },
+  {
+    "id": 868,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">32</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are compiling a diagnostic toolkit for Claude Code operational issues.\n</p><p>Which two diagnostic actions belong in the toolkit? (Select two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>File a support ticket with vendor support before any local reproduction or evidence collection.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>List the configured Model Context Protocol (MCP) servers and inspect server status to identify connection failures.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Increase the model sampling temperature so that intermittent issues surface more frequently for analysis.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Reproduce the issue with a minimal reproduction case that isolates one variable at a time.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Roll back to the previous Claude Code version immediately to confirm whether the issue is version specific.</p>"
+      }
+    ]
+  },
+  {
+    "id": 869,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">33</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are assessing data-exfiltration risk in a Claude-based assistant that has tools for both internal-document\nretrieval and outbound HTTP calls.\n</p><p>Which scenario most directly indicates a data-exfiltration risk?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>The internal-document retrieval tool returns a document that the user is authorized to view.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The user submits a routine question and receives a routine answer.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>The outbound HTTP tool returns a 200 response when the assistant calls an allow-listed domain to fulfil a user-initiated data-lookup request.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Adversarial content in a retrieved document instructs the model to call the outbound HTTP tool and send sensitive content to an attacker-controlled URL.</p>"
+      }
+    ]
+  },
+  {
+    "id": 870,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">34</span>\n<div class=\"practice-question-content text-on-surface\"><p>After a prompt-template update, several previously passing test cases now produce unexpected outputs.\n</p><p>Which test type is specifically designed to detect this category of failure?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Regression tests scored against a stable reference set of known-good behavior.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Smoke tests that confirm high-level system availability after the change.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Integration tests that validate cross-component pipeline behavior.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Adversarial tests that probe for prompt-injection vulnerabilities.</p>"
+      }
+    ]
+  },
+  {
+    "id": 871,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">35</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are identifying the highest-impact optimization for a deployment whose token cost is dominated by a long,\nrepeated system prompt and a large retrieved context per request.&nbsp;</p><p>Which optimization most directly targets the dominant cost driver?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Move the long, repeated system prompt into a cacheable prefix and trim retrieved context to the spans relevant to each query.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Increase retrieval depth on every request to maximize recall, worsening the dominant cost driver by adding more retrieved tokens per request rather than reducing them.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Add additional repeated content to the system prompt to give the model more guidance.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Switch every request to the heaviest available model to maximize output quality, accepting that higher per- request inference cost compounds rather than addresses the dominant cost driver.</p>"
+      }
+    ]
+  },
+  {
+    "id": 872,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">36</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are designing a feedback session for a deployment in flight.\n</p><p>Which structure best supports productive stakeholder feedback?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Define a focused agenda, share the artifacts in advance, capture decisions and follow-ups in writing, and confirm action owners and dates.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Distribute artifacts at the session start rather than in advance, so stakeholders review materials in real timewithout preparation before the discussion begins.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>End the session without recording decisions, follow-up items, action owners, or dates, relying on participant memory to carry the session's outcomes forward.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Hold an open-ended meeting with no pre-distributed agenda or artifacts, and rely on participants' memory to carry decisions and follow-up owners forward.</p>"
+      }
+    ]
+  },
+  {
+    "id": 873,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">37</span>\n<div class=\"practice-question-content text-on-surface\"><p>A loan pre-qualification assistant shows 94 percent approval recommendations that match the human underwriter\ndecision. The fairness team has reviewed approval rate parity across protected groups and reported no significant\ndifference. A board member has asked whether this evidence is sufficient to declare the assistant fair.\n</p><p>Which two Discernment-competency findings should you report? (Select two.) Each correct answer presents part\nof the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>The 94 percent match rate is sufficient evidence of fairness for the assistant's decisions.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>The fairness team's review process likely missed at least some of the protected groups studied.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Match with human underwriters does not establish freedom from underwriter-introduced bias.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Approval rate parity does not by itself assess error rate parity across protected groups.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>A larger sample is needed before any meaningful fairness claim can be made about the model.</p>"
+      }
+    ]
+  },
+  {
+    "id": 874,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">38</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are an architect supporting the iteration phase of a deployed Claude-based system.\n</p><p>Which activity most directly fits this phase?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Rebuild the entire system architecture from scratch at the start of every iteration cycle regardless of what production telemetry, evaluations, and stakeholder feedback indicate is needed.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Stop measuring production outcomes once the deployment has successfully launched, treating the go-live milestone as the end of the evaluation and iteration cycle.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Review production telemetry, sampled output evaluations, and stakeholder feedback to identify the highest- impact change for the next cycle, then plan the change against the evaluation framework.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Discard the evaluation framework and reference set once the deployment is in production, accepting that future iterations will have no structured basis for measuring the impact of changes.</p>"
+      }
+    ]
+  },
+  {
+    "id": 875,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">39</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are explaining the precedence of Claude Code configuration scopes to the team.&nbsp;</p><p>Which precedence ordering, from highest to lowest, is correct?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>User # project # local # command-line arguments # managed</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Managed # command-line arguments # local # project # user</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Project # user # managed # local # command-line arguments</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Local # managed # user # command-line arguments # project</p>"
+      }
+    ]
+  },
+  {
+    "id": 876,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">40</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect observes that after a recent model-version upgrade, grounded responses began including\nclaims not supported by the retrieved source documents.\n</p><p>Which mitigation is most directly targeted at this failure mode?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Constrain responses to source-supported content, require citations, and add a verification step.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Score each new model version against a stable adversarial evaluation set.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Treat retrieved data as untrusted and apply input classifiers at ingestion time.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Replace the shared API key with per-user Auth tokens to restrict data access.</p>"
+      }
+    ]
+  },
+  {
+    "id": 877,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">41</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are distinguishing functional from non-functional requirements during discovery.\n</p><p>Which item is a non-functional requirement?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>The system must respond at p95 latency under 800 milliseconds at the expected request volume.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>The system must classify inbound tickets into a defined set of categories.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The system must produce a draft response that a human reviewer can edit before sending.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>The system must extract a defined set of specific fields from invoice attachments and populate a downstream data record.</p>"
+      }
+    ]
+  },
+  {
+    "id": 878,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">42</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are integrating Claude Code into the team's pull-request workflow. The team wants Al-assisted review without\nremoving human approval.\n</p><p>Which integration design best fits this requirement?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Claude Code disables all existing branch-protection rules to streamline the merge process, removing human approval as a required gate.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Claude Code silently deletes pull requests it assesses as low quality without posting a comment or notifying the author.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Claude Code reviews the pull request and posts a structured analysis as a comment, while a human reviewer etains the approval decision under the existing branch-protection rules</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Claude Code merges every pull request automatically after completing its analysis, bypassing human approval and the existing branch-protection rules.</p>"
+      }
+    ]
+  },
+  {
+    "id": 879,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">43</span>\n<div class=\"practice-question-content text-on-surface\"><p>A revenue projection assistant has missed its monthly cost target by 38 percent. Profiling shows three\ncontributors: a 6,000-token policy preamble repeated on every call (45 percent of cost), retrieval of historical sales\nchunks averaging 3,000 tokens per call (30 percent), and inference on a flagship-tier model (25 percent).\nStakeholders require that projection accuracy remain unchanged.\n</p><p>Which two optimizations should you sequence first to reduce cost without affecting accuracy? (Select two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Cache common retrieved sales chunks accessed across many of the daily queries.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Reduce the number of historical sales chunks retrieved across each query run.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Enable prompt caching on the static policy preamble across the recurring calls.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Truncate the policy preamble to remove non-essential clauses from the prompt.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Switch the workload to a smaller, faster Claude model tier across all queries.</p>"
+      }
+    ]
+  },
+  {
+    "id": 880,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">44</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are building an ethics-review checklist for deployments supported by artificial intelligence.\n</p><p>Which two checks belong on the list? (Select two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Confirm that latency and throughput targets are met across supported user populations.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Restrict ethics review to outputs that exceed a defined model-confidence threshold.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Verify that outputs do not rely on generalizations about people that the underlying data does not support.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Confirm that high-impact decisions retain human accountability rather than being attributed to the model.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Confirm that vendor licensing terms permit the planned production use of the model.</p>"
+      }
+    ]
+  },
+  {
+    "id": 881,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">45</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect at a health services organization is defining evaluation metrics for a clinical-summary pipeline.\nThe pipeline must remain within a per-query cost ceiling and must never surface patient data to unauthorized\nroles.\n</p><p>Which two metrics directly address these requirements? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Throughput measured as successful requests processed per minute</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Response latency at the 95th percentile across a one-week sample window</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Role-based access-control enforcement rate measured on a red-team dataset</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Per-query token cost measured against the defined cost ceiling</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>BLEU score computed against a human-annotated reference summary set</p>"
+      }
+    ]
+  },
+  {
+    "id": 882,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">46</span>\n<div class=\"practice-question-content text-on-surface\"><p>The compliance team has authored a regulatory disclosure procedure that must be applied identically across\ncustomer service, sales, and onboarding workflows. The procedure changes when regulators issue updates,\ncurrently four to six times per year. You are designing how the procedure will be packaged for use by Claude\nacross all three workflows.\n</p><p>Which two design decisions should you include? (Select two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Reference the same Claude Skill from all three workflow integrations.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Have each workflow team rewrite the procedure for its own context.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Package the procedure as a Claude Skill owned directly by the compliance team.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Store the procedure in a shared retrieval corpus accessed by all three workflows.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Embed the procedure text into each workflow's system prompt at integration time.</p>"
+      }
+    ]
+  },
+  {
+    "id": 883,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">47</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are defining when to introduce a project subagent versus relying on Claude Code's general capabilities.\n</p><p>Which scenario most directly justifies a dedicated subagent?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>The team has no recurring specialized tasks and uses Claude Code only for isolated general-purpose work that does not justify a dedicated system prompt or tool scope.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>The team wants every Claude Code interaction to use the same generic system prompt with no task- specific specialization, narrow tool permissions, or dedicated model selection.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>The team has a recurring specialized task, such as database schema review, that requires a focused system prompt, narrow tool permissions, and a specific model selection across many sessions.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The team has a one-time ad hoc question that will not recur and does not require a focused system prompt, narrow tool permissions, or dedicated model selection.</p>"
+      }
+    ]
+  },
+  {
+    "id": 884,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">48</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are evaluating an evaluation set used to score a Claude-based hiring-support tool. The set is drawn from one\ngeographic region and one tenure band.\n</p><p>Which response is most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Expand the evaluation set to cover the geographic regions and tenure bands the tool will serve, and rescore the system on the expanded set before broader release.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Discard all quantitative evaluation and replace it with qualitative impressions collected from a small, convenience-selected group that may not represent the tool's full user population.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Reduce the evaluation set further to a single demographic subgroup to simplify score interpretation, narrowing coverage rather than expanding it to match the intended user population.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Continue using the narrow evaluation set drawn from one region and one tenure band because the existing benchmark scores are already high on that subset.</p>"
+      }
+    ]
+  },
+  {
+    "id": 885,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">49</span>\n<div class=\"practice-question-content text-on-surface\"><p>During an architectural review, the security team identifies a risk that adversarial content injected into retrieved\ndocuments could manipulate the model's behavior.\n</p><p>Which mitigation most directly addresses this threat?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Restrict outbound tool calls to an approved destination allow-list.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Treat all retrieved content as untrusted input and apply input classifiers with output validation.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Require citations for each claim and constrain responses to source-supported content.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Score outputs against a stable adversarial evaluation set on each model-version change.</p>"
+      }
+    ]
+  },
+  {
+    "id": 886,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">50</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are responding to a stakeholder request that adds significant scope to a deployment already in flight.\n</p><p>Which response best aligns expectations while respecting the stakeholder's underlying need?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Decline the request outright without acknowledging the stakeholder's underlying need or offering alternatives such as deferral, descoping, or timeline extension.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Acknowledge the request, describe the scope and timeline implications transparently, and propose options- defer it, descope something else, or extend the timeline-for the stakeholder to choose.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Hide the scope-addition request from the broader delivery team to avoid a difficult conversation, allowing the change to proceed without team awareness of its timeline implications.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Accept the additional scope into the current release without describing the timeline or descoping implications, allowing the delivery plan to absorb unacknowledged changes until they surface as delays.</p>"
+      }
+    ]
+  },
+  {
+    "id": 887,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">51</span>\n<div class=\"practice-question-content text-on-surface\"><p>The compliance team at a firm has approved a Claude Skill that generates client-facing investment summaries.\nThe Skill includes the firm's required disclaimers and prohibited-language list. A product manager has asked\nwhether additional guardrails are needed at the application layer or whether the Skill alone is sufficient.\n</p><p>Which two guardrail responsibilities should remain at the application layer rather than the Skill? (Select two.) Each\ncorrect answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Log every generated summary to the firm's compliance audit trail for retention.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Apply the disclaimer template that the compliance team has standardized firm-wide.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Verify the requesting user is authorized to generate investment summaries at all.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Apply the prohibited-language list that the compliance team maintains and updates.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Format output sections according to the firm's standardized house style guidelines.</p>"
+      }
+    ]
+  },
+  {
+    "id": 888,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">52</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are defining an SLA for a Claude-based assistant.\n</p><p>Which SLA definition is most operationally meaningful?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>A target without a defined metric, threshold, evaluation window, or breach consequence.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>A measurable target with a defined metric, threshold, evaluation window, and consequence for breach- for example, \"p95 per-request latency under 800 ms over a 28-day window. \"</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>A target tied to a stakeholder sentiment measure such as \"the team feels satisfied, \" which cannot be measured objectively or used to trigger a documented breach response.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>A qualitative commitment such as \"the system will be fast and reliable, \" which names no metric, threshold, or evaluation window.</p>"
+      }
+    ]
+  },
+  {
+    "id": 889,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">53</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are transitioning a Claude-based deployment from design into implementation.\n</p><p>Which handoff package most directly supports a clean transition?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Architecture overview, ADRs, component contracts, evaluation framework with reference set, runbooks, on- call playbook, and known limitations.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>A verbal walkthrough conducted on the day of handoff with no written architecture overview, ADRS, omponent contracts, evaluation framework, runbooks, playbook, or known limitations.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>The most recent set of design presentation slides without component-level diagrams, interface contracts, an evaluation framework with a reference set, runbooks, or a known-limitations register.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Source code alone with no integrating architecture overview, ADRs, component contracts, evaluation amework, runbooks, on-call playbook, or known-limitations register to support the delivery team.</p>"
+      }
+    ]
+  },
+  {
+    "id": 890,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">54</span>\n<div class=\"practice-question-content text-on-surface\"><p>A security team is evaluating two proposed controls. Control A adds an outbound tool allow-list with destination\nrestrictions and per-call review. Control B scores responses against a stable adversarial evaluation set after each\nmodel-version change.\n</p><p>Which two risk categories are correctly matched to these controls? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Control A - silent quality drift after a model-version upgrade</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Control B - data exfiltration via outbound tool calls</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Control A - prompt injection from adversarial content in retrieved data</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Control B - silent quality drift after a model-version upgrade</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Control A - data exfiltration via outbound tool calls</p>"
+      }
+    ]
+  },
+  {
+    "id": 891,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">55</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude Architect is reviewing a post-deployment performance report for an Al-assisted legal-document\nsummarization system. The report includes these observations:\n</p><ul><li>Average summarization time decreased from 47 minutes to 6 minutes per document.\n</li><li>Associates spend less time on summaries, but overall billable output has not measurably changed.\n</li><li>Infrastructure costs increased by 22% because redundant retry logic generated additional API calls.\n</li><li>Some summaries require attorney correction, adding an average of 8 minutes of review per document.\n</li></ul><p>Which analysis correctly attributes each observation to the appropriate business-value pillar?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Observation 1 indicates an efficiency gain; Observation 2 shows that productivity has not yet been realized;Observation 3 is a solution-cost issue; Observation 4 is an efficiency loss that partially offsets Observation 1.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Observations 1 and 2 both indicate efficiency gains; Observation 3 is a solution-cost issue; Observation 4 is a performance-SLA issue.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Observations 1 and 4 together indicate a net performance-SLA improvement; Observation 2 is a transformation gap; Observation 3 is a productivity drain from over-engineering.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Observation 1 is a transformation outcome; Observation 2 is an efficiency gain; Observation 3 is a performance-SLA degradation; Observation 4 is a solution-cost issue.</p>"
+      }
+    ]
+  },
+  {
+    "id": 892,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">56</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude Architect is reviewing a post-deployment performance report for an Al-assisted legal-document\nsummarization system. The report includes these observations:\n</p><ul><li>Average summarization time decreased from 47 minutes to 6 minutes per document.\n</li><li>Associates spend less time on summaries, but overall billable output has not measurably changed.\n</li><li>Infrastructure costs increased by 22% because redundant retry logic generated additional API calls.\n</li><li>Some summaries require attorney correction, adding an average of 8 minutes of review per document.\n</li></ul><p>Which analysis correctly attributes each observation to the appropriate business-value pillar?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Observations 1 and 4 together indicate a net performance-SLA improvement; Observation 2 is a transformation gap; Observation 3 is a productivity drain from over-engineering.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Observation 1 indicates an efficiency gain; Observation 2 shows that productivity has not yet been realized;Observation 3 is a solution-cost issue; Observation 4 is an efficiency loss that partially offsets Observation 1.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Observations 1 and 2 both indicate efficiency gains; Observation 3 is a solution-cost issue; Observation 4 is a performance-SLA issue.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Observation 1 is a transformation outcome; Observation 2 is an efficiency gain; Observation 3 is a performance-SLA degradation; Observation 4 is a solution-cost issue.</p>"
+      }
+    ]
+  },
+  {
+    "id": 893,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">57</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are listing characteristics of robust guardrail design for an enterprise deployment.\n</p><p>Which two characteristics belong on the list? (Select two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Centralized log retention for guardrail violations with quarterly review by the security team.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Per-role tool allow-lists enforced at the orchestration layer before any tool call executes.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>User feedback channels that route reported guardrail failures into the product backlog for triage.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Periodic refresh of the system prompt wording to keep refusal language current and clear.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Adversarial-input coverage in the evaluation set with regression tracking on guardrail performance.</p>"
+      }
+    ]
+  },
+  {
+    "id": 894,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">58</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect is leading the discovery phase for a new Al-powered customer service solution.\n</p><p>Which two activities are characteristic of structured discovery and requirement gathering for a Claude-based\ndeployment? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Generating an initial prototype and iterating based on user reaction rather than written requirements.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Deferring constraint documentation until the integration design phase to avoid scope creep.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Facilitating stakeholder workshops to surface latency, accuracy, and compliance constraints before scoping begins. collected.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Selecting the Claude model tier based on the architect's prior project experience before stakeholder input is</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Documenting explicit success criteria and failure thresholds that will gate production deployment.</p>"
+      }
+    ]
+  },
+  {
+    "id": 895,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">59</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are identifying inefficiency in a Claude Code workflow where each engineer manually re-explains the project's\nconventions and architecture in every session.\n</p><p>Which adjustment most directly removes this inefficiency?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Remove all documented project conventions and architectural standards so engineers have nothing to re- explain at session start, accepting the loss of consistency and shared coding standards.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Capture the project's conventions and architecture in a project-scoped CLAUDE.md (or equivalent persistent project-context file) committed to the repository, so each session loads it automatically.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Tell each engineer to retype the project conventions and architecture context more quickly at the start of eachsession, reducing time lost without eliminating the repeated manual effort.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Forbid the use of Claude Code on the project entirely to avoid the session-initialization overhead, accepting that the team loses all Al-assisted development productivity for this codebase.</p>"
+      }
+    ]
+  },
+  {
+    "id": 961,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">60</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are evaluating prompting claims in a peer’s design document.<br>For each claim, select yes if the claim reflects sound practice. Otherwise, select no.<br><br><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-76.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<ol><li>Zero-shot is appropriate as a starting point for closed-set classification when categories and descriptions are provided in the prompt: Yes</li><li>Adding a few-shot example set with exact field names helps establish output formatting for extraction tasks: Yes</li><li>Chain-of-thought should be the default on every task, regardless of complexity: No</li><li>Leading-question framing can be mitigated by requesting an even-handed comparison using explicit criteria: Yes</li><li>Behavioral differences across model versions can be ignored once a prompt has been validated on one version: No</li></ol>"
+      },
+      {
+        "key": "C",
+        "html": "<ol><li>Zero-shot is appropriate as a starting point for closed-set classification when categories and descriptions are provided in the prompt: Yes</li><li>Adding a few-shot example set with exact field names helps establish output formatting for extraction tasks: No</li><li>Chain-of-thought should be the default on every task, regardless of complexity: No</li><li>Leading-question framing can be mitigated by requesting an even-handed comparison using explicit criteria: Yes</li><li>Behavioral differences across model versions can be ignored once a prompt has been validated on one version: Yes</li></ol>"
+      },
+      {
+        "key": "D",
+        "html": "<ol><li>Zero-shot is appropriate as a starting point for closed-set classification when categories and descriptions are provided in the prompt: No</li><li>Adding a few-shot example set with exact field names helps establish output formatting for extraction tasks: Yes</li><li>Chain-of-thought should be the default on every task, regardless of complexity: No</li><li>Leading-question framing can be mitigated by requesting an even-handed comparison using explicit criteria: No</li><li>Behavioral differences across model versions can be ignored once a prompt has been validated on one version: No</li></ol>"
+      },
+      {
+        "key": "A",
+        "html": "<ol><li>Zero-shot is appropriate as a starting point for closed-set classification when categories and descriptions are provided in the prompt: Yes</li><li>Adding a few-shot example set with exact field names helps establish output formatting for extraction tasks: Yes</li><li>Chain-of-thought should be the default on every task, regardless of complexity: Yes</li><li>Leading-question framing can be mitigated by requesting an even-handed comparison using explicit criteria: Yes</li><li>Behavioral differences across model versions can be ignored once a prompt has been validated on one version: No</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 896,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">61</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are integrating Al-assisted tooling into the team's documentation workflow. The team wants generated\ndocumentation that stays grounded in the actual code.\n</p><p>Which integration approach best fits this requirement?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Have the subagents publish generated documentation directly to the public-facing site without passing through the team's normal review workflow or any human approval step.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Disable all filesystem and code-search tools so the subagents cannot read any repository code, accepting that cumentation generation will be entirely disconnected from the actual implementation.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Configure subagents that read the relevant code files via filesystem and code-search tools, generate the documentation, and emit changes through the team's normal review workflow.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Generate documentation from the model's training-data recall without reading any of the actual repository code, cepting that the output will not reflect the current implementation.</p>"
+      }
+    ]
+  },
+  {
+    "id": 897,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">62</span>\n<div class=\"practice-question-content text-on-surface\"><p>A security audit uncovers two issues:&nbsp;</p><p>(1) all end users share a single API key,&nbsp;</p><p>and (2) tool calls are executed without logging the initiating user.</p><p>Which two mitigations directly address these specific findings? (Select two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Enforce RBAC at the retrieval layer before content enters the model context.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Move credentials out of the prompt context and resolve them from a server-side secret store.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Replace the shared API key with per-user Auth tokens carrying scope-restricted permissions.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Add actor attribution to tool-call logs so each call records the initiating user identity.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Validate structured outputs against a schema before downstream actions are executed.</p>"
+      }
+    ]
+  },
+  {
+    "id": 898,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">63</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are assessing a Claude-based system whose dominant risk is silent quality drift on safety-relevant outputs\nafter a model-version upgrade.\nWhich assessment activity most directly addresses this risk?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Skip evaluation on each model-version upgrade and rely on user-submitted complaints to surface safety drift after the upgraded model has already served production traffic.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Disable adversarial evaluation entirely during model-version upgrade cycles to reduce evaluation cost, accepting that safety drift will go undetected until it appears in production.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Rotate adversarial inputs randomly so no two upgrades are scored on the same set.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Maintain an adversarial evaluation set with version-attributed scoring so each upgrade is measured against the same set before promotion.</p>"
+      }
+    ]
+  },
+  {
+    "id": 899,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">64</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are a platform architect designing an internal Claude-based assistant that serves both finance analysts and\nexternal auditors. Each population must access only documents permitted by its role.\n</p><p>Where should role-based access control be enforced in the pipeline?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>After the response is generated, by post-filtering content that should not have been retrieved.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Nowhere in the pipeline; rely on the model's general refusal behavior to reject unauthorized document access without any enforced access control.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Inside the system prompt as a natural-language instruction for Claude to ignore unauthorized documents.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>At the retrieval layer, before any role-restricted content reaches the prompt-construction step or the model.</p>"
+      }
+    ]
+  },
+  {
+    "id": 900,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">65</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are running a controlled experiment to compare two prompts and must complete the design steps before\nexecuting the experiment.\n</p><p>Which two steps must be completed BEFORE running the experiment with random assignment? (Select two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Determine the minimum detectable effect size and the sample size needed for power.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Document the recommendation, the trade-offs accepted, and the alternatives considered.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Decide whether to promote, reject, or iterate the candidate based on the analysis.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Define the hypothesis and the primary success metric for the comparison.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Analyze the results against the predefined success metric and significance threshold.</p>"
+      }
+    ]
+  },
+  {
+    "id": 901,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">66</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are reviewing a customer-support agent's configuration. Each candidate tool falls into one of four categories:\n</p><p>(1) required to complete defined tasks,\n</p><p>(2) frequently used and reduces hand-offs,&nbsp;</p><p>3) occasionally useful for unrelated work,\n</p><p>(4) speculative future utility.\n</p><p>Which categories should typically remain in the agent configuration?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Only category 4, because speculative future-utility tools provide the most flexibility and should be configured even when no defined task currently requires them.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Only category 3, because occasionally useful tools for unrelated work provide broader coverage and should take priority over tools required for the agent's defined tasks.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Categories 1 and 2 only, because they map to defined tasks and the agent's regular hand-offs.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>All four categories, because broader tool access is categorically better for agent performance regardless of whether the tools map to defined tasks or regular hand-offs.</p>"
+      }
+    ]
+  },
+  {
+    "id": 902,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">67</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are comparing patterns for a batch document-classification job that follows fixed steps: extract metadata,\nclassify, summarize, and persist.\n</p><p>Which pattern is the best fit and why?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>An agentic pattern, because agents are categorically more accurate than workflows and therefore always preferable regardless of step predictability.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>An agentic pattern, because the open-ended planning capability of agents produces more consistent structured outputs than a fixed workflow graph on classification tasks.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>A workflow pattern, because the steps are well-defined and predictable per-request token cost is preferred over flexibility.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>A workflow pattern, because agentic patterns do not support tool invocations and therefore cannot execute the persist step that writes results to the downstream store.</p>"
+      }
+    ]
+  },
+  {
+    "id": 903,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">68</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are selecting a pattern for a compliance Q&amp;A assistant that must answer policy questions with citations to the\nauthoritative internal source set. Latency, cost, and audit predictability are prioritized.\n</p><p>Which pattern is the best fit?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>a pure agent loop with open web-browsing tools to surface the most current policy information, without constraining retrieval to the authoritative internal corpus</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>augmented LLM with retrieval-augmented generation over the indexed authoritative corpus and citation rendering on each answer</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>a static prompt with the entire policy corpus concatenated into every request</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>multi-agent orchestration with a planner, researcher, and writer agent for every query</p>"
+      }
+    ]
+  },
+  {
+    "id": 904,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">69</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are reviewing a peer’s draft system prompt that contains contradictory instructions: one section says to never\nspeculate beyond the supplied source, and another says to confidently fill in any gaps.\n</p><p>Which response is most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Add a priority-ordering instruction that tells the model to evaluate all available instructions and apply the most contextually appropriate one on each request.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Increase the temperature setting so that output randomness masks the contradictions.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Resolve the contradiction by removing or rewording the gap-filling instruction so the prompt consistently constrains the model to source-supported content.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Keep both contradictory instructions in place and rely on the model to select which one to follow on each individual request, accepting inconsistent behavior as a result.</p>"
+      }
+    ]
+  },
+  {
+    "id": 905,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">70</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are designing the prompt for a ticket-triage classifier with thirty well-defined categories and clear category\ndescriptions in the prompt.\n</p><p>Which technique is most appropriate as the starting point?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>a zero-shot prompt that specifies the categories with their descriptions and the required output format</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>a prompt with no category descriptions, expecting the model to infer the category set</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>a prompt that demands the model invent new categories when the supplied ones do not fit</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>a chain-of-thought prompt for a routing decision that does not require multi-step reasoning</p>"
+      }
+    ]
+  },
+  {
+    "id": 906,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">71</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are selecting a model for a new production workload and must complete the upstream steps before testing\ncandidate models empirically.\n</p><p>Which two steps must be completed BEFORE running a representative sample on a candidate model? (Choose\ntwo.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Choose a candidate model based on the requirements profile and known capabilities.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Select the lightest model that consistently meets the quality bar across the sample.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Retest the model choice when a new model version becomes available.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Sign off the production rollout plan with the platform and security teams.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Define the quality bar, latency tolerance, and expected volume for the workload.</p>"
+      }
+    ]
+  },
+  {
+    "id": 907,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">72</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are compiling factors that should drive the choice between Model Context Protocol (MCP), direct API\nintegration, and agent-to-agent handoff.\n</p><p>Which two factors belong on the list? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>whether the underlying transport supports encryption in transit between the integrated services</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>whether the vendor publishes detailed reference documentation for each candidate protocol</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>whether the integration must be portable across multiple AI clients in the ecosystem</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>whether the interaction is stateless and latency-sensitive or stateful and longer-running</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>whether the team has prior implementation experience with any of the candidate protocols</p>"
+      }
+    ]
+  },
+  {
+    "id": 956,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">73</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are reviewing a peer’s end-to-end design for a Claude-based platform expected to scale to thousands of concurrent users.<br>For each statement, indicate yes if the statement reflects a sound architectural practice. Otherwise, select no.</p><p><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-71.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Yes, Yes, No, Yes.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Yes, Yes, No, No.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Yes, Yes, Yes, No.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>No, Yes, No, No.</p>"
+      }
+    ]
+  },
+  {
+    "id": 908,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">74</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are selecting a protocol for a single low-latency stateless tool call from a Claude-based assistant to an\ninternal pricing service that already exposes a stable HTTP API.\n</p><p>Which integration mechanism is the most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>a bespoke streaming protocol layered over an unrelated asynchronous message bus</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>a direct API call to the existing endpoint with the appropriate scoped credentials</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>a long-lived stateful session protocol for a stateless single-call interaction</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>an agent-to-agent handoff that introduces another Claude-based agent in front of the pricing service</p>"
+      }
+    ]
+  },
+  {
+    "id": 957,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">75</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are sequencing decomposed components in an invoice-processing pipeline.<br>For each of the decomposed components, select the execution layer it belongs to: “Pre-Processing”, “Model Stage”, or “Post-Processing”.</p><p><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-72.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<ol><li>Claude-based classification of invoice type: Pre-Processing</li><li>Persistence of validated records to the system of record: Post-Processing</li><li>Schema validation of the extracted fields: Post-Processing</li><li>Claude-based extraction of structured invoice fields: Model Stage</li><li>PII redaction on extracted text before model invocation: Post-Processing</li><li>Optical character recognition (OCR) on scanned invoice images: Pre-Processing</li></ol>"
+      },
+      {
+        "key": "D",
+        "html": "<ol><li>Claude-based classification of invoice type: Model Stage</li><li>Persistence of validated records to the system of record: Post-Processing</li><li>Schema validation of the extracted fields: Post-Processing</li><li>Claude-based extraction of structured invoice fields: Model Stage</li><li>PII redaction on extracted text before model invocation: Post-Processing</li><li>Optical character recognition (OCR) on scanned invoice images: Pre-Processing</li></ol>"
+      },
+      {
+        "key": "B",
+        "html": "<ol><li>Claude-based classification of invoice type: Model Stage</li><li>Persistence of validated records to the system of record: Post-Processing</li><li>Schema validation of the extracted fields: Model Stage</li><li>Claude-based extraction of structured invoice fields: Model Stage</li><li>PII redaction on extracted text before model invocation: Pre-Processing</li><li>Optical character recognition (OCR) on scanned invoice images: Pre-Processing</li></ol>"
+      },
+      {
+        "key": "A",
+        "html": "<ol><li>Claude-based classification of invoice type: Model Stage</li><li>Persistence of validated records to the system of record: Post-Processing</li><li>Schema validation of the extracted fields: Post-Processing</li><li>Claude-based extraction of structured invoice fields: Model Stage</li><li>PII redaction on extracted text before model invocation: Pre-Processing</li><li>Optical character recognition (OCR) on scanned invoice images: Pre-Processing</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 909,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">76</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are designing a human-in-the-loop validation workflow.\n</p><p>Which two design elements belong in the workflow? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>aggregate reviewer throughput metrics published weekly to leadership for headcount planning</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>mandatory reviewer agreement with the model output to maintain consistent reviewer-model alignment</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>risk-stratified sampling that concentrates reviewer attention on low-confidence and high-impact outputs</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>capture of reviewer decisions as labeled data that feeds the evaluation set over time</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>uniform sampling of all model outputs to give every request an equal chance of review</p>"
+      }
+    ]
+  },
+  {
+    "id": 958,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">77</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are classifying token-management tactics by where in the request lifecycle each tactic applies.<br>For each of the tactics, select where in the request lifecycle each tactic applies: “Input Preparation”, “Prompt Construction”, or “Output Handling”.</p><p><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-73.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<ol><li>Persist the validated output for downstream consumption and audit: Input Handling</li><li>Order prompt sections so cacheable content appears before per-request content: Prompt Construction</li><li>Summarize prior conversation history when the full history is no longer needed: Input Preparation</li><li>Validate the model’s structured output against the expected schema: Output Handling</li><li>Move stable, repeated content into a cacheable prefix at the beginning of the prompt: Prompt Construction</li><li>Trim retrieved passages to spans relevant to the user’s question: Input Preparation</li></ol>"
+      },
+      {
+        "key": "A",
+        "html": "<ol><li>Persist the validated output for downstream consumption and audit: Output Handling</li><li>Order prompt sections so cacheable content appears before per-request content: Prompt Construction</li><li>Summarize prior conversation history when the full history is no longer needed: Input Preparation</li><li>Validate the model’s structured output against the expected schema: Output Handling</li><li>Move stable, repeated content into a cacheable prefix at the beginning of the prompt: Prompt Construction</li><li>Trim retrieved passages to spans relevant to the user’s question: Input Preparation</li></ol>"
+      },
+      {
+        "key": "C",
+        "html": "<ol><li>Persist the validated output for downstream consumption and audit: Output Handling</li><li>Order prompt sections so cacheable content appears before per-request content: Input Preparation</li><li>Summarize prior conversation history when the full history is no longer needed: Prompt Construction</li><li>Validate the model’s structured output against the expected schema: Output Handling</li><li>Move stable, repeated content into a cacheable prefix at the beginning of the prompt: Prompt Construction</li><li>Trim retrieved passages to spans relevant to the user’s question: Input Preparation</li></ol>"
+      },
+      {
+        "key": "D",
+        "html": "<ol><li>Persist the validated output for downstream consumption and audit: Output Handling</li><li>Order prompt sections so cacheable content appears before per-request content: Prompt Construction</li><li>Summarize prior conversation history when the full history is no longer needed: Input Preparation</li><li>Validate the model’s structured output against the expected schema: Prompt Construction</li><li>Move stable, repeated content into a cacheable prefix at the beginning of the prompt: Prompt Construction</li><li>Trim retrieved passages to spans relevant to the user’s question: Output Preparation</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 910,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">78</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude-based research assistant begins producing responses that confidently contradict its retrieved source\ndocuments despite no change to the retrieval pipeline.\n</p><p>Which two diagnostic actions most directly identify the root cause of this behavior? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Isolate whether the failure reproduces on the previous model version to test for model mismatch.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Switch the retrieval index to a denser embedding model to improve chunk relevance scores.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Reduce the temperature setting to lower response variance across all query types.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Inspect system-prompt grounding instructions to determine whether citation constraints remain intact.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Increase the context window size to allow more retrieved chunks per query.</p>"
+      }
+    ]
+  },
+  {
+    "id": 959,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">79</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are classifying chunking strategies by the corpus type each is best suited to.<br>For each chunking strategy, select where in the request lifecycle each applies: “Long Structured Documents”, “Heterogeneous Short Records”, or “Code or Hierarchical Specs”.</p><p><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-74.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<ol><li>Function-level or section-level chunking for code modules: Code or Hierarchical Specs</li><li>Tree-aware chunking that follows code or specification hierarchy: Code or Hierarchical Specs</li><li>Per-record chunking where each record is one chunk: Long Structured Documents</li><li>Semantic chunking along clause or paragraph boundaries: Long Structured Documents</li><li>Fixed-size chunking with overlap for short records of similar length: Code or Hierarchical Specs</li><li>Hierarchical chunking that mirrors document section structure: Long Structured Documents</li></ol>"
+      },
+      {
+        "key": "A",
+        "html": "<ol><li>Function-level or section-level chunking for code modules: Long Structured Documents</li><li>Tree-aware chunking that follows code or specification hierarchy: Code or Hierarchical Specs</li><li>Per-record chunking where each record is one chunk: Heterogeneous Short Records</li><li>Semantic chunking along clause or paragraph boundaries: Long Structured Documents</li><li>Fixed-size chunking with overlap for short records of similar length: Heterogeneous Short Records</li><li>Hierarchical chunking that mirrors document section structure: Long Structured Documents</li></ol>"
+      },
+      {
+        "key": "B",
+        "html": "<ol><li>Function-level or section-level chunking for code modules: Code or Hierarchical Specs</li><li>Tree-aware chunking that follows code or specification hierarchy: Code or Hierarchical Specs</li><li>Per-record chunking where each record is one chunk: Heterogeneous Short Records</li><li>Semantic chunking along clause or paragraph boundaries: Long Structured Documents</li><li>Fixed-size chunking with overlap for short records of similar length: Heterogeneous Short Records</li><li>Hierarchical chunking that mirrors document section structure: Long Structured Documents</li></ol>"
+      },
+      {
+        "key": "C",
+        "html": "<ol><li>Function-level or section-level chunking for code modules: Code or Hierarchical Specs</li><li>Tree-aware chunking that follows code or specification hierarchy: Long Structured Documents</li><li>Per-record chunking where each record is one chunk: Heterogeneous Short Records</li><li>Semantic chunking along clause or paragraph boundaries: Long Structured Documents</li><li>Fixed-size chunking with overlap for short records of similar length: Heterogeneous Short Records</li><li>Hierarchical chunking that mirrors document section structure: Heterogeneous Short Records</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 911,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">80</span>\n<div class=\"practice-question-content text-on-surface\"><p>A pilot AI assistant for procurement specialists shows 89 percent first-response acceptance, but follow-up\nsurveys reveal that specialists frequently override the assistant’s vendor recommendations after consulting\nunrelated criteria the assistant did not consider. The pilot owner wants to ship the assistant as is, given the strong\nacceptance rate.\n</p><p>Which two discernment-competency observations should you raise BEFORE approving the launch? (Choose two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>The pilot duration was likely too short to establish reliability across the full year.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>The acceptance rate alone is sufficient evidence of readiness for general production use.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Acceptance does not measure whether recommendations are right after specialist review.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The survey response rate may not be statistically representative of all the specialists.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>The unconsidered criteria represent a scope gap in the assistant’s input space directly.</p>"
+      }
+    ]
+  },
+  {
+    "id": 960,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">81</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are evaluating retrieval-strategy claims used by a peer team.<br>For each claim, select yes if the statement is generally accurate. Otherwise, select no.</p><p><br><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-75.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<ol><li>Dense vector retrieval is well suited to recovering paraphrased intent against unstructured text: Yes</li><li>Sparse term-matching retrieval recovers exact terms, such as identifiers and rare tokens, more reliably than dense retrieval alone: Yes</li><li>Structured query retrieval is appropriate for filter-and-aggregate workloads against a relational store with schema and indexes: Yes</li><li>Hybrid retrieval is identical to dense-only retrieval and shares the same recall characteristics: Yes</li><li>Fixed-size chunking with overlap for short records of similar length: Yes</li></ol>"
+      },
+      {
+        "key": "A",
+        "html": "<ol><li>Dense vector retrieval is well suited to recovering paraphrased intent against unstructured text: Yes</li><li>Sparse term-matching retrieval recovers exact terms, such as identifiers and rare tokens, more reliably than dense retrieval alone: Yes</li><li>Structured query retrieval is appropriate for filter-and-aggregate workloads against a relational store with schema and indexes: No</li><li>Hybrid retrieval is identical to dense-only retrieval and shares the same recall characteristics: No</li><li>Fixed-size chunking with overlap for short records of similar length: No</li></ol>"
+      },
+      {
+        "key": "C",
+        "html": "<ol><li>Dense vector retrieval is well suited to recovering paraphrased intent against unstructured text: Yes</li><li>Sparse term-matching retrieval recovers exact terms, such as identifiers and rare tokens, more reliably than dense retrieval alone: Yes</li><li>Structured query retrieval is appropriate for filter-and-aggregate workloads against a relational store with schema and indexes: Yes</li><li>Hybrid retrieval is identical to dense-only retrieval and shares the same recall characteristics: No</li><li>Fixed-size chunking with overlap for short records of similar length: No</li></ol>"
+      },
+      {
+        "key": "B",
+        "html": "<ol><li>Dense vector retrieval is well suited to recovering paraphrased intent against unstructured text: Yes</li><li>Sparse term-matching retrieval recovers exact terms, such as identifiers and rare tokens, more reliably than dense retrieval alone: No</li><li>Structured query retrieval is appropriate for filter-and-aggregate workloads against a relational store with schema and indexes: Yes</li><li>Hybrid retrieval is identical to dense-only retrieval and shares the same recall characteristics: No</li><li>Fixed-size chunking with overlap for short records of similar length: No</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 912,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">82</span>\n<div class=\"practice-question-content text-on-surface\"><p>The platform team at Trenova Systems, Inc. needs to reduce per-query cost and p95 latency for a high-volume\nClaude pipeline without degrading output quality on the core use case.\n</p><p>Which two optimizations directly target both cost and latency simultaneously? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Expand the system prompt to include additional few-shot examples for every request.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Route straightforward query types to a smaller, faster Claude model and reserve the full model for complex cases.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Add a retrieval step that fetches the full source corpus into the context window before generation.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Enable prompt caching on the static system-prompt prefix to reduce billable input tokens on repeated calls.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Increase max _ tokens to reduce the frequency of truncated responses requiring follow-up calls</p>"
+      }
+    ]
+  },
+  {
+    "id": 913,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">83</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are integrating human review into a high-volume classification pipeline where reviewing every output is\ninfeasible.\n</p><p>Which sampling strategy best balances throughput with quality oversight?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>inverse sampling that reviews only high-confidence routine outputs and skips all low-confidence and high- impact outputs</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>risk-stratified sampling that reviews all low-confidence and high-impact outputs and a smaller random sample of high-confidence routine outputs</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>universal sampling that reviews every output regardless of confidence level or throughput impact, treating all outputs as equally requiring human review</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>no sampling at all, relying entirely on user-submitted complaints to surface quality and safety issues after they have already affected end users at scale</p>"
+      }
+    ]
+  },
+  {
+    "id": 962,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">84</span>\n<div class=\"practice-question-content text-on-surface\"><p><strong>HOTSPOT</strong><br>You are evaluating model-selection claims used by a peer team.<br>For each statement, select yes if the statement is generally true. Otherwise, select no.<br><img src=\"https://practice-cert.maithienan.com/storage/app/media/questions/ccar-p/ccarp-77.png\"></p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<ol><li>Heavier-reasoning models typically consume more of the token-based rate-limit budget and run more slowly than lighter models on the same input: Yes</li><li>A representative-sample evaluation on the target workload is the right basis for confirming a model selection: Yes</li><li>The most capable model is always the right choice, regardless of the workload profile: Yes</li><li>Tiered routing can serve routine traffic with a lighter model while reserving a heavier model for requests that need its capabilities: Yes</li><li>Selecting a model based on which version was most recently announced is the right basis for production decisions: No</li></ol>"
+      },
+      {
+        "key": "B",
+        "html": "<ol><li>Heavier-reasoning models typically consume more of the token-based rate-limit budget and run more slowly than lighter models on the same input: Yes</li><li>A representative-sample evaluation on the target workload is the right basis for confirming a model selection: Yes</li><li>The most capable model is always the right choice, regardless of the workload profile: No</li><li>Tiered routing can serve routine traffic with a lighter model while reserving a heavier model for requests that need its capabilities: Yes</li><li>Selecting a model based on which version was most recently announced is the right basis for production decisions: No</li></ol>"
+      },
+      {
+        "key": "D",
+        "html": "<ol><li>Heavier-reasoning models typically consume more of the token-based rate-limit budget and run more slowly than lighter models on the same input: No</li><li>A representative-sample evaluation on the target workload is the right basis for confirming a model selection: Yes</li><li>The most capable model is always the right choice, regardless of the workload profile: No</li><li>Tiered routing can serve routine traffic with a lighter model while reserving a heavier model for requests that need its capabilities: No</li><li>Selecting a model based on which version was most recently announced is the right basis for production decisions: No</li></ol>"
+      },
+      {
+        "key": "C",
+        "html": "<ol><li>Heavier-reasoning models typically consume more of the token-based rate-limit budget and run more slowly than lighter models on the same input: Yes</li><li>A representative-sample evaluation on the target workload is the right basis for confirming a model selection: No</li><li>The most capable model is always the right choice, regardless of the workload profile: No</li><li>Tiered routing can serve routine traffic with a lighter model while reserving a heavier model for requests that need its capabilities: Yes</li><li>Selecting a model based on which version was most recently announced is the right basis for production decisions: Yes</li></ol>"
+      }
+    ]
+  },
+  {
+    "id": 914,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">85</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are operating an interactive assistant whose dominant performance constraint is per-turn latency. Quality on\nroutine turns is already acceptable.\n</p><p>Which configuration adjustment most directly improves latency without disproportionately damaging quality?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Increase retrieval depth to the corpus maximum to improve recall regardless of latency.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Disable prompt caching entirely to ensure fresh context processing on every request, preventing stale prefix content from affecting latency-sensitive interactions.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Switch every turn to the heaviest available model to maximize output quality, accepting that the increased model latency will worsen the per-turn SLO rather than improve it.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Reduce retrieval depth to the top-k passages that historically cover the answer, and cache stable system- prompt content.</p>"
+      }
+    ]
+  },
+  {
+    "id": 915,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">86</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are operating an interactive assistant whose dominant performance constraint is per-turn latency. Quality on\nroutine turns is already acceptable.\n</p><p>Which configuration adjustment most directly improves latency without disproportionately damaging quality?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Increase retrieval depth to the corpus maximum to improve recall regardless of latency.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Reduce retrieval depth to the top-k passages that historically cover the answer, and cache stable system- prompt content.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Switch every turn to the heaviest available model to maximize output quality, accepting that the increased model latency will worsen the per-turn SLO rather than improve it.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Disable prompt caching entirely to ensure fresh context processing on every request, preventing stale prefix content from affecting latency-sensitive interactions.</p>"
+      }
+    ]
+  },
+  {
+    "id": 916,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">87</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are reviewing instrumentation in a multi-agent system.\n</p><p>Which two findings constitute valid observability gaps in the instrumentation? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Latency and token usage on every span are emitted to the central metrics pipeline.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Model identity and version on each turn are not recorded with the turn artifacts.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Trace spans for each agent step are exported to the shared distributed-tracing backend.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Request-scoped correlation identifiers do not propagate across agent and tool calls.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Tool-call payloads and outcomes are recorded with redaction applied to known sensitive fields</p>"
+      }
+    ]
+  },
+  {
+    "id": 917,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">88</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are building an evaluation pipeline for a Claude-based deployment and must complete the specification steps\nbefore running the deployment against the dataset.\n</p><p>Which two steps must be completed BEFORE running the deployment against the evaluation dataset? (Choose\ntwo.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Review failure cases with subject matter experts to refine the scoring rubric.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Define the metrics and slices the framework will report across representative, edge, and adversarial cases.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Curate and label the evaluation dataset to match the defined slices.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Publish the aggregated metrics to a dashboard and gate releases on threshold checks.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Score the deployment outputs against the reference labels and aggregate the metrics.</p>"
+      }
+    ]
+  },
+  {
+    "id": 918,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">89</span>\n<div class=\"practice-question-content text-on-surface\"><p>An architect is reviewing a Claude-based candidate-screening tool prior to deployment. A stakeholder asserts that\nbecause the model was not trained on company data, no bias evaluation is necessary.\n</p><p>Which two responses most accurately challenge this assertion? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>The model may carry demographic biases from pretraining that manifest in screening outcomes regardless of fine-tuning.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Bias evaluation is unnecessary when the model provider has published a responsible-use policy.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Transparency obligations are satisfied by disclosing that an AI system is in use, without further evaluation.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Fairness testing is required only when the training dataset is known to contain protected-class labels.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>The system should be evaluated on outcome-disparity metrics across protected groups before deployment.</p>"
+      }
+    ]
+  },
+  {
+    "id": 919,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">90</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are defining where human review must remain in a planned automated pipeline.\n</p><p>Which placement reflects sound human-in-the-loop design?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Place a human reviewer only after the irreversible action has already executed, making the review a post-hoc audit rather than a meaningful pre-action check or approval gate.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Place a human reviewer between the model’s output and any high-impact, irreversible action, with explicit criteria for what the reviewer must check before approval.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Place a human reviewer in the loop for a randomly selected sample of requests, without defining criteria for what the reviewer should check or which output categories require mandatory review.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Remove all human review steps from the pipeline to maximize throughput, accepting that high-impact and irreversible actions will be taken without any human approval or oversight.</p>"
+      }
+    ]
+  },
+  {
+    "id": 920,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">91</span>\n<div class=\"practice-question-content text-on-surface\"><p>An engineer inadvertently commits an API key to the repository by placing it in .claude/settings.json.\n</p><p>Which configuration design principle was violated?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Project-scope configuration should always override user-scope configuration.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Credentials must be resolved at runtime from a secret store and never stored in version-controlled files.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>MCP server definitions must reside in environment variables to prevent scope conflicts.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Managed configuration must be applied before project-scope configuration is read.</p>"
+      }
+    ]
+  },
+  {
+    "id": 921,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">92</span>\n<div class=\"practice-question-content text-on-surface\"><p>An engineering organization is adopting Claude Code across 200 developers. A team lead has proposed that AI-\ngenerated pull requests bypass the standard code review process for changes under 50 lines, on the grounds that\nsmall changes are low-risk and review capacity is constrained.\n</p><p>Which two Diligence-competency objections should you raise? (Choose two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Line count is a poor proxy for the actual risk a code change introduces into the system.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Code review capacity should be expanded to handle every code change submitted across the team.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The 50-line threshold should be raised to 200 lines instead to capture more changes overall.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>AI-generated pull requests should be rejected as a default policy across the engineering organization.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Removing review removes the verification mechanism that AI-generated output requires across the workflow.</p>"
+      }
+    ]
+  },
+  {
+    "id": 922,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">93</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are evaluating a Claude-based deployment for adherence to a specific regulation.\n</p><p>Which two steps must be completed BEFORE mapping deployment data flows to specific regulatory clauses?\n(Choose two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Document the identified gaps along with recommended remediations and residual risk for sign-off</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Identify the applicability of the regulation based on data types, jurisdiction, and audience</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Schedule the remediation work with the engineering team based on the prioritized gap findings.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Compare the in-place controls against the regulatory requirements to identify any compliance gaps.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Inventory the vendor-provided compliance tooling and confirm which compliance affordances are in place.</p>"
+      }
+    ]
+  },
+  {
+    "id": 923,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">94</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are reviewing an integration specification for security gaps.\n</p><p>Which two findings constitute valid security gaps in the specification? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Per-user OAuth tokens are exchanged with scope-restricted permissions and refreshed within the active session.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Role-based access control (RBAC) is enforced only at the response-rendering layer after the model accesses restricted data.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Service credentials are placed in the prompt context where they can leak into logs and traces.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Tool calls execute server-side under a least-privilege service principal scoped to the requested action.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Tool inputs and outputs are encrypted in transit using transport layer security between services.</p>"
+      }
+    ]
+  },
+  {
+    "id": 924,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">95</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are defining escalation criteria for ambiguous cases in an automated workflow.\n</p><p>Which set of criteria best supports consistent escalation?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>escalation at the discretion of whoever is available when the teams on-call engineer has spare capacity, with no defined threshold, category, or ambiguity criterion to trigger it</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>confidence threshold below a defined level, presence of high-impact decision categories, ambiguity flags raised by content classifiers, and the user’s explicit request for review</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>escalation only after an affected customer has already contacted the support channel to complain, by which point the automated workflow has already completed without human review</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>no escalation criteria at all; the model itself decides on each turn whether to escalate, without explicit confidence thresholds, impact categories, or classifier-based ambiguity flags</p>"
+      }
+    ]
+  },
+  {
+    "id": 925,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">96</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect observes that after a recent model-version upgrade, grounded responses began including\nclaims not supported by the retrieved source documents.\n</p><p>Which mitigation is most directly targeted at this failure mode?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>scoring each new model version against a stable adversarial evaluation set</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>treating retrieved data as untrusted and applying input classifiers at ingestion time</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>constraining responses to source-supported content combined with required citations and a verification step</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>replacing the shared API key with per-user OAuth tokens to restrict data access</p>"
+      }
+    ]
+  },
+  {
+    "id": 926,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">97</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are preparing a HIPAA-eligible deployment for a healthcare customer.\n</p><p>Which configuration supports HIPAA compliance using Anthropic-offered tools?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>an ad-hoc personal Claude account used by individual clinicians for PHI-related tasks, with no Business Associate Agreement, no Zero Data Retention, and no audit logging configured</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Claude Free with no contractual addendum, since consumer products meet HIPAA requirements out of the box</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Claude Enterprise with a signed Business Associate Agreement, Zero Data Retention enabled, and audit logging configured for compliance tracking</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>disabling all audit logging so that no PHI is recorded in any log store, on the assumption that the absence of logs satisfies HIPAA requirements without a signed BAA</p>"
+      }
+    ]
+  },
+  {
+    "id": 927,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">98</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are defining transparency practices for a customer-facing assistant whose responses are materially shaped by\nAI.\n</p><p>Which transparency practice most directly supports responsible deployment?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Disclose AI involvement only to internal staff and operators while withholding that information from the end users whose interactions are materially shaped by the AI system.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Misrepresent the AI’s role in producing responses in order to make the assistant feel more trustworthy or more human, undermining informed user consent and organizational transparency.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Refuse to answer any user question about how the responses were produced or whether AI was involved, treating the AI’s role as confidential operational information.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Disclose AI involvement to end users in line with the organization’s transparency policy and provide a documented path to reach a human when needed.</p>"
+      }
+    ]
+  },
+  {
+    "id": 928,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">99</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are supporting an EU-based deployment with GDPR obligations.\n</p><p>Which combination of measures best supports the deployment’s GDPR posture?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>using a personal Claude account tier for processing EU personal data at scale, with no signed Data Processing Addendum and no documented data-subject-rights handling procedure</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>enterprise-tier deployment with a signed Data Processing Addendum, defined data-retention configuration, redaction of personal data not needed for the task, and documented data-subject-rights handling</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>pasting full EU personal data into every prompt to “give Claude complete context” without considering purpose limitation, data minimization, or the organization’s Data Processing Addendum obligations</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>disabling all data-retention configuration, redaction controls, and data-subject-rights handling to simplify day-to-day operations, accepting the resulting GDPR compliance exposure</p>"
+      }
+    ]
+  },
+  {
+    "id": 929,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">100</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are designing a human-in-the-loop validation workflow for a new Claude-based deployment and must\ncomplete the design steps before piloting the workflow.\n</p><p>Which two steps must be completed BEFORE piloting the workflow with a representative subset of traffic?\n(Choose two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Document the workflow with check criteria, escalation paths, and service-level agreements (SLAs) for each step.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Identify the decision points in the pipeline that require human oversight by impact and reversibility.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Define the sampling strategy and the escalation criteria at each oversight point in the pipeline.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Onboard the reviewer pool with role-specific training on the check criteria and escalation procedures.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Iterate the workflow design based on observed pilot findings before broader rollout to production.</p>"
+      }
+    ]
+  },
+  {
+    "id": 930,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">101</span>\n<div class=\"practice-question-content text-on-surface\"><p>An architect at Trenova Systems, Inc. is reviewing two draft communication packages for the same architectural\ndecision. Package 1 contains a threat model, residual-risk register, and control-mapping table. Package 2 contains\na list of capabilities delivered and feature-level roadmap dependencies.\nWhich two audiences are correctly matched to these packages? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Package 1 --&gt; engineering implementation team</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Package 1 --&gt; security and compliance reviewer</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Package 2 --&gt; security and compliance reviewer</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Package 2 --&gt; executive sponsor</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Package 2 --&gt; product manager owning the roadmap</p>"
+      }
+    ]
+  },
+  {
+    "id": 931,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">102</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are reviewing a peer’s draft ADR. The ADR states the decision and the technical detail but does not state the\nalternatives considered or the trade-offs accepted.\n</p><p>Which response is most appropriate?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Approve the ADR as written on the grounds that the decision itself is documented, accepting that reviewers and future maintainers will lack the context to evaluate or revisit it.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Ask the author to add the alternatives considered and the trade-offs accepted before publishing the ADR.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Delete the ADR entirely and rely on the engineering team’s collective memory to reconstruct the decision context, alternatives, and trade-offs during future audits or onboarding.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Replace the ADR with a different decision unrelated to the one drafted.</p>"
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">103</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are running a discovery engagement for a new Claude-based capability and must complete the requirements-\ngathering steps before validating with stakeholders.\n</p><p>Which two steps must be completed BEFORE validating the captured requirements with stakeholders? (Choose\ntwo.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Schedule the rollout milestones and dependencies with engineering and product partners.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Document the consolidated requirements with traceability to the source stakeholder for each item.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Produce architecture decision records that capture the rationale for major design choices.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Identify the non-functional constraints covering latency, cost, audit, data sensitivity, and regulatory needs.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Capture the business goals, success criteria, and the in-scope user population for the engagement.</p>"
+      }
+    ]
+  },
+  {
+    "id": 933,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">104</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are defining an SLA for a Claude-based assistant.\n</p><p>Which SLA definition is most operationally meaningful?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>a target tied to a stakeholder sentiment measure such as “the team feels satisfied” , which cannot be measured objectively or used to trigger a documented breach response</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>a measurable target with a defined metric, threshold, evaluation window, and consequence for breach (for example, “p95 per-request latency under 800 ms over a 28-day window”)</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>a qualitative commitment such as “the system will be fast and reliable” , which names no metric, no threshold, and no evaluation window</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>a target that names the metric and threshold but omits the evaluation window and breach consequence, leaving compliance periods and remediation triggers undefined</p>"
+      }
+    ]
+  },
+  {
+    "id": 934,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">105</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are selecting the documentation set that should accompany a Claude-based deployment at handoff.\n</p><p>Which set is most complete?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>architecture overview, ADRs, component-level diagrams, runbooks for common operations, on-call playbook, and a list of known limitations</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>code comments scattered across individual source files with no integrating architecture overview, no ADRs, no runbooks, and no on-call playbook to orient operators or new team members</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>a single one-page architecture diagram with no ADRs, no runbooks, no on-call playbook, and no list of known limitations to support operators or future maintainers</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>a verbal handover walkthrough conducted on the day of transition, with no written architecture overview, ADRs, runbooks, playbook, or known limitations captured for future reference</p>"
+      }
+    ]
+  },
+  {
+    "id": 935,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">106</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude Architect is reviewing a post-deployment performance report for an AI-assisted legal document\nsummarization system. The report includes the following observations:\n</p><p>(1) Average summarization time has decreased from 47 minutes to 6 minutes per document.\n</p><p>(2) Associates report spending less time on summaries but no measurable change in overall billable output.\n</p><p>(3) Infrastructure costs have increased 22% due to higher API call volume from a redundant retry logic\nimplementation.\n</p><p>(4) The system occasionally generates summaries requiring attorney correction, adding an average of 8 minutes of\nreview time per document.\n</p><p>Which analysis correctly attributes each observation to the appropriate business value pillar?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Observation 1 indicates an efficiency gain; Observation 2 indicates that productivity has not yet been realized; Observation 3 indicates a solution cost issue; Observation 4 indicates an efficiency loss that partially offsets the gain from Observation 1.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Observations 1 and 4 together indicate a net performance SLA improvement; Observation 2 indicates a transformation gap; Observation 3 indicates a productivity drain from over-engineering.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Observation 1 indicates a transformation outcome; Observation 2 indicates an efficiency gain; Observation 3 indicates a performance SLA degradation; Observation 4 indicates a solution cost issue.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Observations 1 and 2 both indicate efficiency gains; Observation 3 indicates a solution cost issue; Observation 4 indicates a performance SLA issue.</p>"
+      }
+    ]
+  },
+  {
+    "id": 936,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">107</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are building a feedback-and-alignment routine for a multi-stakeholder deployment.\n</p><p>Which two practices belong in the routine? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Record each session and distribute the recording to stakeholders who could not attend live.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Escalate any disagreement among stakeholders to the executive sponsor for binding resolution.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Set a regular cadence for revisiting expectations and assumptions as conditions evolve over time.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Rotate facilitation among the participating stakeholder groups to share ownership of the routine.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Reconcile divergent stakeholder positions explicitly rather than papering over them in the moment.</p>"
+      }
+    ]
+  },
+  {
+    "id": 937,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">108</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are choosing the level of detail for an implementation guide. The audience is a delivery team that will build the\ndeployment.\n</p><p>Which guidance composition best serves them?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>component responsibilities, contracts between components, sequence diagrams of the dominant flows, configuration parameters with defaults, and operational runbooks</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>an architecture overview and a list of known limitations, without component-level diagrams, interface contracts, configuration parameters, or operational runbooks to support implementation</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>component responsibilities and interface contracts only, without sequence diagrams of the dominant flows, configuration parameters with defaults, or runbooks to guide operational tasks</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>an architecture overview and sequence diagrams for the dominant flows, without interface contracts, configuration parameter tables, or operational runbooks for the delivery team to follow</p>"
+      }
+    ]
+  },
+  {
+    "id": 938,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">109</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are running a discovery session with a business sponsor who asks for “an AI system to fix our customer\nescalations”\n.\n</p><p>Which approach best yields actionable requirements?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Defer the discovery session indefinitely on the grounds that the sponsor must fully specify the system before the architect can ask any clarifying or scoping questions.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Assume the requirement matches the architect’s previous engagement in a different industry and proceed with that context, without validating actors, triggers, or constraints for this sponsor.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Accept the sponsor’s original phrasing as a complete and final requirement and proceed directly to design without asking targeted questions to surface actors, triggers, or constraints.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Decompose the request by asking targeted questions about who escalates, what triggers escalation, what good resolution looks like, and which constraints (latency, cost, audit, data sensitivity) apply.</p>"
+      }
+    ]
+  },
+  {
+    "id": 939,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">110</span>\n<div class=\"practice-question-content text-on-surface\"><p>A business sponsor has requested an AI solution to “improve customer experience”\n. The sponsor cannot articulate\nwhich customer journey is failing, which metric reflects the failure, or which decisions the AI should support. The\nsponsor is asking you to begin design work next week.\n</p><p>Which delegation-competency action should you take first?</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Facilitate a structured discovery to define the failing decision and the target metric.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Begin prototyping a generic assistant against the broad request before the next deadline.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Propose a fixed scope that you commit to by default based on your own assumptions.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Recommend that the sponsor revise the request and resubmit it later for evaluation.</p>"
+      }
+    ]
+  },
+  {
+    "id": 940,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">111</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are compiling continuity practices that span the deployment lifecycle.\n</p><p>Which two practices belong on the list? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "B",
+        "html": "<p>Capture lessons learned at the end of each phase and surface them as inputs to the next phase.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Archive every phase deliverable in long-term storage to preserve a record of what was produced.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Lock decisions made in early phases to prevent revisiting them as later phases begin.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Carry the evaluation framework and reference set forward across iterations rather than rebuilding each time.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Maintain a stakeholder register and notify the listed parties at every phase transition event.</p>"
+      }
+    ]
+  },
+  {
+    "id": 941,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">112</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are listing characteristics of strong architectural-decision communication.\n</p><p>Which two characteristics belong on the list? (Choose two.)\nEach correct answer presents a complete solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>alternatives considered along with the criteria that were used to evaluate each alternative</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>omission of rejected alternatives to keep the decision document focused and concise for readers</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>distribution to a standing review forum with mandatory attendance from senior engineering leaders</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>use of a consistent template across the team to standardize the visual presentation of decisions</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>ownership and review cadence for revisiting the decision when conditions or assumptions change</p>"
+      }
+    ]
+  },
+  {
+    "id": 942,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">113</span>\n<div class=\"practice-question-content text-on-surface\"><p>An architect is reviewing a set of architecture documentation packages before handing off a Claude-based\npipeline to an implementation team.\n</p><p>Which two characteristics indicate that a documentation package is sufficient to support implementation without\nongoing architect involvement? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>The document includes the architect's contact information for questions arising during implementation.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>The document specifies integration contracts, configuration schemas, and expected input/output shapes for each component.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>The document lists all Claude models that were evaluated but does not specify which was selected or why.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>The document provides a high-level narrative description of the business problem without component-level detail.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>The document includes a decision log that records the rationale for key architectural choices and the alternatives rejected.</p>"
+      }
+    ]
+  },
+  {
+    "id": 943,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">114</span>\n<div class=\"practice-question-content text-on-surface\"><p>A healthcare organization is evaluating two Claude-powered AI architectures for a clinical documentation\nassistant.&nbsp;</p><ul><li>Architecture X produces higher output quality scores but costs $0.18 per documentation session and\naverages 4.2 seconds per response.&nbsp;</li><li>Architecture Y scores slightly lower on quality metrics but costs $0.09 per\nsession and averages 2.1 seconds per response.</li></ul><p>The stated SLA requires responses under 3 seconds, and the\nannual volume is projected at 2 million documentation sessions.\n</p><p>Which evaluation approach correctly applies business value pillar analysis to this decision?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>Eliminate Architecture X on SLA grounds, then evaluate Architecture Y against the efficiency and solution cost pillars by calculating annual cost difference and assessing whether the quality delta materially impacts clinical workflow productivity.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Select Architecture Y based solely on the 50% cost reduction, since solution cost is the most important value pillar in healthcare budget-constrained environments.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Recommend a hybrid approach using Architecture X for complex cases and Architecture Y for routine cases, without additional analysis, since this preserves quality where it matters most.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Select Architecture X because the higher quality scores justify the cost premium, and any SLA gap can be addressed through infrastructure optimization after deployment.</p>"
+      }
+    ]
+  },
+  {
+    "id": 944,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">115</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are documenting an architectural decision to support future audit and onboarding.\n</p><p>Which artifact is the strongest fit?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>a slide deck in a presentation folder with no accompanying written rationale</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>a short verbal note shared during a hallway conversation with no written record</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>an Architecture Decision Record that states the context, the decision, the alternatives considered, the consequences, and the date and authors</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>a code comment in a single file that contains an opinion of one engineer</p>"
+      }
+    ]
+  },
+  {
+    "id": 945,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">116</span>\n<div class=\"practice-question-content text-on-surface\"><p>The engineering lead at Trenova Systems, Inc. is evaluating two proposals for improving developer workflows\nusing Claude-assisted tooling Proposal A adds Claude Code to the IDE for inline code generation and review.\nProposal B routes all code-generation requests through a shared Slack bot with no IDE integration.\n</p><p>Which two observations most accurately evaluate these proposals against workflow-improvement objectives?\n(Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Proposal B improves workflow velocity because Slack notifications create an asynchronous review queue.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Both proposals are equivalent because the underlying model capabilities are identical regardless of integration point.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Proposal B introduces workflow friction by requiring developers to leave the IDE, which undermines the productivity objective.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Proposal B is superior because centralizing requests in Slack creates an auditable log of all code-generation activity.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Proposal A reduces context-switching by surfacing AI assistance at the point of development without requiring a separate tool.</p>"
+      }
+    ]
+  },
+  {
+    "id": 946,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">117</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are integrating Claude Code into a team workflow and must complete the design and configuration steps\nbefore piloting the integrated workflow.\n</p><p>Which two steps must be completed BEFORE piloting the integrated workflow with a small group? (Choose two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Configure the project-scope Model Context Protocol (MCP) servers, permissions, subagents, and persistent project context.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Negotiate the workflow change with affected teams and obtain formal sign-off from each manager.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Document the integrated workflow with hand-off criteria, permission boundaries, and on-call runbooks.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Iterate the integrated workflow based on pilot findings before broader rollout to the team.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Identify the workflow steps where AI-assisted tooling adds value and where human authority must remain.</p>"
+      }
+    ]
+  },
+  {
+    "id": 947,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">118</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are resolving a Claude Code operational issue reported by the team and must complete the diagnostic steps\nbefore applying a targeted fix.\n</p><p>Which two steps must be completed BEFORE applying the targeted fix? (Choose two.)\nEach correct answer presents part of the solution.</p></div>\n",
+    "opts": [
+      {
+        "key": "E",
+        "html": "<p>Notify the affected users that a fix has been deployed and the operational issue is resolved.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Reproduce the issue with a minimal reproduction case to confirm the symptom and isolate variables.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Form a hypothesis about the most likely root cause given the symptom, configuration, and recent changes.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Open a permanent change request in the change-management system to formalize the upcoming fix.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Document the root cause and the fix in the team runbook for future occurrences.</p>"
+      }
+    ]
+  },
+  {
+    "id": 948,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">119</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude architect is configuring a shared Claude Code environment for a twelve-person development team.\n</p><p>Which two configuration decisions most directly establish a consistent, secure team environment? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>applying managed configuration to enforce non-overridable security and compliance policies across all team members</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>committing shared MCP server definitions and tool permissions in project-scope configuration files alongside the repository</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>storing the team’s shared API key in the project-scope settings.json so all engineers use the same credential</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>setting editor theme and display preferences at the project scope so they are uniform across workstations</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>instructing each engineer to configure their preferred Claude model in personal user-scope settings</p>"
+      }
+    ]
+  },
+  {
+    "id": 949,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">120</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are configuring Claude Code for a team that needs every engineer to share the same MCP server set,\npermission rules, and project context across the engineering monorepo.\n</p><p>Which configuration scope best supports this requirement?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>local scope configured only on the lead architect’s machine, with no configuration present on other engineers’ machines and no mechanism to distribute MCP servers or permission rules</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>project scope, with the configuration committed to the repository so every engineer working in the project picks up the same MCP servers, permissions, and context</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>user scope configured individually on each engineer’s machine, with no shared configuration committed to the repository and no guarantee of consistency across the team</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>user scope with the MCP server definitions and permission rules placed in each engineer’s ~/.claude/settings.json and synchronized manually via a shared setup script outside version control</p>"
+      }
+    ]
+  },
+  {
+    "id": 950,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">121</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude needs to ensure that a security-hardening flag cannot be disabled by any individual engineer after it is\nset.\n</p><p>Which configuration scope correctly enforces this requirement?</p></div>\n",
+    "opts": [
+      {
+        "key": "C",
+        "html": "<p>project scope (.claude/settings.json) committed to the repository</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>user scope (~/.claude/settings.json) on each engineer’s machine</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>managed configuration applied centrally and marked as non-overridable</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>environment variable defined in the CI/CD pipeline only</p>"
+      }
+    ]
+  },
+  {
+    "id": 951,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">122</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are supporting a team whose Claude Code sessions consistently load 60 or more MCP tools from many\nservers, exhausting context budget before the session begins.\nWhich adjustment most directly addresses this issue without removing capability?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Disable every MCP server in the configuration to free up context budget, accepting that the team loses all tool access and cannot perform any MCP-dependent task in the session.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Enable Tool Search so tool definitions are deferred and discovered on demand rather than loaded into context upfront.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Add additional MCP servers to give the team more capability, which increases rather than reduces the number of tool definitions loaded into the session’s context budget.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Increase the prompt’s verbosity with additional instructions and context, which consumes more of the context budget rather than reducing the tool-definition overhead causing the issue.</p>"
+      }
+    ]
+  },
+  {
+    "id": 952,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">123</span>\n<div class=\"practice-question-content text-on-surface\"><p>A team manager wants all engineers working on the same repository to share identical MCP server definitions\nwithout manual synchronization.\n</p><p>Which configuration approach satisfies this requirement?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>each engineer maintains a personal ~/.claude/settings.json with the shared definitions</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>managed configuration pushed to all endpoints by the administrator</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>project-scope .claude/settings.json and .mcp.json files committed to the repository</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>environment variables set at the operating-system level on each workstation</p>"
+      }
+    ]
+  },
+  {
+    "id": 953,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">124</span>\n<div class=\"practice-question-content text-on-surface\"><p>A Claude-based research assistant begins producing responses that confidently contradict its retrieved source\ndocuments despite no change to the retrieval pipeline.\n</p><p>Which two diagnostic actions most directly identify the root cause of this behavior? (Choose two.)</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Reduce the temperature setting to lower response variance across all query types.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Isolate whether the failure reproduces on the previous model version to test for model mismatch.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Switch the retrieval index to a denser embedding model to improve chunk relevance scores.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Inspect system-prompt grounding instructions to determine whether citation constraints remain intact.</p>"
+      },
+      {
+        "key": "E",
+        "html": "<p>Increase the context window size to allow more retrieved chunks per query.</p>"
+      }
+    ]
+  },
+  {
+    "id": 954,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">125</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are supporting an engineer whose newly added MCP server does not appear in their Claude Code session.\n</p><p>Which diagnostic step should be tried first?</p></div>\n",
+    "opts": [
+      {
+        "key": "A",
+        "html": "<p>Reinstall the developer’s operating system from scratch, discarding all local configuration and tool state before attempting any targeted diagnostic steps.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Disable every MCP server in the configuration to isolate the issue, removing all tool access rather than confirming whether the new server is registered.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Switch the team to a different Claude product family unrelated to the existing workflow, abandoning the current configuration rather than diagnosing the registration issue.</p>"
+      },
+      {
+        "key": "D",
+        "html": "<p>Verify the MCP server is registered using the listing command, then reconnect the session if needed, since configuration changes typically require a restart to take effect.</p>"
+      }
+    ]
+  },
+  {
+    "id": 955,
+    "qHtml": "\n<span class=\"flex-shrink-0 flex items-center justify-center w-7 h-7 rounded bg-primary text-on-primary font-bold font-headline-sm text-sm\">126</span>\n<div class=\"practice-question-content text-on-surface\"><p>You are supporting an engineer whose newly added MCP server does not appear in their Claude Code session.\n</p><p>Which diagnostic step should be tried first?</p></div>\n",
+    "opts": [
+      {
+        "key": "D",
+        "html": "<p>Verify the MCP server is registered using the listing command, then reconnect the session if needed, since configuration changes typically require a restart to take effect.</p>"
+      },
+      {
+        "key": "B",
+        "html": "<p>Disable every MCP server in the configuration to isolate the issue, removing all tool access rather than confirming whether the new server is registered.</p>"
+      },
+      {
+        "key": "A",
+        "html": "<p>Reinstall the developer’s operating system from scratch, discarding all local configuration and tool state before attempting any targeted diagnostic steps.</p>"
+      },
+      {
+        "key": "C",
+        "html": "<p>Switch the team to a different Claude product family unrelated to the existing workflow, abandoning the current configuration rather than diagnosing the registration issue.</p>"
+      }
+    ]
+  }
+]
