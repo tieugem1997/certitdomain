@@ -308,18 +308,39 @@ def convert_question(q, idx, contexts, unknown):
         'explanation': expl,
         'references': refs,
         '_topicId': q.get('topicId'),
-        '_siteType': itype,
+        '_siteType': 'sequence' if (itype in ('single_choice', 'multiple_choice') and is_sequence_question(q)) else itype,
     }
 
 
-GROUP_TYPES = ['single_choice', 'multiple_choice', 'ordering', 'true_false', 'matching']
+GROUP_TYPES = ['single_choice', 'multiple_choice', 'sequence', 'ordering', 'true_false', 'matching']
 GROUP_LABELS = {
     'single_choice': 'Chọn 1 đáp án (single choice)',
     'multiple_choice': 'Chọn nhiều đáp án (multiple choice)',
+    'sequence': 'Sắp xếp thứ tự (sequence)',
     'ordering': 'Sắp xếp thứ tự (ordering)',
     'true_false': 'Đúng/Sai (true/false)',
     'matching': 'Ghép cặp (matching)',
 }
+
+SEQ_KW = re.compile(
+    r'correct sequence|which sequence|sequence of|sequence is|correct order|which order|in which order|'
+    r'sound ordering|thứ tự|sắp xếp|order should|steps be taken|order of', re.I)
+PERM_RE = re.compile(r'^\d{1,2}(\s*[,–—-]\s*\d{1,2})+$')
+STEP_CONN_RE = re.compile(r'\bthen\b|;\s|first[,;]|next[,;]', re.I)
+
+
+def is_sequence_question(q):
+    """Câu 'sắp xếp thứ tự' ẩn dưới nhãn single/multiple choice trên site:
+    prompt hỏi trình tự đúng, phương án là hoán vị số bước hoặc chuỗi bước mô tả."""
+    prompt_text = ' '.join(b.get('text', '') for b in (q.get('prompt') or []) if isinstance(b, dict))
+    if not SEQ_KW.search(prompt_text):
+        return False
+    labels = [o.get('label', '').strip() for o in (q.get('interaction') or {}).get('options', [])]
+    if not labels:
+        return False
+    if all(PERM_RE.match(l) for l in labels):
+        return True
+    return any(STEP_CONN_RE.search(l) for l in labels)
 
 
 def build_from_props(props, slug, outdir, title, exam_code, group_by_type=False):

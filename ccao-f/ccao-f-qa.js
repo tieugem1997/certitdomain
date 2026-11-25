@@ -196,45 +196,6 @@ window.__PC_DECK_LAST__ = [
  },
  {
   "no": 6,
-  "id": "ccao-f-q010",
-  "type": "single",
-  "select": 1,
-  "question": "You are breaking down a “build a customer journey map” request.\n\nWhich sequence of decomposed steps is correct?\n\n1. Identify the touchpoints the customer experiences during each stage.\n2. Define the persona and the journey scope that will be mapped.\n3. Document pain points and opportunities at every touchpoint.\n4. Synthesize the findings into the finished journey-map artifact.\n5. Identify the primary stages the persona progresses through.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "2, 5, 1, 3, 4"
-   },
-   {
-    "key": "B",
-    "text": "1, 2, 5, 3, 4"
-   },
-   {
-    "key": "C",
-    "text": "5, 2, 1, 3, 4"
-   },
-   {
-    "key": "D",
-    "text": "2, 1, 5, 3, 4"
-   }
-  ],
-  "correct": [
-   "A"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nA. 2, 5, 1, 3, 4\n\nA customer journey map is grounded in a defined persona and journey scope. Its structure is then established by identifying the persona’s major stages, followed by the touchpoints within those stages. Pain points and opportunities are evaluated at those touchpoints before all findings are synthesized into the final journey map.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 10
- },
- {
-  "no": 7,
   "id": "ccao-f-q011",
   "type": "single",
   "select": 1,
@@ -273,46 +234,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 11
  },
  {
-  "no": 8,
-  "id": "ccao-f-q012",
-  "type": "single",
-  "select": 1,
-  "question": "You are a knowledge worker moving from a long, drifting conversation to a fresh, focused session. What is the correct sequence of transition steps?\n\n1. Start a new chat and paste the summary as its initial context.\n2. Summarize the goals, key decisions, and open questions from the lengthy conversation.\n3. Determine which references should remain available beyond the current chat.\n4. Place persistent references in a Project’s knowledge base or attach them as needed.\n5. Verify that the new chat is on-task before resuming the work.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "1, 2, 3, 4, 5"
-   },
-   {
-    "key": "B",
-    "text": "2, 3, 4, 1, 5"
-   },
-   {
-    "key": "C",
-    "text": "2, 4, 3, 1, 5"
-   },
-   {
-    "key": "D",
-    "text": "3, 2, 4, 1, 5"
-   }
-  ],
-  "correct": [
-   "B"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nB. 2, 3, 4, 1, 5\n\nA focused continuation requires a usable summary before a new chat can receive its starting context. References intended for reuse should be identified and added to Project sources or attached before continuing, because Projects keep related chats, files, and instructions together to preserve context and stay on-task. The new chat can then be validated for alignment before work resumes.\n\n#### Learn more\n\n- Projects in ChatGPT",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 12
- },
- {
-  "no": 9,
+  "no": 7,
   "id": "ccao-f-q015",
   "type": "single",
   "select": 1,
@@ -351,7 +273,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 15
  },
  {
-  "no": 10,
+  "no": 8,
   "id": "ccao-f-q016",
   "type": "single",
   "select": 1,
@@ -390,7 +312,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 16
  },
  {
-  "no": 11,
+  "no": 9,
   "id": "ccao-f-q018",
   "type": "single",
   "select": 1,
@@ -429,7 +351,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 18
  },
  {
-  "no": 12,
+  "no": 10,
   "id": "ccao-f-q019",
   "type": "single",
   "select": 1,
@@ -468,46 +390,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 19
  },
  {
-  "no": 13,
-  "id": "ccao-f-q020",
-  "type": "single",
-  "select": 1,
-  "question": "A business analyst is transforming a stakeholder’s sticky-note request into a structured prompt for Claude. What is the correct sequence of conversion steps?\n\n1. Confirm the audience and the decision that the response needs to support.\n2. Submit the structured prompt to Claude.\n3. Identify the underlying task concealed in the sticky-note language.\n4. Specify the required length, tone, and output format.\n5. Add the supporting facts and constraints that are relevant to the task.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "3, 5, 1, 4, 2"
-   },
-   {
-    "key": "B",
-    "text": "1, 3, 5, 4, 2"
-   },
-   {
-    "key": "C",
-    "text": "3, 1, 5, 4, 2"
-   },
-   {
-    "key": "D",
-    "text": "2, 3, 1, 5, 4"
-   }
-  ],
-  "correct": [
-   "C"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nC. 3, 1, 5, 4, 2\n\nA useful structured prompt progresses from the underlying task and intended audience or decision to the relevant context and constraints, followed by explicit output requirements such as length, tone, and format. The complete prompt is submitted only after those elements are defined. Anthropic guidance likewise recommends clear instructions, relevant context, and explicit expected output.\n\n#### Learn more\n\n- Claude 4 Prompt Engineering Best Practices",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 20
- },
- {
-  "no": 14,
+  "no": 11,
   "id": "ccao-f-q021",
   "type": "single",
   "select": 1,
@@ -546,7 +429,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 21
  },
  {
-  "no": 15,
+  "no": 12,
   "id": "ccao-f-q022",
   "type": "single",
   "select": 1,
@@ -585,7 +468,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 22
  },
  {
-  "no": 16,
+  "no": 13,
   "id": "ccao-f-q023",
   "type": "single",
   "select": 1,
@@ -624,7 +507,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 23
  },
  {
-  "no": 17,
+  "no": 14,
   "id": "ccao-f-q025",
   "type": "single",
   "select": 1,
@@ -663,7 +546,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 25
  },
  {
-  "no": 18,
+  "no": 15,
   "id": "ccao-f-q026",
   "type": "single",
   "select": 1,
@@ -702,7 +585,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 26
  },
  {
-  "no": 19,
+  "no": 16,
   "id": "ccao-f-q028",
   "type": "single",
   "select": 1,
@@ -741,85 +624,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 28
  },
  {
-  "no": 20,
-  "id": "ccao-f-q029",
-  "type": "single",
-  "select": 1,
-  "question": "You are a Claude associate conducting an ethics review of a Claude-assisted deliverable before it is published. What is the correct sequence of review steps?\n\n1. Confirm that transparency requirements are satisfied for the audience that will receive the deliverable.\n2. Record the review result and any modifications made.\n3. Identify the audience and the deliverable’s potential impact on that audience.\n4. Make focused revisions, or escalate when a concern needs greater authority to resolve.\n5. Review the content for unsupported generalizations, fairness concerns, and accuracy issues.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "5, 3, 1, 4, 2"
-   },
-   {
-    "key": "B",
-    "text": "3, 1, 5, 4, 2"
-   },
-   {
-    "key": "C",
-    "text": "3, 5, 1, 4, 2"
-   },
-   {
-    "key": "D",
-    "text": "1, 3, 5, 4, 2"
-   }
-  ],
-  "correct": [
-   "C"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nC. 3, 5, 1, 4, 2\n\nAn ethics review should establish who may be affected and how, assess the content for fairness and accuracy problems, determine the transparency required for that audience, address or escalate identified concerns, and retain a record of the final outcome and changes.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 29
- },
- {
-  "no": 21,
-  "id": "ccao-f-q030",
-  "type": "single",
-  "select": 1,
-  "question": "You are a business analyst assessing a Claude-generated business case against the agreed acceptance criteria. What is the correct sequence of evaluation steps?\n\n1. Compare the business case against the source data and required topics.\n2. Record gaps and inaccuracies for follow-up or correction.\n3. Reconfirm the acceptance criteria for the business case.\n4. Determine whether to use the business case, iterate, or escalate.\n5. Read the business case from start to finish to form an initial impression.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "3, 1, 5, 2, 4"
-   },
-   {
-    "key": "B",
-    "text": "1, 3, 5, 2, 4"
-   },
-   {
-    "key": "C",
-    "text": "5, 3, 1, 2, 4"
-   },
-   {
-    "key": "D",
-    "text": "3, 5, 1, 2, 4"
-   }
-  ],
-  "correct": [
-   "D"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nD. 3, 5, 1, 2, 4\n\nA sound evaluation establishes the acceptance criteria before review, reads the complete business case for context, validates it against source data and required content, records deficiencies, and only then decides whether it is acceptable, needs iteration, or should be escalated.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 30
- },
- {
-  "no": 22,
+  "no": 17,
   "id": "ccao-f-q031",
   "type": "single",
   "select": 1,
@@ -858,7 +663,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 31
  },
  {
-  "no": 23,
+  "no": 18,
   "id": "ccao-f-q033",
   "type": "single",
   "select": 1,
@@ -897,7 +702,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 33
  },
  {
-  "no": 24,
+  "no": 19,
   "id": "ccao-f-q034",
   "type": "single",
   "select": 1,
@@ -936,7 +741,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 34
  },
  {
-  "no": 25,
+  "no": 20,
   "id": "ccao-f-q035",
   "type": "single",
   "select": 1,
@@ -975,7 +780,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 35
  },
  {
-  "no": 26,
+  "no": 21,
   "id": "ccao-f-q036",
   "type": "single",
   "select": 1,
@@ -1014,7 +819,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 36
  },
  {
-  "no": 27,
+  "no": 22,
   "id": "ccao-f-q040",
   "type": "single",
   "select": 1,
@@ -1053,7 +858,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 40
  },
  {
-  "no": 28,
+  "no": 23,
   "id": "ccao-f-q043",
   "type": "single",
   "select": 1,
@@ -1092,46 +897,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 43
  },
  {
-  "no": 29,
-  "id": "ccao-f-q044",
-  "type": "single",
-  "select": 1,
-  "question": "You are a Claude associate investigating a recurring instance of poor output.\n\nWhich diagnostic-step sequence is correct?\n\n1. Develop a hypothesis about the prompt element most likely responsible for the deficiency.\n2. Make one targeted change and observe its effect on the output.\n3. Read the output from beginning to end and identify the specific deficiency.\n4. Compare the deficient output with the prompt to find mismatches between the input and output.\n5. Record the root cause and resolution for future reference.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "1, 3, 4, 2, 5"
-   },
-   {
-    "key": "B",
-    "text": "4, 3, 1, 2, 5"
-   },
-   {
-    "key": "C",
-    "text": "3, 1, 4, 2, 5"
-   },
-   {
-    "key": "D",
-    "text": "3, 4, 1, 2, 5"
-   }
-  ],
-  "correct": [
-   "D"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nD. 3, 4, 1, 2, 5\n\nEffective prompt-output troubleshooting first identifies the precise output defect and compares it with the prompt to establish the relevant mismatch. The resulting evidence supports a causal hypothesis, which should be tested by changing only one targeted element. Documenting the confirmed cause and resolution preserves the result for later reuse.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 44
- },
- {
-  "no": 30,
+  "no": 24,
   "id": "ccao-f-q045",
   "type": "single",
   "select": 1,
@@ -1170,7 +936,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 45
  },
  {
-  "no": 31,
+  "no": 25,
   "id": "ccao-f-q046",
   "type": "single",
   "select": 1,
@@ -1209,46 +975,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 46
  },
  {
-  "no": 32,
-  "id": "ccao-f-q047",
-  "type": "single",
-  "select": 1,
-  "question": "You are conducting a weekly feedback-and-adjustment cycle.\n\nWhat is the correct sequence of cycle steps?\n\n1. Turn feedback into one or two focused adjustments for the next cycle.\n2. Run the following cycle and compare its results with the previous cycle.\n3. Record the specific feedback received during the review.\n4. Document what changed, the effect it created, and any unresolved issues.\n5. Determine whether to keep iterating, change approaches, or escalate.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "2, 3, 1, 4, 5"
-   },
-   {
-    "key": "B",
-    "text": "1, 3, 2, 4, 5"
-   },
-   {
-    "key": "C",
-    "text": "3, 1, 2, 4, 5"
-   },
-   {
-    "key": "D",
-    "text": "3, 2, 1, 4, 5"
-   }
-  ],
-  "correct": [
-   "C"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nC. 3, 1, 2, 4, 5\n\nA closed feedback loop records the review feedback before selecting targeted adjustments. The adjusted cycle is then run and measured against the prior cycle; its changes and outcomes are documented so there is a basis for deciding whether to iterate further, change direction, or escalate.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 47
- },
- {
-  "no": 33,
+  "no": 26,
   "id": "ccao-f-q048",
   "type": "single",
   "select": 1,
@@ -1287,7 +1014,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 48
  },
  {
-  "no": 34,
+  "no": 27,
   "id": "ccao-f-q050",
   "type": "single",
   "select": 1,
@@ -1326,7 +1053,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 50
  },
  {
-  "no": 35,
+  "no": 28,
   "id": "ccao-f-q051",
   "type": "single",
   "select": 1,
@@ -1365,7 +1092,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 51
  },
  {
-  "no": 36,
+  "no": 29,
   "id": "ccao-f-q052",
   "type": "single",
   "select": 1,
@@ -1404,7 +1131,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 52
  },
  {
-  "no": 37,
+  "no": 30,
   "id": "ccao-f-q053",
   "type": "single",
   "select": 1,
@@ -1443,7 +1170,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 53
  },
  {
-  "no": 38,
+  "no": 31,
   "id": "ccao-f-q054",
   "type": "single",
   "select": 1,
@@ -1482,7 +1209,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 54
  },
  {
-  "no": 39,
+  "no": 32,
   "id": "ccao-f-q055",
   "type": "single",
   "select": 1,
@@ -1521,7 +1248,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 55
  },
  {
-  "no": 40,
+  "no": 33,
   "id": "ccao-f-q056",
   "type": "single",
   "select": 1,
@@ -1560,7 +1287,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 56
  },
  {
-  "no": 41,
+  "no": 34,
   "id": "ccao-f-q058",
   "type": "single",
   "select": 1,
@@ -1599,7 +1326,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 58
  },
  {
-  "no": 42,
+  "no": 35,
   "id": "ccao-f-q060",
   "type": "single",
   "select": 1,
@@ -1638,7 +1365,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 60
  },
  {
-  "no": 43,
+  "no": 36,
   "id": "ccao-f-q062",
   "type": "single",
   "select": 1,
@@ -1677,7 +1404,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 62
  },
  {
-  "no": 44,
+  "no": 37,
   "id": "ccao-f-q063",
   "type": "single",
   "select": 1,
@@ -1716,7 +1443,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 63
  },
  {
-  "no": 45,
+  "no": 38,
   "id": "ccao-f-q064",
   "type": "single",
   "select": 1,
@@ -1755,7 +1482,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 64
  },
  {
-  "no": 46,
+  "no": 39,
   "id": "ccao-f-q065",
   "type": "single",
   "select": 1,
@@ -1794,7 +1521,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 65
  },
  {
-  "no": 47,
+  "no": 40,
   "id": "ccao-f-q066",
   "type": "single",
   "select": 1,
@@ -1833,7 +1560,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 66
  },
  {
-  "no": 48,
+  "no": 41,
   "id": "ccao-f-q067",
   "type": "single",
   "select": 1,
@@ -1872,7 +1599,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 67
  },
  {
-  "no": 49,
+  "no": 42,
   "id": "ccao-f-q068",
   "type": "single",
   "select": 1,
@@ -1911,46 +1638,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 68
  },
  {
-  "no": 50,
-  "id": "ccao-f-q069",
-  "type": "single",
-  "select": 1,
-  "question": "You are a process consultant incorporating Claude into an existing weekly workflow. Which sequence of integration steps is correct?\n\n1. Pilot the integrated workflow with a small group and collect feedback.\n2. Document the current workflow’s steps, owners, and decision points.\n3. Update the documented workflow and deploy it to the broader team.\n4. Identify the steps where Claude can augment work and where humans must remain.\n5. Define the inputs Claude requires, the outputs Claude provides, and the hand-offs around each step.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "2, 4, 5, 1, 3"
-   },
-   {
-    "key": "B",
-    "text": "2, 5, 4, 1, 3"
-   },
-   {
-    "key": "C",
-    "text": "4, 2, 5, 1, 3"
-   },
-   {
-    "key": "D",
-    "text": "1, 2, 4, 5, 3"
-   }
-  ],
-  "correct": [
-   "A"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nA. 2, 4, 5, 1, 3\n\nWorkflow integration should begin with documenting the current process so its ownership and decision points are understood. That enables appropriate allocation of Claude-assisted and human-controlled work, followed by a clear specification of inputs, outputs, and hand-offs. A limited pilot validates the integrated process and gathers feedback before the workflow is revised and rolled out broadly. Anthropic guidance similarly recommends breaking an interaction into tasks, defining success criteria, and evaluating it systematically before production deployment.\n\n#### Learn more\n\n- Customer Support Agent — Claude Platform Docs",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 69
- },
- {
-  "no": 51,
+  "no": 43,
   "id": "ccao-f-q070",
   "type": "single",
   "select": 1,
@@ -1989,7 +1677,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 70
  },
  {
-  "no": 52,
+  "no": 44,
   "id": "ccao-f-q071",
   "type": "single",
   "select": 1,
@@ -2028,7 +1716,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 71
  },
  {
-  "no": 53,
+  "no": 45,
   "id": "ccao-f-q072",
   "type": "single",
   "select": 1,
@@ -2067,7 +1755,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 72
  },
  {
-  "no": 54,
+  "no": 46,
   "id": "ccao-f-q073",
   "type": "single",
   "select": 1,
@@ -2106,7 +1794,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 73
  },
  {
-  "no": 55,
+  "no": 47,
   "id": "ccao-f-q074",
   "type": "single",
   "select": 1,
@@ -2145,7 +1833,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 74
  },
  {
-  "no": 56,
+  "no": 48,
   "id": "ccao-f-q075",
   "type": "single",
   "select": 1,
@@ -2184,7 +1872,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 75
  },
  {
-  "no": 57,
+  "no": 49,
   "id": "ccao-f-q076",
   "type": "single",
   "select": 1,
@@ -2223,7 +1911,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 76
  },
  {
-  "no": 58,
+  "no": 50,
   "id": "ccao-f-q077",
   "type": "single",
   "select": 1,
@@ -2262,7 +1950,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 77
  },
  {
-  "no": 59,
+  "no": 51,
   "id": "ccao-f-q079",
   "type": "single",
   "select": 1,
@@ -2301,7 +1989,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 79
  },
  {
-  "no": 60,
+  "no": 52,
   "id": "ccao-f-q081",
   "type": "single",
   "select": 1,
@@ -2340,7 +2028,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 81
  },
  {
-  "no": 61,
+  "no": 53,
   "id": "ccao-f-q082",
   "type": "single",
   "select": 1,
@@ -2379,7 +2067,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 82
  },
  {
-  "no": 62,
+  "no": 54,
   "id": "ccao-f-q083",
   "type": "single",
   "select": 1,
@@ -2418,7 +2106,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 83
  },
  {
-  "no": 63,
+  "no": 55,
   "id": "ccao-f-q084",
   "type": "single",
   "select": 1,
@@ -2457,7 +2145,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 84
  },
  {
-  "no": 64,
+  "no": 56,
   "id": "ccao-f-q085",
   "type": "single",
   "select": 1,
@@ -2496,7 +2184,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 85
  },
  {
-  "no": 65,
+  "no": 57,
   "id": "ccao-f-q086",
   "type": "single",
   "select": 1,
@@ -2535,7 +2223,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 86
  },
  {
-  "no": 66,
+  "no": 58,
   "id": "ccao-f-q089",
   "type": "single",
   "select": 1,
@@ -2574,46 +2262,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 89
  },
  {
-  "no": 67,
-  "id": "ccao-f-q091",
-  "type": "single",
-  "select": 1,
-  "question": "You are reviewing a competitor brief generated by Claude for unsupported claims.\n\nWhat is the correct sequence of review steps?\n\n1. Cross-check each specific claim against the provided source material or reliable external references.\n2. Determine whether to correct, re-prompt, or escalate based on the findings.\n3. Record every unsupported or inconsistent claim with its location and severity.\n4. Identify the specific factual claims, statistics, and citations in the brief.\n5. Read the brief from start to finish and flag any claims that seem surprising.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "1, 4, 5, 3, 2"
-   },
-   {
-    "key": "B",
-    "text": "4, 5, 1, 3, 2"
-   },
-   {
-    "key": "C",
-    "text": "5, 1, 4, 3, 2"
-   },
-   {
-    "key": "D",
-    "text": "5, 4, 1, 3, 2"
-   }
-  ],
-  "correct": [
-   "D"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nD. 5, 4, 1, 3, 2\n\nAn effective unsupported-claim review starts with a complete read-through to spot potentially questionable content, followed by identifying the exact claims, statistics, and citations requiring validation. Those items are then checked against authoritative evidence, documented when unsupported or inconsistent, and used to determine the appropriate remediation or escalation.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 91
- },
- {
-  "no": 68,
+  "no": 59,
   "id": "ccao-f-q094",
   "type": "single",
   "select": 1,
@@ -2652,7 +2301,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 94
  },
  {
-  "no": 69,
+  "no": 60,
   "id": "ccao-f-q096",
   "type": "single",
   "select": 1,
@@ -2691,46 +2340,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 96
  },
  {
-  "no": 70,
-  "id": "ccao-f-q097",
-  "type": "single",
-  "select": 1,
-  "question": "You are conducting an optimization pass on a recurring workflow.\n\nWhat is the correct sequence of optimization steps?\n\n1. Apply targeted optimization to the bottleneck step\n2. Roll out the optimized workflow to the wider team and document the change\n3. Identify the bottleneck step by using measured time per step and queue length\n4. Map the existing workflow steps, owners, and decision points\n5. Pilot the change with a small group and measure its effect against the previous baseline",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "4, 1, 3, 5, 2"
-   },
-   {
-    "key": "B",
-    "text": "4, 3, 1, 5, 2"
-   },
-   {
-    "key": "C",
-    "text": "3, 4, 1, 5, 2"
-   },
-   {
-    "key": "D",
-    "text": "1, 4, 3, 5, 2"
-   }
-  ],
-  "correct": [
-   "B"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nB. 4, 3, 1, 5, 2\n\nWorkflow optimization begins by mapping the current process, then using performance measurements to identify the bottleneck. A targeted improvement is applied to that constraint, tested in a limited pilot against the established baseline, and only then rolled out broadly with documentation.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 97
- },
- {
-  "no": 71,
+  "no": 61,
   "id": "ccao-f-q098",
   "type": "single",
   "select": 1,
@@ -2769,7 +2379,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 98
  },
  {
-  "no": 72,
+  "no": 62,
   "id": "ccao-f-q101",
   "type": "single",
   "select": 1,
@@ -2808,7 +2418,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 101
  },
  {
-  "no": 73,
+  "no": 63,
   "id": "ccao-f-q102",
   "type": "single",
   "select": 1,
@@ -2847,7 +2457,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 102
  },
  {
-  "no": 74,
+  "no": 64,
   "id": "ccao-f-q103",
   "type": "single",
   "select": 1,
@@ -2886,46 +2496,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 103
  },
  {
-  "no": 75,
-  "id": "ccao-f-q105",
-  "type": "single",
-  "select": 1,
-  "question": "You are a Claude associate evaluating a proposed Claude use case before approving it for your team. What is the correct sequence of assessment steps?\n\n1. Compare the use case with the organization’s policies and the relevant regulatory considerations.\n2. Document the assessment outcome and rationale for traceability.\n3. Identify the audience, decision impact, and reversibility of the outputs.\n4. Decide whether the use case proceeds, needs modification, or is declined.\n5. Identify the data types involved and whether sensitive data is implicated.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "3, 1, 5, 4, 2"
-   },
-   {
-    "key": "B",
-    "text": "1, 3, 5, 4, 2"
-   },
-   {
-    "key": "C",
-    "text": "5, 3, 1, 4, 2"
-   },
-   {
-    "key": "D",
-    "text": "3, 5, 1, 4, 2"
-   }
-  ],
-  "correct": [
-   "D"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nD. 3, 5, 1, 4, 2\n\nA sound assessment begins by establishing who will receive or rely on the output, the consequences of an incorrect result, and whether the resulting action can be reversed (3). This initial impact analysis determines the level of scrutiny required. The assessor should then identify the data involved, especially personal, confidential, regulated, or otherwise sensitive information (5). Once the use case and its information exposure are understood, it can be compared meaningfully against organizational AI policies, legal requirements, and regulatory restrictions (1). The next step is to decide whether the use case should proceed, be modified with safeguards, or be rejected (4). Documentation comes last because it records the completed assessment, decision, supporting evidence, restrictions, and rationale for auditability (2).\n\n> **ℹ️ Step numbering corrected**\n> An earlier version of this question listed the five steps in a different order from the one its answer options refer to, which made the marked sequence document the outcome before deciding it. The steps now follow the source numbering, and the answer is 3, 5, 1, 4, 2. Another source marks 1, 3, 5, 4, 2, which would compare the use case against policy before its audience, impact and data are known.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 105
- },
- {
-  "no": 76,
+  "no": 65,
   "id": "ccao-f-q108",
   "type": "single",
   "select": 1,
@@ -2964,7 +2535,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 108
  },
  {
-  "no": 77,
+  "no": 66,
   "id": "ccao-f-q109",
   "type": "single",
   "select": 1,
@@ -3003,7 +2574,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 109
  },
  {
-  "no": 78,
+  "no": 67,
   "id": "ccao-f-q110",
   "type": "single",
   "select": 1,
@@ -3042,7 +2613,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 110
  },
  {
-  "no": 79,
+  "no": 68,
   "id": "ccao-f-q111",
   "type": "single",
   "select": 1,
@@ -3081,7 +2652,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 111
  },
  {
-  "no": 80,
+  "no": 69,
   "id": "ccao-f-q112",
   "type": "single",
   "select": 1,
@@ -3120,7 +2691,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 112
  },
  {
-  "no": 81,
+  "no": 70,
   "id": "ccao-f-q113",
   "type": "single",
   "select": 1,
@@ -3159,46 +2730,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 113
  },
  {
-  "no": 82,
-  "id": "ccao-f-q114",
-  "type": "single",
-  "select": 1,
-  "question": "As a senior analyst, you use Claude to analyze requirements from several stakeholder sources.\n\nWhat is the correct sequence of steps?\n\n1. Group related requirements and flag conflicts or ambiguities for stakeholder review.\n2. Validate the structured output against the original sources for accuracy and completeness.\n3. Submit the consolidated inputs to Claude using a structured extraction prompt.\n4. Gather and label the source materials so that every requirement can be traced.\n5. Document the final requirements set with source traceability and status.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "4, 1, 3, 2, 5"
-   },
-   {
-    "key": "B",
-    "text": "4, 3, 1, 2, 5"
-   },
-   {
-    "key": "C",
-    "text": "1, 4, 3, 2, 5"
-   },
-   {
-    "key": "D",
-    "text": "3, 4, 1, 2, 5"
-   }
-  ],
-  "correct": [
-   "B"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nB. 4, 3, 1, 2, 5\n\nSource materials must be gathered and labeled before consolidation so each requirement remains traceable. The consolidated material is then submitted to Claude with a structured extraction prompt; the extracted requirements can subsequently be grouped and reviewed for conflicts or ambiguities. Validation against the original sources must occur before documenting the final, traceable requirements set. Anthropic’s citations documentation supports providing documents to Claude and retaining source references for verification.\n\n#### Learn more\n\n- Anthropic Claude Platform Docs: Citations\n\n> **⚠️ Answer keys disagree**\n> Another practice source marks A (4, 1, 3, 2, 5). This course keeps B: requirements can only be grouped and checked for conflicts after Claude has extracted them from the consolidated inputs, so step 3 comes before step 1.\n\n#### Alternative reasoning (supports A)\n\n- Gather and label the sources first, then group related requirements and flag conflicts before submitting the consolidated inputs to Claude, validate the output against the sources, and document the final set.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 114
- },
- {
-  "no": 83,
+  "no": 71,
   "id": "ccao-f-q115",
   "type": "single",
   "select": 1,
@@ -3237,85 +2769,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 115
  },
  {
-  "no": 84,
-  "id": "ccao-f-q116",
-  "type": "single",
-  "select": 1,
-  "question": "You are a procurement associate breaking down a vendor-evaluation task. Which dependency sequence represents sound ordering?",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "Define evaluation criteria first, gather vendor data against those criteria, then score and rank."
-   },
-   {
-    "key": "B",
-    "text": "Rank vendors before any data is collected."
-   },
-   {
-    "key": "C",
-    "text": "Score vendors first and decide on the criteria afterward."
-   },
-   {
-    "key": "D",
-    "text": "Skip criteria and ask Claude to produce a vendor recommendation from no inputs."
-   }
-  ],
-  "correct": [
-   "A"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nA. Define evaluation criteria first, gather vendor data against those criteria, then score and rank.\n\nA defensible vendor evaluation defines the assessment criteria before collecting evidence, then gathers vendor information aligned to those criteria, and finally uses that information to score and rank the vendors.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 116
- },
- {
-  "no": 85,
-  "id": "ccao-f-q118",
-  "type": "single",
-  "select": 1,
-  "question": "You are a knowledge worker determining whether to escalate Claude-generated output. What is the correct sequence of decision steps?\n\n1. Identify the audience and the impact if the output is incorrect.\n2. Document the decision and its rationale for traceability.\n3. Compare the output’s risk profile with the organization’s escalation criteria.\n4. Decide whether to use the output, iterate further, or escalate.\n5. Evaluate the output’s accuracy, completeness, and any unverified claims.",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "5, 1, 3, 4, 2"
-   },
-   {
-    "key": "B",
-    "text": "3, 1, 5, 4, 2"
-   },
-   {
-    "key": "C",
-    "text": "1, 5, 3, 4, 2"
-   },
-   {
-    "key": "D",
-    "text": "1, 3, 5, 4, 2"
-   }
-  ],
-  "correct": [
-   "C"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nC. 1, 5, 3, 4, 2\n\nAssessing the audience and consequences establishes the potential impact, while evaluating accuracy, completeness, and unverified claims establishes the output’s quality risk. Those factors can then be measured against organizational escalation criteria before selecting use, iteration, or escalation; recording the decision and rationale provides traceability. Claude outputs can contain factual errors or unsupported claims, so critical and high-stakes information requires validation.\n\n#### Learn more\n\n- Reduce hallucinations — Claude Platform Docs",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 118
- },
- {
-  "no": 86,
+  "no": 72,
   "id": "ccao-f-q119",
   "type": "single",
   "select": 1,
@@ -3354,7 +2808,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 119
  },
  {
-  "no": 87,
+  "no": 73,
   "id": "ccao-f-q120",
   "type": "single",
   "select": 1,
@@ -3393,7 +2847,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 120
  },
  {
-  "no": 88,
+  "no": 74,
   "id": "ccao-f-q121",
   "type": "single",
   "select": 1,
@@ -3432,7 +2886,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 121
  },
  {
-  "no": 89,
+  "no": 75,
   "id": "ccao-f-q122",
   "type": "single",
   "select": 1,
@@ -3471,7 +2925,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 122
  },
  {
-  "no": 90,
+  "no": 76,
   "id": "ccao-f-q123",
   "type": "single",
   "select": 1,
@@ -3510,7 +2964,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 123
  },
  {
-  "no": 91,
+  "no": 77,
   "id": "ccao-f-q124",
   "type": "single",
   "select": 1,
@@ -3549,7 +3003,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 124
  },
  {
-  "no": 92,
+  "no": 78,
   "id": "ccao-f-q125",
   "type": "single",
   "select": 1,
@@ -3588,7 +3042,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 125
  },
  {
-  "no": 93,
+  "no": 79,
   "id": "ccao-f-q126",
   "type": "single",
   "select": 1,
@@ -3627,7 +3081,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 126
  },
  {
-  "no": 94,
+  "no": 80,
   "id": "ccao-f-q128",
   "type": "single",
   "select": 1,
@@ -3666,7 +3120,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 128
  },
  {
-  "no": 95,
+  "no": 81,
   "id": "ccao-f-q129",
   "type": "single",
   "select": 1,
@@ -3705,7 +3159,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 129
  },
  {
-  "no": 96,
+  "no": 82,
   "id": "ccao-f-q130",
   "type": "single",
   "select": 1,
@@ -3744,7 +3198,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 130
  },
  {
-  "no": 97,
+  "no": 83,
   "id": "ccao-f-q131",
   "type": "single",
   "select": 1,
@@ -3783,7 +3237,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 131
  },
  {
-  "no": 98,
+  "no": 84,
   "id": "ccao-f-q132",
   "type": "single",
   "select": 1,
@@ -3822,7 +3276,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 132
  },
  {
-  "no": 99,
+  "no": 85,
   "id": "ccao-f-q133",
   "type": "single",
   "select": 1,
@@ -3861,7 +3315,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 133
  },
  {
-  "no": 100,
+  "no": 86,
   "id": "ccao-f-q134",
   "type": "single",
   "select": 1,
@@ -3900,7 +3354,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 134
  },
  {
-  "no": 101,
+  "no": 87,
   "id": "ccao-f-q135",
   "type": "single",
   "select": 1,
@@ -3939,7 +3393,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 135
  },
  {
-  "no": 102,
+  "no": 88,
   "id": "ccao-f-q136",
   "type": "single",
   "select": 1,
@@ -3978,7 +3432,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 136
  },
  {
-  "no": 103,
+  "no": 89,
   "id": "ccao-f-q137",
   "type": "single",
   "select": 1,
@@ -4017,7 +3471,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 137
  },
  {
-  "no": 104,
+  "no": 90,
   "id": "ccao-f-q139",
   "type": "single",
   "select": 1,
@@ -4056,7 +3510,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 139
  },
  {
-  "no": 105,
+  "no": 91,
   "id": "ccao-f-q140",
   "type": "single",
   "select": 1,
@@ -4095,7 +3549,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 140
  },
  {
-  "no": 106,
+  "no": 92,
   "id": "ccao-f-q141",
   "type": "single",
   "select": 1,
@@ -4134,7 +3588,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 141
  },
  {
-  "no": 107,
+  "no": 93,
   "id": "ccao-f-q142",
   "type": "single",
   "select": 1,
@@ -4173,7 +3627,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 142
  },
  {
-  "no": 108,
+  "no": 94,
   "id": "ccao-f-q143",
   "type": "single",
   "select": 1,
@@ -4212,7 +3666,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 143
  },
  {
-  "no": 109,
+  "no": 95,
   "id": "ccao-f-q144",
   "type": "single",
   "select": 1,
@@ -4251,7 +3705,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 144
  },
  {
-  "no": 110,
+  "no": 96,
   "id": "ccao-f-q145",
   "type": "single",
   "select": 1,
@@ -4290,46 +3744,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 145
  },
  {
-  "no": 111,
-  "id": "ccao-f-q149",
-  "type": "single",
-  "select": 1,
-  "question": "A team is setting up a new recurring weekly task and has to decide how much reasoning depth it needs. Which sequence is correct?",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "Pick a tier by how important the task feels, then run it for a month, then write down what good output means, then compare the month's results against that."
-   },
-   {
-    "key": "B",
-    "text": "Run the task on several tiers at once, then write down what good output means, then compare the results against that definition, then keep the tier that did best."
-   },
-   {
-    "key": "C",
-    "text": "Compare a sample of results with what colleagues produce by hand, then write down what good output means, then pick a tier on that basis, then run the task each week from then on."
-   },
-   {
-    "key": "D",
-    "text": "Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short."
-   }
-  ],
-  "correct": [
-   "D"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nD. Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short.\n\nCorrect. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.\n\n**A.** Choosing on instinct and defining quality a month later means there is no standard to judge the intervening results against, and a month of work has already been committed to an unexamined choice.\n\n**B.** Committing several tiers to the task before any standard exists means the trial is designed without knowing what it is testing for, and it duplicates the work and the allowance draw on every run.\n\n**C.** Comparing results before the task has been run is out of order, and benchmarking against manual work is not the same as agreeing what this task's output has to achieve.\n\n**D.** Correct. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 149
- },
- {
-  "no": 112,
+  "no": 97,
   "id": "ccao-f-q150",
   "type": "single",
   "select": 1,
@@ -4368,7 +3783,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 150
  },
  {
-  "no": 113,
+  "no": 98,
   "id": "ccao-f-q151",
   "type": "single",
   "select": 1,
@@ -4407,7 +3822,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 151
  },
  {
-  "no": 114,
+  "no": 99,
   "id": "ccao-f-q152",
   "type": "single",
   "select": 1,
@@ -4446,7 +3861,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 152
  },
  {
-  "no": 115,
+  "no": 100,
   "id": "ccao-f-q153",
   "type": "single",
   "select": 1,
@@ -4485,7 +3900,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 153
  },
  {
-  "no": 116,
+  "no": 101,
   "id": "ccao-f-q156",
   "type": "single",
   "select": 1,
@@ -4524,7 +3939,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 156
  },
  {
-  "no": 117,
+  "no": 102,
   "id": "ccao-f-q157",
   "type": "single",
   "select": 1,
@@ -4563,7 +3978,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 157
  },
  {
-  "no": 118,
+  "no": 103,
   "id": "ccao-f-q159",
   "type": "single",
   "select": 1,
@@ -4602,7 +4017,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 159
  },
  {
-  "no": 119,
+  "no": 104,
   "id": "ccao-f-q160",
   "type": "single",
   "select": 1,
@@ -4641,7 +4056,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 160
  },
  {
-  "no": 120,
+  "no": 105,
   "id": "ccao-f-q161",
   "type": "single",
   "select": 1,
@@ -4680,7 +4095,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 161
  },
  {
-  "no": 121,
+  "no": 106,
   "id": "ccao-f-q162",
   "type": "single",
   "select": 1,
@@ -4719,7 +4134,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 162
  },
  {
-  "no": 122,
+  "no": 107,
   "id": "ccao-f-q163",
   "type": "single",
   "select": 1,
@@ -4758,7 +4173,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 163
  },
  {
-  "no": 123,
+  "no": 108,
   "id": "ccao-f-q164",
   "type": "single",
   "select": 1,
@@ -4797,46 +4212,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 164
  },
  {
-  "no": 124,
-  "id": "ccao-f-q165",
-  "type": "single",
-  "select": 1,
-  "question": "A market research manager has been asked to summarise survey free-text responses that include respondents' names and employers, using the company's Claude for Work plan. In which order should these steps be taken?",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "Remove the names and employers that the summary does not need; check what the participant consent and company policy allow; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly."
-   },
-   {
-    "key": "B",
-    "text": "Run the summary and review it before it is circulated; check what the participant consent and company policy allow; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly."
-   },
-   {
-    "key": "C",
-    "text": "Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly."
-   },
-   {
-    "key": "D",
-    "text": "Check what the participant consent and company policy allow; run the summary and review it before it is circulated; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly."
-   }
-  ],
-  "correct": [
-   "C"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nC. Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.\n\nCorrect. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.\n\n**A.** Data is edited before anyone has established what participants agreed to, so the amount of personal detail removed is guesswork and may be either too little or more than the analysis can afford.\n\n**B.** The personal data is processed and the output reviewed before either the consent position or the minimisation step, which is the sequence that causes the exposure rather than preventing it.\n\n**C.** Correct. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.\n\n**D.** The consent check happens first, but the full identifiable transcripts are still put into the tool before the names and employers are removed, so the minimisation step comes too late to protect anyone.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 165
- },
- {
-  "no": 125,
+  "no": 109,
   "id": "ccao-f-q166",
   "type": "single",
   "select": 1,
@@ -4875,46 +4251,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 166
  },
  {
-  "no": 126,
-  "id": "ccao-f-q167",
-  "type": "single",
-  "select": 1,
-  "question": "An analyst wants to get more done inside her weekly allowance without the quality of her work dropping. Which sequence of working habits is correct?",
-  "imageMissing": false,
-  "options": [
-   {
-    "key": "A",
-    "text": "Put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting."
-   },
-   {
-    "key": "B",
-    "text": "Open a new chat for the next unrelated task; decide what she needs before starting; work through follow-ups that refer back to it; put the request and the relevant material in the opening message."
-   },
-   {
-    "key": "C",
-    "text": "Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task."
-   },
-   {
-    "key": "D",
-    "text": "Work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting; put the request and the relevant material in the opening message."
-   }
-  ],
-  "correct": [
-   "C"
-  ],
-  "yourAnswer": [],
-  "result": "unanswered",
-  "explanation": "Correct answer from the source:\nC. Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task.\n\nCorrect. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.\n\n**A.** Everything here is done before she has decided what she needs, so the opening message is assembled blind.\n\n**B.** Opening a chat for the next task before the current one has been started puts the last step first.\n\n**C.** Correct. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.\n\n**D.** Following up before the request has even been made, and deciding what is needed last, inverts the whole habit.",
-  "references": [
-   {
-    "title": "from ThinhNH39's data",
-    "url": ""
-   }
-  ],
-  "origNo": 167
- },
- {
-  "no": 127,
+  "no": 110,
   "id": "ccao-f-q168",
   "type": "single",
   "select": 1,
@@ -4953,7 +4290,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 168
  },
  {
-  "no": 128,
+  "no": 111,
   "id": "ccao-f-q002",
   "type": "multiple",
   "select": 2,
@@ -4997,7 +4334,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 2
  },
  {
-  "no": 129,
+  "no": 112,
   "id": "ccao-f-q004",
   "type": "multiple",
   "select": 2,
@@ -5041,7 +4378,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 4
  },
  {
-  "no": 130,
+  "no": 113,
   "id": "ccao-f-q005",
   "type": "multiple",
   "select": 2,
@@ -5085,7 +4422,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 5
  },
  {
-  "no": 131,
+  "no": 114,
   "id": "ccao-f-q007",
   "type": "multiple",
   "select": 2,
@@ -5129,7 +4466,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 7
  },
  {
-  "no": 132,
+  "no": 115,
   "id": "ccao-f-q013",
   "type": "multiple",
   "select": 2,
@@ -5173,7 +4510,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 13
  },
  {
-  "no": 133,
+  "no": 116,
   "id": "ccao-f-q014",
   "type": "multiple",
   "select": 2,
@@ -5217,7 +4554,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 14
  },
  {
-  "no": 134,
+  "no": 117,
   "id": "ccao-f-q017",
   "type": "multiple",
   "select": 2,
@@ -5261,7 +4598,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 17
  },
  {
-  "no": 135,
+  "no": 118,
   "id": "ccao-f-q024",
   "type": "multiple",
   "select": 2,
@@ -5305,7 +4642,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 24
  },
  {
-  "no": 136,
+  "no": 119,
   "id": "ccao-f-q027",
   "type": "multiple",
   "select": 2,
@@ -5349,7 +4686,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 27
  },
  {
-  "no": 137,
+  "no": 120,
   "id": "ccao-f-q032",
   "type": "multiple",
   "select": 2,
@@ -5393,7 +4730,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 32
  },
  {
-  "no": 138,
+  "no": 121,
   "id": "ccao-f-q037",
   "type": "multiple",
   "select": 2,
@@ -5437,7 +4774,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 37
  },
  {
-  "no": 139,
+  "no": 122,
   "id": "ccao-f-q038",
   "type": "multiple",
   "select": 2,
@@ -5481,7 +4818,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 38
  },
  {
-  "no": 140,
+  "no": 123,
   "id": "ccao-f-q039",
   "type": "multiple",
   "select": 2,
@@ -5525,7 +4862,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 39
  },
  {
-  "no": 141,
+  "no": 124,
   "id": "ccao-f-q041",
   "type": "multiple",
   "select": 2,
@@ -5569,7 +4906,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 41
  },
  {
-  "no": 142,
+  "no": 125,
   "id": "ccao-f-q042",
   "type": "multiple",
   "select": 2,
@@ -5613,7 +4950,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 42
  },
  {
-  "no": 143,
+  "no": 126,
   "id": "ccao-f-q049",
   "type": "multiple",
   "select": 2,
@@ -5657,7 +4994,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 49
  },
  {
-  "no": 144,
+  "no": 127,
   "id": "ccao-f-q057",
   "type": "multiple",
   "select": 2,
@@ -5701,7 +5038,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 57
  },
  {
-  "no": 145,
+  "no": 128,
   "id": "ccao-f-q059",
   "type": "multiple",
   "select": 2,
@@ -5745,7 +5082,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 59
  },
  {
-  "no": 146,
+  "no": 129,
   "id": "ccao-f-q061",
   "type": "multiple",
   "select": 2,
@@ -5789,7 +5126,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 61
  },
  {
-  "no": 147,
+  "no": 130,
   "id": "ccao-f-q078",
   "type": "multiple",
   "select": 2,
@@ -5833,7 +5170,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 78
  },
  {
-  "no": 148,
+  "no": 131,
   "id": "ccao-f-q080",
   "type": "multiple",
   "select": 2,
@@ -5877,7 +5214,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 80
  },
  {
-  "no": 149,
+  "no": 132,
   "id": "ccao-f-q087",
   "type": "multiple",
   "select": 2,
@@ -5921,7 +5258,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 87
  },
  {
-  "no": 150,
+  "no": 133,
   "id": "ccao-f-q088",
   "type": "multiple",
   "select": 2,
@@ -5965,7 +5302,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 88
  },
  {
-  "no": 151,
+  "no": 134,
   "id": "ccao-f-q090",
   "type": "multiple",
   "select": 2,
@@ -6009,7 +5346,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 90
  },
  {
-  "no": 152,
+  "no": 135,
   "id": "ccao-f-q092",
   "type": "multiple",
   "select": 2,
@@ -6053,7 +5390,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 92
  },
  {
-  "no": 153,
+  "no": 136,
   "id": "ccao-f-q093",
   "type": "multiple",
   "select": 2,
@@ -6097,7 +5434,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 93
  },
  {
-  "no": 154,
+  "no": 137,
   "id": "ccao-f-q095",
   "type": "multiple",
   "select": 2,
@@ -6141,7 +5478,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 95
  },
  {
-  "no": 155,
+  "no": 138,
   "id": "ccao-f-q099",
   "type": "multiple",
   "select": 2,
@@ -6185,7 +5522,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 99
  },
  {
-  "no": 156,
+  "no": 139,
   "id": "ccao-f-q100",
   "type": "multiple",
   "select": 2,
@@ -6229,7 +5566,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 100
  },
  {
-  "no": 157,
+  "no": 140,
   "id": "ccao-f-q104",
   "type": "multiple",
   "select": 2,
@@ -6273,7 +5610,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 104
  },
  {
-  "no": 158,
+  "no": 141,
   "id": "ccao-f-q106",
   "type": "multiple",
   "select": 2,
@@ -6317,7 +5654,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 106
  },
  {
-  "no": 159,
+  "no": 142,
   "id": "ccao-f-q107",
   "type": "multiple",
   "select": 2,
@@ -6361,7 +5698,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 107
  },
  {
-  "no": 160,
+  "no": 143,
   "id": "ccao-f-q117",
   "type": "multiple",
   "select": 2,
@@ -6405,7 +5742,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 117
  },
  {
-  "no": 161,
+  "no": 144,
   "id": "ccao-f-q127",
   "type": "multiple",
   "select": 2,
@@ -6449,7 +5786,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 127
  },
  {
-  "no": 162,
+  "no": 145,
   "id": "ccao-f-q138",
   "type": "multiple",
   "select": 2,
@@ -6493,7 +5830,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 138
  },
  {
-  "no": 163,
+  "no": 146,
   "id": "ccao-f-q146",
   "type": "multiple",
   "select": 2,
@@ -6537,7 +5874,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 146
  },
  {
-  "no": 164,
+  "no": 147,
   "id": "ccao-f-q147",
   "type": "multiple",
   "select": 2,
@@ -6581,7 +5918,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 147
  },
  {
-  "no": 165,
+  "no": 148,
   "id": "ccao-f-q148",
   "type": "multiple",
   "select": 2,
@@ -6625,7 +5962,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 148
  },
  {
-  "no": 166,
+  "no": 149,
   "id": "ccao-f-q154",
   "type": "multiple",
   "select": 2,
@@ -6669,7 +6006,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 154
  },
  {
-  "no": 167,
+  "no": 150,
   "id": "ccao-f-q155",
   "type": "multiple",
   "select": 2,
@@ -6713,7 +6050,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 155
  },
  {
-  "no": 168,
+  "no": 151,
   "id": "ccao-f-q158",
   "type": "multiple",
   "select": 2,
@@ -6757,7 +6094,7 @@ window.__PC_DECK_LAST__ = [
   "origNo": 158
  },
  {
-  "no": 169,
+  "no": 152,
   "id": "ccao-f-q169",
   "type": "multiple",
   "select": 2,
@@ -6799,5 +6136,668 @@ window.__PC_DECK_LAST__ = [
    }
   ],
   "origNo": 169
+ },
+ {
+  "no": 153,
+  "id": "ccao-f-q010",
+  "type": "single",
+  "select": 1,
+  "question": "You are breaking down a “build a customer journey map” request.\n\nWhich sequence of decomposed steps is correct?\n\n1. Identify the touchpoints the customer experiences during each stage.\n2. Define the persona and the journey scope that will be mapped.\n3. Document pain points and opportunities at every touchpoint.\n4. Synthesize the findings into the finished journey-map artifact.\n5. Identify the primary stages the persona progresses through.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "2, 5, 1, 3, 4"
+   },
+   {
+    "key": "B",
+    "text": "1, 2, 5, 3, 4"
+   },
+   {
+    "key": "C",
+    "text": "5, 2, 1, 3, 4"
+   },
+   {
+    "key": "D",
+    "text": "2, 1, 5, 3, 4"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nA. 2, 5, 1, 3, 4\n\nA customer journey map is grounded in a defined persona and journey scope. Its structure is then established by identifying the persona’s major stages, followed by the touchpoints within those stages. Pain points and opportunities are evaluated at those touchpoints before all findings are synthesized into the final journey map.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 10
+ },
+ {
+  "no": 154,
+  "id": "ccao-f-q012",
+  "type": "single",
+  "select": 1,
+  "question": "You are a knowledge worker moving from a long, drifting conversation to a fresh, focused session. What is the correct sequence of transition steps?\n\n1. Start a new chat and paste the summary as its initial context.\n2. Summarize the goals, key decisions, and open questions from the lengthy conversation.\n3. Determine which references should remain available beyond the current chat.\n4. Place persistent references in a Project’s knowledge base or attach them as needed.\n5. Verify that the new chat is on-task before resuming the work.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "1, 2, 3, 4, 5"
+   },
+   {
+    "key": "B",
+    "text": "2, 3, 4, 1, 5"
+   },
+   {
+    "key": "C",
+    "text": "2, 4, 3, 1, 5"
+   },
+   {
+    "key": "D",
+    "text": "3, 2, 4, 1, 5"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nB. 2, 3, 4, 1, 5\n\nA focused continuation requires a usable summary before a new chat can receive its starting context. References intended for reuse should be identified and added to Project sources or attached before continuing, because Projects keep related chats, files, and instructions together to preserve context and stay on-task. The new chat can then be validated for alignment before work resumes.\n\n#### Learn more\n\n- Projects in ChatGPT",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 12
+ },
+ {
+  "no": 155,
+  "id": "ccao-f-q020",
+  "type": "single",
+  "select": 1,
+  "question": "A business analyst is transforming a stakeholder’s sticky-note request into a structured prompt for Claude. What is the correct sequence of conversion steps?\n\n1. Confirm the audience and the decision that the response needs to support.\n2. Submit the structured prompt to Claude.\n3. Identify the underlying task concealed in the sticky-note language.\n4. Specify the required length, tone, and output format.\n5. Add the supporting facts and constraints that are relevant to the task.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "3, 5, 1, 4, 2"
+   },
+   {
+    "key": "B",
+    "text": "1, 3, 5, 4, 2"
+   },
+   {
+    "key": "C",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "key": "D",
+    "text": "2, 3, 1, 5, 4"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nC. 3, 1, 5, 4, 2\n\nA useful structured prompt progresses from the underlying task and intended audience or decision to the relevant context and constraints, followed by explicit output requirements such as length, tone, and format. The complete prompt is submitted only after those elements are defined. Anthropic guidance likewise recommends clear instructions, relevant context, and explicit expected output.\n\n#### Learn more\n\n- Claude 4 Prompt Engineering Best Practices",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 20
+ },
+ {
+  "no": 156,
+  "id": "ccao-f-q029",
+  "type": "single",
+  "select": 1,
+  "question": "You are a Claude associate conducting an ethics review of a Claude-assisted deliverable before it is published. What is the correct sequence of review steps?\n\n1. Confirm that transparency requirements are satisfied for the audience that will receive the deliverable.\n2. Record the review result and any modifications made.\n3. Identify the audience and the deliverable’s potential impact on that audience.\n4. Make focused revisions, or escalate when a concern needs greater authority to resolve.\n5. Review the content for unsupported generalizations, fairness concerns, and accuracy issues.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "5, 3, 1, 4, 2"
+   },
+   {
+    "key": "B",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "key": "C",
+    "text": "3, 5, 1, 4, 2"
+   },
+   {
+    "key": "D",
+    "text": "1, 3, 5, 4, 2"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nC. 3, 5, 1, 4, 2\n\nAn ethics review should establish who may be affected and how, assess the content for fairness and accuracy problems, determine the transparency required for that audience, address or escalate identified concerns, and retain a record of the final outcome and changes.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 29
+ },
+ {
+  "no": 157,
+  "id": "ccao-f-q030",
+  "type": "single",
+  "select": 1,
+  "question": "You are a business analyst assessing a Claude-generated business case against the agreed acceptance criteria. What is the correct sequence of evaluation steps?\n\n1. Compare the business case against the source data and required topics.\n2. Record gaps and inaccuracies for follow-up or correction.\n3. Reconfirm the acceptance criteria for the business case.\n4. Determine whether to use the business case, iterate, or escalate.\n5. Read the business case from start to finish to form an initial impression.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "3, 1, 5, 2, 4"
+   },
+   {
+    "key": "B",
+    "text": "1, 3, 5, 2, 4"
+   },
+   {
+    "key": "C",
+    "text": "5, 3, 1, 2, 4"
+   },
+   {
+    "key": "D",
+    "text": "3, 5, 1, 2, 4"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nD. 3, 5, 1, 2, 4\n\nA sound evaluation establishes the acceptance criteria before review, reads the complete business case for context, validates it against source data and required content, records deficiencies, and only then decides whether it is acceptable, needs iteration, or should be escalated.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 30
+ },
+ {
+  "no": 158,
+  "id": "ccao-f-q044",
+  "type": "single",
+  "select": 1,
+  "question": "You are a Claude associate investigating a recurring instance of poor output.\n\nWhich diagnostic-step sequence is correct?\n\n1. Develop a hypothesis about the prompt element most likely responsible for the deficiency.\n2. Make one targeted change and observe its effect on the output.\n3. Read the output from beginning to end and identify the specific deficiency.\n4. Compare the deficient output with the prompt to find mismatches between the input and output.\n5. Record the root cause and resolution for future reference.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "1, 3, 4, 2, 5"
+   },
+   {
+    "key": "B",
+    "text": "4, 3, 1, 2, 5"
+   },
+   {
+    "key": "C",
+    "text": "3, 1, 4, 2, 5"
+   },
+   {
+    "key": "D",
+    "text": "3, 4, 1, 2, 5"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nD. 3, 4, 1, 2, 5\n\nEffective prompt-output troubleshooting first identifies the precise output defect and compares it with the prompt to establish the relevant mismatch. The resulting evidence supports a causal hypothesis, which should be tested by changing only one targeted element. Documenting the confirmed cause and resolution preserves the result for later reuse.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 44
+ },
+ {
+  "no": 159,
+  "id": "ccao-f-q047",
+  "type": "single",
+  "select": 1,
+  "question": "You are conducting a weekly feedback-and-adjustment cycle.\n\nWhat is the correct sequence of cycle steps?\n\n1. Turn feedback into one or two focused adjustments for the next cycle.\n2. Run the following cycle and compare its results with the previous cycle.\n3. Record the specific feedback received during the review.\n4. Document what changed, the effect it created, and any unresolved issues.\n5. Determine whether to keep iterating, change approaches, or escalate.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "2, 3, 1, 4, 5"
+   },
+   {
+    "key": "B",
+    "text": "1, 3, 2, 4, 5"
+   },
+   {
+    "key": "C",
+    "text": "3, 1, 2, 4, 5"
+   },
+   {
+    "key": "D",
+    "text": "3, 2, 1, 4, 5"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nC. 3, 1, 2, 4, 5\n\nA closed feedback loop records the review feedback before selecting targeted adjustments. The adjusted cycle is then run and measured against the prior cycle; its changes and outcomes are documented so there is a basis for deciding whether to iterate further, change direction, or escalate.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 47
+ },
+ {
+  "no": 160,
+  "id": "ccao-f-q069",
+  "type": "single",
+  "select": 1,
+  "question": "You are a process consultant incorporating Claude into an existing weekly workflow. Which sequence of integration steps is correct?\n\n1. Pilot the integrated workflow with a small group and collect feedback.\n2. Document the current workflow’s steps, owners, and decision points.\n3. Update the documented workflow and deploy it to the broader team.\n4. Identify the steps where Claude can augment work and where humans must remain.\n5. Define the inputs Claude requires, the outputs Claude provides, and the hand-offs around each step.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "2, 4, 5, 1, 3"
+   },
+   {
+    "key": "B",
+    "text": "2, 5, 4, 1, 3"
+   },
+   {
+    "key": "C",
+    "text": "4, 2, 5, 1, 3"
+   },
+   {
+    "key": "D",
+    "text": "1, 2, 4, 5, 3"
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nA. 2, 4, 5, 1, 3\n\nWorkflow integration should begin with documenting the current process so its ownership and decision points are understood. That enables appropriate allocation of Claude-assisted and human-controlled work, followed by a clear specification of inputs, outputs, and hand-offs. A limited pilot validates the integrated process and gathers feedback before the workflow is revised and rolled out broadly. Anthropic guidance similarly recommends breaking an interaction into tasks, defining success criteria, and evaluating it systematically before production deployment.\n\n#### Learn more\n\n- Customer Support Agent — Claude Platform Docs",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 69
+ },
+ {
+  "no": 161,
+  "id": "ccao-f-q091",
+  "type": "single",
+  "select": 1,
+  "question": "You are reviewing a competitor brief generated by Claude for unsupported claims.\n\nWhat is the correct sequence of review steps?\n\n1. Cross-check each specific claim against the provided source material or reliable external references.\n2. Determine whether to correct, re-prompt, or escalate based on the findings.\n3. Record every unsupported or inconsistent claim with its location and severity.\n4. Identify the specific factual claims, statistics, and citations in the brief.\n5. Read the brief from start to finish and flag any claims that seem surprising.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "1, 4, 5, 3, 2"
+   },
+   {
+    "key": "B",
+    "text": "4, 5, 1, 3, 2"
+   },
+   {
+    "key": "C",
+    "text": "5, 1, 4, 3, 2"
+   },
+   {
+    "key": "D",
+    "text": "5, 4, 1, 3, 2"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nD. 5, 4, 1, 3, 2\n\nAn effective unsupported-claim review starts with a complete read-through to spot potentially questionable content, followed by identifying the exact claims, statistics, and citations requiring validation. Those items are then checked against authoritative evidence, documented when unsupported or inconsistent, and used to determine the appropriate remediation or escalation.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 91
+ },
+ {
+  "no": 162,
+  "id": "ccao-f-q097",
+  "type": "single",
+  "select": 1,
+  "question": "You are conducting an optimization pass on a recurring workflow.\n\nWhat is the correct sequence of optimization steps?\n\n1. Apply targeted optimization to the bottleneck step\n2. Roll out the optimized workflow to the wider team and document the change\n3. Identify the bottleneck step by using measured time per step and queue length\n4. Map the existing workflow steps, owners, and decision points\n5. Pilot the change with a small group and measure its effect against the previous baseline",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "4, 1, 3, 5, 2"
+   },
+   {
+    "key": "B",
+    "text": "4, 3, 1, 5, 2"
+   },
+   {
+    "key": "C",
+    "text": "3, 4, 1, 5, 2"
+   },
+   {
+    "key": "D",
+    "text": "1, 4, 3, 5, 2"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nB. 4, 3, 1, 5, 2\n\nWorkflow optimization begins by mapping the current process, then using performance measurements to identify the bottleneck. A targeted improvement is applied to that constraint, tested in a limited pilot against the established baseline, and only then rolled out broadly with documentation.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 97
+ },
+ {
+  "no": 163,
+  "id": "ccao-f-q105",
+  "type": "single",
+  "select": 1,
+  "question": "You are a Claude associate evaluating a proposed Claude use case before approving it for your team. What is the correct sequence of assessment steps?\n\n1. Compare the use case with the organization’s policies and the relevant regulatory considerations.\n2. Document the assessment outcome and rationale for traceability.\n3. Identify the audience, decision impact, and reversibility of the outputs.\n4. Decide whether the use case proceeds, needs modification, or is declined.\n5. Identify the data types involved and whether sensitive data is implicated.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "key": "B",
+    "text": "1, 3, 5, 4, 2"
+   },
+   {
+    "key": "C",
+    "text": "5, 3, 1, 4, 2"
+   },
+   {
+    "key": "D",
+    "text": "3, 5, 1, 4, 2"
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nD. 3, 5, 1, 4, 2\n\nA sound assessment begins by establishing who will receive or rely on the output, the consequences of an incorrect result, and whether the resulting action can be reversed (3). This initial impact analysis determines the level of scrutiny required. The assessor should then identify the data involved, especially personal, confidential, regulated, or otherwise sensitive information (5). Once the use case and its information exposure are understood, it can be compared meaningfully against organizational AI policies, legal requirements, and regulatory restrictions (1). The next step is to decide whether the use case should proceed, be modified with safeguards, or be rejected (4). Documentation comes last because it records the completed assessment, decision, supporting evidence, restrictions, and rationale for auditability (2).\n\n> **ℹ️ Step numbering corrected**\n> An earlier version of this question listed the five steps in a different order from the one its answer options refer to, which made the marked sequence document the outcome before deciding it. The steps now follow the source numbering, and the answer is 3, 5, 1, 4, 2. Another source marks 1, 3, 5, 4, 2, which would compare the use case against policy before its audience, impact and data are known.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 105
+ },
+ {
+  "no": 164,
+  "id": "ccao-f-q114",
+  "type": "single",
+  "select": 1,
+  "question": "As a senior analyst, you use Claude to analyze requirements from several stakeholder sources.\n\nWhat is the correct sequence of steps?\n\n1. Group related requirements and flag conflicts or ambiguities for stakeholder review.\n2. Validate the structured output against the original sources for accuracy and completeness.\n3. Submit the consolidated inputs to Claude using a structured extraction prompt.\n4. Gather and label the source materials so that every requirement can be traced.\n5. Document the final requirements set with source traceability and status.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "4, 1, 3, 2, 5"
+   },
+   {
+    "key": "B",
+    "text": "4, 3, 1, 2, 5"
+   },
+   {
+    "key": "C",
+    "text": "1, 4, 3, 2, 5"
+   },
+   {
+    "key": "D",
+    "text": "3, 4, 1, 2, 5"
+   }
+  ],
+  "correct": [
+   "B"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nB. 4, 3, 1, 2, 5\n\nSource materials must be gathered and labeled before consolidation so each requirement remains traceable. The consolidated material is then submitted to Claude with a structured extraction prompt; the extracted requirements can subsequently be grouped and reviewed for conflicts or ambiguities. Validation against the original sources must occur before documenting the final, traceable requirements set. Anthropic’s citations documentation supports providing documents to Claude and retaining source references for verification.\n\n#### Learn more\n\n- Anthropic Claude Platform Docs: Citations\n\n> **⚠️ Answer keys disagree**\n> Another practice source marks A (4, 1, 3, 2, 5). This course keeps B: requirements can only be grouped and checked for conflicts after Claude has extracted them from the consolidated inputs, so step 3 comes before step 1.\n\n#### Alternative reasoning (supports A)\n\n- Gather and label the sources first, then group related requirements and flag conflicts before submitting the consolidated inputs to Claude, validate the output against the sources, and document the final set.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 114
+ },
+ {
+  "no": 165,
+  "id": "ccao-f-q116",
+  "type": "single",
+  "select": 1,
+  "question": "You are a procurement associate breaking down a vendor-evaluation task. Which dependency sequence represents sound ordering?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Define evaluation criteria first, gather vendor data against those criteria, then score and rank."
+   },
+   {
+    "key": "B",
+    "text": "Rank vendors before any data is collected."
+   },
+   {
+    "key": "C",
+    "text": "Score vendors first and decide on the criteria afterward."
+   },
+   {
+    "key": "D",
+    "text": "Skip criteria and ask Claude to produce a vendor recommendation from no inputs."
+   }
+  ],
+  "correct": [
+   "A"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nA. Define evaluation criteria first, gather vendor data against those criteria, then score and rank.\n\nA defensible vendor evaluation defines the assessment criteria before collecting evidence, then gathers vendor information aligned to those criteria, and finally uses that information to score and rank the vendors.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 116
+ },
+ {
+  "no": 166,
+  "id": "ccao-f-q118",
+  "type": "single",
+  "select": 1,
+  "question": "You are a knowledge worker determining whether to escalate Claude-generated output. What is the correct sequence of decision steps?\n\n1. Identify the audience and the impact if the output is incorrect.\n2. Document the decision and its rationale for traceability.\n3. Compare the output’s risk profile with the organization’s escalation criteria.\n4. Decide whether to use the output, iterate further, or escalate.\n5. Evaluate the output’s accuracy, completeness, and any unverified claims.",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "5, 1, 3, 4, 2"
+   },
+   {
+    "key": "B",
+    "text": "3, 1, 5, 4, 2"
+   },
+   {
+    "key": "C",
+    "text": "1, 5, 3, 4, 2"
+   },
+   {
+    "key": "D",
+    "text": "1, 3, 5, 4, 2"
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nC. 1, 5, 3, 4, 2\n\nAssessing the audience and consequences establishes the potential impact, while evaluating accuracy, completeness, and unverified claims establishes the output’s quality risk. Those factors can then be measured against organizational escalation criteria before selecting use, iteration, or escalation; recording the decision and rationale provides traceability. Claude outputs can contain factual errors or unsupported claims, so critical and high-stakes information requires validation.\n\n#### Learn more\n\n- Reduce hallucinations — Claude Platform Docs",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 118
+ },
+ {
+  "no": 167,
+  "id": "ccao-f-q149",
+  "type": "single",
+  "select": 1,
+  "question": "A team is setting up a new recurring weekly task and has to decide how much reasoning depth it needs. Which sequence is correct?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Pick a tier by how important the task feels, then run it for a month, then write down what good output means, then compare the month's results against that."
+   },
+   {
+    "key": "B",
+    "text": "Run the task on several tiers at once, then write down what good output means, then compare the results against that definition, then keep the tier that did best."
+   },
+   {
+    "key": "C",
+    "text": "Compare a sample of results with what colleagues produce by hand, then write down what good output means, then pick a tier on that basis, then run the task each week from then on."
+   },
+   {
+    "key": "D",
+    "text": "Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short."
+   }
+  ],
+  "correct": [
+   "D"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nD. Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short.\n\nCorrect. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.\n\n**A.** Choosing on instinct and defining quality a month later means there is no standard to judge the intervening results against, and a month of work has already been committed to an unexamined choice.\n\n**B.** Committing several tiers to the task before any standard exists means the trial is designed without knowing what it is testing for, and it duplicates the work and the allowance draw on every run.\n\n**C.** Comparing results before the task has been run is out of order, and benchmarking against manual work is not the same as agreeing what this task's output has to achieve.\n\n**D.** Correct. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 149
+ },
+ {
+  "no": 168,
+  "id": "ccao-f-q165",
+  "type": "single",
+  "select": 1,
+  "question": "A market research manager has been asked to summarise survey free-text responses that include respondents' names and employers, using the company's Claude for Work plan. In which order should these steps be taken?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Remove the names and employers that the summary does not need; check what the participant consent and company policy allow; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly."
+   },
+   {
+    "key": "B",
+    "text": "Run the summary and review it before it is circulated; check what the participant consent and company policy allow; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly."
+   },
+   {
+    "key": "C",
+    "text": "Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly."
+   },
+   {
+    "key": "D",
+    "text": "Check what the participant consent and company policy allow; run the summary and review it before it is circulated; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nC. Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.\n\nCorrect. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.\n\n**A.** Data is edited before anyone has established what participants agreed to, so the amount of personal detail removed is guesswork and may be either too little or more than the analysis can afford.\n\n**B.** The personal data is processed and the output reviewed before either the consent position or the minimisation step, which is the sequence that causes the exposure rather than preventing it.\n\n**C.** Correct. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.\n\n**D.** The consent check happens first, but the full identifiable transcripts are still put into the tool before the names and employers are removed, so the minimisation step comes too late to protect anyone.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 165
+ },
+ {
+  "no": 169,
+  "id": "ccao-f-q167",
+  "type": "single",
+  "select": 1,
+  "question": "An analyst wants to get more done inside her weekly allowance without the quality of her work dropping. Which sequence of working habits is correct?",
+  "imageMissing": false,
+  "options": [
+   {
+    "key": "A",
+    "text": "Put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting."
+   },
+   {
+    "key": "B",
+    "text": "Open a new chat for the next unrelated task; decide what she needs before starting; work through follow-ups that refer back to it; put the request and the relevant material in the opening message."
+   },
+   {
+    "key": "C",
+    "text": "Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task."
+   },
+   {
+    "key": "D",
+    "text": "Work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting; put the request and the relevant material in the opening message."
+   }
+  ],
+  "correct": [
+   "C"
+  ],
+  "yourAnswer": [],
+  "result": "unanswered",
+  "explanation": "Correct answer from the source:\nC. Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task.\n\nCorrect. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.\n\n**A.** Everything here is done before she has decided what she needs, so the opening message is assembled blind.\n\n**B.** Opening a chat for the next task before the current one has been started puts the last step first.\n\n**C.** Correct. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.\n\n**D.** Following up before the request has even been made, and deciding what is needed last, inverts the whole habit.",
+  "references": [
+   {
+    "title": "from ThinhNH39's data",
+    "url": ""
+   }
+  ],
+  "origNo": 167
  }
 ];

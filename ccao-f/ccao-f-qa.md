@@ -3,7 +3,7 @@
 Source: tstudy.vercel.app (T-Study — data của ThinhNH39). Options are labeled A–E in the order shown on screen. ✅ marks the correct answer(s).
 
 
-# Nhóm: Chọn 1 đáp án (single choice) — 127 câu
+# Nhóm: Chọn 1 đáp án (single choice) — 110 câu
 
 
 ---
@@ -143,39 +143,6 @@ Claims about an industry standard require support from an authoritative, identif
 
 ## Q6 · single choice
 
-You are breaking down a “build a customer journey map” request.
-
-Which sequence of decomposed steps is correct?
-
-1. Identify the touchpoints the customer experiences during each stage.  
-2. Define the persona and the journey scope that will be mapped.  
-3. Document pain points and opportunities at every touchpoint.  
-4. Synthesize the findings into the finished journey-map artifact.  
-5. Identify the primary stages the persona progresses through.
-
-- ✅ **A.** 2, 5, 1, 3, 4
-- **B.** 1, 2, 5, 3, 4
-- **C.** 5, 2, 1, 3, 4
-- **D.** 2, 1, 5, 3, 4
-
-**Answer:** A
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-A. 2, 5, 1, 3, 4
-
-A customer journey map is grounded in a defined persona and journey scope. Its structure is then established by identifying the persona’s major stages, followed by the touchpoints within those stages. Pain points and opportunities are evaluated at those touchpoints before all findings are synthesized into the final journey map.
-
-</details>
-
-
----
-
-## Q7 · single choice
-
 A knowledge worker is using the AI Fluency Framework’s Description competency to revise an underperforming prompt. Which revision most accurately reflects Description principles?
 
 - **A.** Remove the existing context from the prompt and submit only the bare task statement, eliminating the audience, format, and constraint information that Description principles call for in a clear specification.
@@ -205,42 +172,7 @@ Description involves communicating goals clearly enough to prompt useful AI beha
 
 ---
 
-## Q8 · single choice
-
-You are a knowledge worker moving from a long, drifting conversation to a fresh, focused session. What is the correct sequence of transition steps?
-
-1. Start a new chat and paste the summary as its initial context.  
-2. Summarize the goals, key decisions, and open questions from the lengthy conversation.  
-3. Determine which references should remain available beyond the current chat.  
-4. Place persistent references in a Project’s knowledge base or attach them as needed.  
-5. Verify that the new chat is on-task before resuming the work.
-
-- **A.** 1, 2, 3, 4, 5
-- ✅ **B.** 2, 3, 4, 1, 5
-- **C.** 2, 4, 3, 1, 5
-- **D.** 3, 2, 4, 1, 5
-
-**Answer:** B
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-B. 2, 3, 4, 1, 5
-
-A focused continuation requires a usable summary before a new chat can receive its starting context. References intended for reuse should be identified and added to Project sources or attached before continuing, because Projects keep related chats, files, and instructions together to preserve context and stay on-task. The new chat can then be validated for alignment before work resumes.
-
-#### Learn more
-
-- Projects in ChatGPT
-
-</details>
-
-
----
-
-## Q9 · single choice
+## Q7 · single choice
 
 You are a member of an operations team preparing input to summarize customer feedback. The feedback file combines public quotations with personal contact information.
 
@@ -271,7 +203,7 @@ Only the feedback necessary for the summary should be provided, while personal c
 
 ---
 
-## Q10 · single choice
+## Q8 · single choice
 
 You are an operations lead and observe that a Project’s outputs have been drifting away from the team’s current expectations. Which maintenance action should be attempted first?
 
@@ -302,7 +234,7 @@ Project instructions define how Claude should behave and respond across the Proj
 
 ---
 
-## Q11 · single choice
+## Q9 · single choice
 
 An HR business partner is creating a long-running workspace in which a team handbook, a leveling guide, and a policies-FAQ document will be used across many separate chats by several team members.
 
@@ -335,7 +267,7 @@ Claude Projects provide a persistent workspace with a project knowledge base who
 
 ---
 
-## Q12 · single choice
+## Q10 · single choice
 
 You are an analyst verifying facts in a Claude-generated report. Two cited sources provide conflicting dates for the same event. Which approach is correct?
 
@@ -360,42 +292,7 @@ A primary or authoritative source is the strongest basis for establishing an eve
 
 ---
 
-## Q13 · single choice
-
-A business analyst is transforming a stakeholder’s sticky-note request into a structured prompt for Claude. What is the correct sequence of conversion steps?
-
-1. Confirm the audience and the decision that the response needs to support.  
-2. Submit the structured prompt to Claude.  
-3. Identify the underlying task concealed in the sticky-note language.  
-4. Specify the required length, tone, and output format.  
-5. Add the supporting facts and constraints that are relevant to the task.
-
-- **A.** 3, 5, 1, 4, 2
-- **B.** 1, 3, 5, 4, 2
-- ✅ **C.** 3, 1, 5, 4, 2
-- **D.** 2, 3, 1, 5, 4
-
-**Answer:** C
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-C. 3, 1, 5, 4, 2
-
-A useful structured prompt progresses from the underlying task and intended audience or decision to the relevant context and constraints, followed by explicit output requirements such as length, tone, and format. The complete prompt is submitted only after those elements are defined. Anthropic guidance likewise recommends clear instructions, relevant context, and explicit expected output.
-
-#### Learn more
-
-- Claude 4 Prompt Engineering Best Practices
-
-</details>
-
-
----
-
-## Q14 · single choice
+## Q11 · single choice
 
 You are a bank manager who receives a request to use Claude as the sole decision-maker for customer credit-line approvals. Which response is most appropriate?
 
@@ -420,7 +317,7 @@ Customer credit-line approvals are consequential financial decisions that requir
 
 ---
 
-## Q15 · single choice
+## Q12 · single choice
 
 A Claude associate is determining the bottleneck in a content workflow that is taking too long to publish. The workflow includes five steps: research, drafting, internal review, legal review, and publication. Cycle-time data is available for each step from the past month.
 
@@ -453,7 +350,7 @@ A bottleneck is the process step whose capacity constrains the throughput of the
 
 ---
 
-## Q16 · single choice
+## Q13 · single choice
 
 You are setting up a new Claude Project for a particular recurring workload. Which Project-configuration step should be completed first?
 
@@ -484,7 +381,7 @@ A Project’s purpose and the recurring tasks it will support establish the cont
 
 ---
 
-## Q17 · single choice
+## Q14 · single choice
 
 A project lead is assessing a Claude-generated status report against the project charter. The report will be presented to a steering committee that expects an accurate status update against committed milestones.
 
@@ -511,7 +408,7 @@ A strong evaluation framework for a project status report verifies factual accur
 
 ---
 
-## Q18 · single choice
+## Q15 · single choice
 
 A senior manager is reviewing a colleague’s practice of never updating their team’s Project configurations because “if it works once, it works forever.” Which feedback is most appropriate?
 
@@ -536,7 +433,7 @@ Project configurations should be reviewed and updated periodically because the p
 
 ---
 
-## Q19 · single choice
+## Q16 · single choice
 
 While preparing a stakeholder communication about a proposed Claude use case, a senior manager is applying the AI Fluency Framework Description competency.
 
@@ -569,69 +466,7 @@ Effective Description uses clear, purposeful communication to convey intended AI
 
 ---
 
-## Q20 · single choice
-
-You are a Claude associate conducting an ethics review of a Claude-assisted deliverable before it is published. What is the correct sequence of review steps?
-
-1. Confirm that transparency requirements are satisfied for the audience that will receive the deliverable.  
-2. Record the review result and any modifications made.  
-3. Identify the audience and the deliverable’s potential impact on that audience.  
-4. Make focused revisions, or escalate when a concern needs greater authority to resolve.  
-5. Review the content for unsupported generalizations, fairness concerns, and accuracy issues.
-
-- **A.** 5, 3, 1, 4, 2
-- **B.** 3, 1, 5, 4, 2
-- ✅ **C.** 3, 5, 1, 4, 2
-- **D.** 1, 3, 5, 4, 2
-
-**Answer:** C
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-C. 3, 5, 1, 4, 2
-
-An ethics review should establish who may be affected and how, assess the content for fairness and accuracy problems, determine the transparency required for that audience, address or escalate identified concerns, and retain a record of the final outcome and changes.
-
-</details>
-
-
----
-
-## Q21 · single choice
-
-You are a business analyst assessing a Claude-generated business case against the agreed acceptance criteria. What is the correct sequence of evaluation steps?
-
-1. Compare the business case against the source data and required topics.  
-2. Record gaps and inaccuracies for follow-up or correction.  
-3. Reconfirm the acceptance criteria for the business case.  
-4. Determine whether to use the business case, iterate, or escalate.  
-5. Read the business case from start to finish to form an initial impression.
-
-- **A.** 3, 1, 5, 2, 4
-- **B.** 1, 3, 5, 2, 4
-- **C.** 5, 3, 1, 2, 4
-- ✅ **D.** 3, 5, 1, 2, 4
-
-**Answer:** D
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-D. 3, 5, 1, 2, 4
-
-A sound evaluation establishes the acceptance criteria before review, reads the complete business case for context, validates it against source data and required content, records deficiencies, and only then decides whether it is acceptable, needs iteration, or should be escalated.
-
-</details>
-
-
----
-
-## Q22 · single choice
+## Q17 · single choice
 
 A project manager is turning a Claude-generated draft into a polished board memo. The board reviews the memo before the meeting and expects it to be scannable, factually verified, and consistent with the organization’s standard terminology.
 
@@ -658,7 +493,7 @@ A board memo should use consistent headings and concise wording for quick execut
 
 ---
 
-## Q23 · single choice
+## Q18 · single choice
 
 A learning specialist is setting up a Claude Project for a recurring course-design workflow.
 
@@ -691,7 +526,7 @@ Skills provide specialized, repeatable procedures, while a Project’s knowledge
 
 ---
 
-## Q24 · single choice
+## Q19 · single choice
 
 An operations assistant is using Claude to help optimize an existing intake workflow. The assistant can access the current process documentation and recent cycle-time data.
 
@@ -724,7 +559,7 @@ Claude can analyze provided documentation and cycle-time data to map the current
 
 ---
 
-## Q25 · single choice
+## Q20 · single choice
 
 An associate is responding to an executive who asserts that Claude will remove the need for any human review of customer-facing content. The executive approves the team’s AI-tools budget.
 
@@ -755,7 +590,7 @@ Generative-model output can still contain factual errors, violate organizational
 
 ---
 
-## Q26 · single choice
+## Q21 · single choice
 
 A support representative is setting up a Project to draft customer-facing apology emails following service outages. The current custom instructions tell Claude to “be empathetic and casual, keep it short, and offer a goodwill credit.” The customer-service team has reported that recent drafts are too brief, offer goodwill credits when policy does not permit them, and use contractions prohibited by the brand voice guide.
 
@@ -782,7 +617,7 @@ Custom instructions should state the required voice attributes and operational c
 
 ---
 
-## Q27 · single choice
+## Q22 · single choice
 
 You are an operations manager creating a quick-reference card for a team.
 
@@ -815,7 +650,7 @@ Claude Haiku is the lightweight, fast, lower-cost tier; Claude Sonnet balances c
 
 ---
 
-## Q28 · single choice
+## Q23 · single choice
 
 A knowledge worker is explaining how feedback can be used to improve Claude-supported work over time.
 
@@ -842,40 +677,7 @@ An effective improvement loop captures specific feedback after each run, maps it
 
 ---
 
-## Q29 · single choice
-
-You are a Claude associate investigating a recurring instance of poor output.
-
-Which diagnostic-step sequence is correct?
-
-1. Develop a hypothesis about the prompt element most likely responsible for the deficiency.  
-2. Make one targeted change and observe its effect on the output.  
-3. Read the output from beginning to end and identify the specific deficiency.  
-4. Compare the deficient output with the prompt to find mismatches between the input and output.  
-5. Record the root cause and resolution for future reference.
-
-- **A.** 1, 3, 4, 2, 5
-- **B.** 4, 3, 1, 2, 5
-- **C.** 3, 1, 4, 2, 5
-- ✅ **D.** 3, 4, 1, 2, 5
-
-**Answer:** D
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-D. 3, 4, 1, 2, 5
-
-Effective prompt-output troubleshooting first identifies the precise output defect and compares it with the prompt to establish the relevant mismatch. The resulting evidence supports a causal hypothesis, which should be tested by changing only one targeted element. Documenting the confirmed cause and resolution preserves the result for later reuse.
-
-</details>
-
-
----
-
-## Q30 · single choice
+## Q24 · single choice
 
 You have revised a Claude prompt eight times, and output quality has plateaued during the last four attempts. Which conclusion is most appropriate?
 
@@ -900,7 +702,7 @@ When several successive prompt iterations no longer improve output quality, furt
 
 ---
 
-## Q31 · single choice
+## Q25 · single choice
 
 You are a project manager assessing workflow steps by the amount of leverage Claude integration provides. Which workflow step generally delivers the greatest Claude leverage for a knowledge-work team?
 
@@ -925,40 +727,7 @@ Claude is most useful for drafting and synthesizing information from many source
 
 ---
 
-## Q32 · single choice
-
-You are conducting a weekly feedback-and-adjustment cycle.
-
-What is the correct sequence of cycle steps?
-
-1. Turn feedback into one or two focused adjustments for the next cycle.  
-2. Run the following cycle and compare its results with the previous cycle.  
-3. Record the specific feedback received during the review.  
-4. Document what changed, the effect it created, and any unresolved issues.  
-5. Determine whether to keep iterating, change approaches, or escalate.
-
-- **A.** 2, 3, 1, 4, 5
-- **B.** 1, 3, 2, 4, 5
-- ✅ **C.** 3, 1, 2, 4, 5
-- **D.** 3, 2, 1, 4, 5
-
-**Answer:** C
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-C. 3, 1, 2, 4, 5
-
-A closed feedback loop records the review feedback before selecting targeted adjustments. The adjusted cycle is then run and measured against the prior cycle; its changes and outcomes are documented so there is a basis for deciding whether to iterate further, change direction, or escalate.
-
-</details>
-
-
----
-
-## Q33 · single choice
+## Q26 · single choice
 
 You are a content creator. Claude’s initial response is accurate but uses inconsistent terminology that does not align with your organization’s glossary. Which iterative revision addresses this issue most directly?
 
@@ -983,7 +752,7 @@ Providing the organization’s glossary and requiring exclusive use of its terms
 
 ---
 
-## Q34 · single choice
+## Q27 · single choice
 
 A knowledge worker regularly switches between Claude and another AI service while working on a long-running project.
 
@@ -1016,7 +785,7 @@ Claude Memory retains work-related context for use in new conversations, and its
 
 ---
 
-## Q35 · single choice
+## Q28 · single choice
 
 An HR business partner is setting up a new Project for recurring policy questions from managers. The Project will be used across many chats by several HR team members.
 
@@ -1049,7 +818,7 @@ A Project knowledge base supplies context across all chats in that Project, so i
 
 ---
 
-## Q36 · single choice
+## Q29 · single choice
 
 A knowledge worker is briefing a stakeholder group about Claude’s limitations. The stakeholders will use Claude for customer-facing work, where confident-sounding output containing errors could cause real harm.
 
@@ -1080,7 +849,7 @@ Claude can sometimes hallucinate, producing text that is factually incorrect or 
 
 ---
 
-## Q37 · single choice
+## Q30 · single choice
 
 You are a knowledge worker preparing material for a Claude prompt.
 
@@ -1111,7 +880,7 @@ Government identifiers and full payment-card numbers associated with identifiabl
 
 ---
 
-## Q38 · single choice
+## Q31 · single choice
 
 You are an operations lead who is integrating Claude into a workflow used by multiple people.
 
@@ -1142,7 +911,7 @@ A human–AI workflow must first define the tasks where Claude provides value an
 
 ---
 
-## Q39 · single choice
+## Q32 · single choice
 
 A Claude associate is assessing a proposed use case in which Claude would make final hiring decisions without any human review, using the AI Fluency Framework’s Delegation competency.
 
@@ -1173,7 +942,7 @@ Delegation involves strategically distributing work between people and AI based 
 
 ---
 
-## Q40 · single choice
+## Q33 · single choice
 
 You are assessing a Claude output that seems to include hallucinated content. Which response step should be taken first when a hallucination is suspected?
 
@@ -1202,7 +971,7 @@ A hallucination is an assertion that lacks factual support or conflicts with rel
 
 ---
 
-## Q41 · single choice
+## Q34 · single choice
 
 Before sharing a Claude-generated brief, an analyst applies the AI Fluency Framework’s Discernment competency to assess it. Which review most accurately reflects Discernment principles?
 
@@ -1231,7 +1000,7 @@ Discernment involves thoughtfully and critically evaluating AI outputs for quali
 
 ---
 
-## Q42 · single choice
+## Q35 · single choice
 
 You are refining a prompt across several iterations. With every change, the output drifts farther from the requested template. Which step is most appropriate?
 
@@ -1256,7 +1025,7 @@ Prompt refinement is most effective when it resumes from the version that most c
 
 ---
 
-## Q43 · single choice
+## Q36 · single choice
 
 You are categorizing structural defects in Claude output by how much they undermine clarity. Which structural defect most seriously impairs the output’s clarity?
 
@@ -1281,7 +1050,7 @@ A main conclusion that conflicts with the evidence in the body creates a fundame
 
 ---
 
-## Q44 · single choice
+## Q37 · single choice
 
 As a communications manager, you are validating a Claude-generated newsletter that contains a specific industry-growth figure. The figure is reported in three trade-press articles, but none links to the underlying study.
 
@@ -1308,7 +1077,7 @@ A figure repeated across secondary trade-press articles can originate from the s
 
 ---
 
-## Q45 · single choice
+## Q38 · single choice
 
 You are preparing a document with mixed-sensitivity content for use with Claude.
 
@@ -1339,7 +1108,7 @@ Sensitive fields must be identified through content classification before they c
 
 ---
 
-## Q46 · single choice
+## Q39 · single choice
 
 A finance consultant is revising a Claude-generated narrative for a quarterly investor update. Investors have a fixed time window for the call and expect the headline result and forward outlook to be made clear early.
 
@@ -1366,7 +1135,7 @@ Quarterly investor communications should prioritize the headline financial resul
 
 ---
 
-## Q47 · single choice
+## Q40 · single choice
 
 A knowledge worker is describing the purpose of an organizational AI governance framework to a colleague.
 
@@ -1397,7 +1166,7 @@ An AI governance framework sets organizational policies, processes, controls, ro
 
 ---
 
-## Q48 · single choice
+## Q41 · single choice
 
 A senior project coordinator has been asked to use Claude to create an end-of-year report covering finance, operations, and customer outcomes. The three areas have distinct data owners and separate source documents.
 
@@ -1424,7 +1193,7 @@ A strong cross-functional report is developed by defining its goals, collecting 
 
 ---
 
-## Q49 · single choice
+## Q42 · single choice
 
 A customer-success associate is preparing a prompt asking Claude to summarize a customer issue from a case file. The case file contains the customer’s full government identifier, home address, name, account number, and a description of the issue. The associate needs a summary focused on the issue.
 
@@ -1451,42 +1220,7 @@ Data minimization requires providing only the information needed for the intende
 
 ---
 
-## Q50 · single choice
-
-You are a process consultant incorporating Claude into an existing weekly workflow. Which sequence of integration steps is correct?
-
-1. Pilot the integrated workflow with a small group and collect feedback.  
-2. Document the current workflow’s steps, owners, and decision points.  
-3. Update the documented workflow and deploy it to the broader team.  
-4. Identify the steps where Claude can augment work and where humans must remain.  
-5. Define the inputs Claude requires, the outputs Claude provides, and the hand-offs around each step.
-
-- ✅ **A.** 2, 4, 5, 1, 3
-- **B.** 2, 5, 4, 1, 3
-- **C.** 4, 2, 5, 1, 3
-- **D.** 1, 2, 4, 5, 3
-
-**Answer:** A
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-A. 2, 4, 5, 1, 3
-
-Workflow integration should begin with documenting the current process so its ownership and decision points are understood. That enables appropriate allocation of Claude-assisted and human-controlled work, followed by a clear specification of inputs, outputs, and hand-offs. A limited pilot validates the integrated process and gathers feedback before the workflow is revised and rolled out broadly. Anthropic guidance similarly recommends breaking an interaction into tasks, defining success criteria, and evaluating it systematically before production deployment.
-
-#### Learn more
-
-- Customer Support Agent — Claude Platform Docs
-
-</details>
-
-
----
-
-## Q51 · single choice
+## Q43 · single choice
 
 A customer-success team member reviews a Claude-generated customer health-check report against the agreed deliverable list. The report addresses all five required topics, but its renewal-risk section identifies only one risk factor, whereas the deliverable specification requires renewal risk to be evaluated across pricing, product fit, and stakeholder change.
 
@@ -1513,7 +1247,7 @@ A deliverable can satisfy the presence of each required topic while still failin
 
 ---
 
-## Q52 · single choice
+## Q44 · single choice
 
 An analyst has been asked to calculate summary statistics from an uploaded sales-data file and create a chart for a weekly report. Which output approach is the best fit for this task?
 
@@ -1538,7 +1272,7 @@ Code Execution can calculate statistics from the full uploaded dataset, create t
 
 ---
 
-## Q53 · single choice
+## Q45 · single choice
 
 You are preparing system-level instructions for a Project that supports recurring writing tasks.
 
@@ -1569,7 +1303,7 @@ Effective system-level instructions begin by establishing the Project’s purpos
 
 ---
 
-## Q54 · single choice
+## Q46 · single choice
 
 A business analyst is asked to use Claude to extract requirements from a recorded stakeholder-interview transcript. The transcript is about 90 minutes long and addresses multiple topics.
 
@@ -1600,7 +1334,7 @@ Explicitly requesting separate categories for mandatory requirements, optional r
 
 ---
 
-## Q55 · single choice
+## Q47 · single choice
 
 You received an imprecise request to “look at our pricing.” After discovery, the objective is confirmed: create a structured competitor-pricing summary the team can act on, rather than develop new pricing ideas.
 
@@ -1627,7 +1361,7 @@ A structured competitor-pricing summary requires research that collects comparab
 
 ---
 
-## Q56 · single choice
+## Q48 · single choice
 
 You are a customer-success manager deciding whether to escalate a Claude-generated response. Which factor most strongly increases the output’s impact and warrants escalation before it is used externally?
 
@@ -1656,7 +1390,7 @@ An unchanged customer-facing draft that makes a service-level commitment can cre
 
 ---
 
-## Q57 · single choice
+## Q49 · single choice
 
 An HR associate is getting ready to use Claude for a sensitive personnel matter. The organization’s AI policy expressly says that information concerning ongoing investigations must not be entered into AI tools.
 
@@ -1683,7 +1417,7 @@ Information connected to an ongoing investigation must not be entered into an AI
 
 ---
 
-## Q58 · single choice
+## Q50 · single choice
 
 A knowledge worker is refining a prompt that has generated a partially acceptable response.
 
@@ -1710,7 +1444,7 @@ Controlled prompt refinement changes one identifiable variable at a time and rec
 
 ---
 
-## Q59 · single choice
+## Q51 · single choice
 
 A communications manager is preparing a prompt for Claude to create a quarterly newsletter for store managers across three regions. The agreed key messages, regional information, and a previous newsletter the team liked are all available.
 
@@ -1741,7 +1475,7 @@ Clear, explicit instructions about the intended audience, regional scope, output
 
 ---
 
-## Q60 · single choice
+## Q52 · single choice
 
 You are an operations assistant asking Claude to summarize 200 weekly metric records across several regions. Which output format presents the data most clearly?
 
@@ -1766,7 +1500,7 @@ A structured table makes a large, multi-region dataset easy to scan, compare, so
 
 ---
 
-## Q61 · single choice
+## Q53 · single choice
 
 You are an analyst reviewing a Claude response that answers two of three required questions but omits the third. Which prompt element most likely needs to be strengthened?
 
@@ -1791,7 +1525,7 @@ Explicitly enumerating the three required questions and directing Claude to answ
 
 ---
 
-## Q62 · single choice
+## Q54 · single choice
 
 An HR team member is reviewing a Claude-generated set of interview questions meant to be used with every candidate for one role. The questions will be asked in the same sequence to each candidate.
 
@@ -1824,7 +1558,7 @@ Fair interview questions are job-related, avoid assumptions about protected or p
 
 ---
 
-## Q63 · single choice
+## Q55 · single choice
 
 You are a marketing manager using Claude to research a new market segment. Which research step should be completed first?
 
@@ -1853,7 +1587,7 @@ Research must begin by defining the specific questions to be answered, because t
 
 ---
 
-## Q64 · single choice
+## Q56 · single choice
 
 An HR business partner is setting up two separate Projects for two different client engagements.
 
@@ -1886,7 +1620,7 @@ Separate Claude Projects provide self-contained workspaces with project-specific
 
 ---
 
-## Q65 · single choice
+## Q57 · single choice
 
 You are an operations assistant choosing a model for a recurring meeting-summary task that needs no deep reasoning and operates at moderate volume.
 
@@ -1919,7 +1653,7 @@ Sonnet is the balanced Claude model tier for routine work that needs solid outpu
 
 ---
 
-## Q66 · single choice
+## Q58 · single choice
 
 A learning specialist is setting up a Project for course-design work. The organization has an internal instructional-design standard and a preferred format for lesson outlines.
 
@@ -1952,40 +1686,7 @@ Project instructions apply to all chats within a Project and are intended to est
 
 ---
 
-## Q67 · single choice
-
-You are reviewing a competitor brief generated by Claude for unsupported claims.
-
-What is the correct sequence of review steps?
-
-1. Cross-check each specific claim against the provided source material or reliable external references.  
-2. Determine whether to correct, re-prompt, or escalate based on the findings.  
-3. Record every unsupported or inconsistent claim with its location and severity.  
-4. Identify the specific factual claims, statistics, and citations in the brief.  
-5. Read the brief from start to finish and flag any claims that seem surprising.
-
-- **A.** 1, 4, 5, 3, 2
-- **B.** 4, 5, 1, 3, 2
-- **C.** 5, 1, 4, 3, 2
-- ✅ **D.** 5, 4, 1, 3, 2
-
-**Answer:** D
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-D. 5, 4, 1, 3, 2
-
-An effective unsupported-claim review starts with a complete read-through to spot potentially questionable content, followed by identifying the exact claims, statistics, and citations requiring validation. Those items are then checked against authoritative evidence, documented when unsupported or inconsistent, and used to determine the appropriate remediation or escalation.
-
-</details>
-
-
----
-
-## Q68 · single choice
+## Q59 · single choice
 
 When preparing an AI-assisted work product for external delivery, a senior manager is applying the AI Fluency Framework’s Diligence competency.
 
@@ -2016,7 +1717,7 @@ Deployment Diligence requires the human using AI to verify and vouch for outputs
 
 ---
 
-## Q69 · single choice
+## Q60 · single choice
 
 A Claude associate is examining Claude-generated customer-segment descriptions for an internal marketing brief. One description makes a generalization about a demographic group’s purchasing behavior that is not true for individual customers within that segment.
 
@@ -2046,40 +1747,7 @@ Customer segmentation should describe demonstrable customer behaviors and be val
 
 ---
 
-## Q70 · single choice
-
-You are conducting an optimization pass on a recurring workflow.
-
-What is the correct sequence of optimization steps?
-
-1. Apply targeted optimization to the bottleneck step  
-2. Roll out the optimized workflow to the wider team and document the change  
-3. Identify the bottleneck step by using measured time per step and queue length  
-4. Map the existing workflow steps, owners, and decision points  
-5. Pilot the change with a small group and measure its effect against the previous baseline
-
-- **A.** 4, 1, 3, 5, 2
-- ✅ **B.** 4, 3, 1, 5, 2
-- **C.** 3, 4, 1, 5, 2
-- **D.** 1, 4, 3, 5, 2
-
-**Answer:** B
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-B. 4, 3, 1, 5, 2
-
-Workflow optimization begins by mapping the current process, then using performance measurements to identify the bottleneck. A targeted improvement is applied to that constraint, tested in a limited pilot against the established baseline, and only then rolled out broadly with documentation.
-
-</details>
-
-
----
-
-## Q71 · single choice
+## Q61 · single choice
 
 You are a customer-success lead operating an interactive workflow in which every turn must respond quickly and the reasoning required per turn is light. Which option best matches these requirements?
 
@@ -2108,7 +1776,7 @@ Haiku is the appropriate model family for simple, high-volume, latency-sensitive
 
 ---
 
-## Q72 · single choice
+## Q62 · single choice
 
 You are a research associate assembling inputs for a lengthy task that refers to two long regulatory documents, but only particular sections are relevant.
 
@@ -2135,7 +1803,7 @@ Extracting and supplying only the relevant sections retains the necessary regula
 
 ---
 
-## Q73 · single choice
+## Q63 · single choice
 
 You are a project lead evaluating a teammate’s practice of using the same prompt template for every task, regardless of task type. Which feedback is most appropriate?
 
@@ -2160,7 +1828,7 @@ Prompting strategy should be adapted to the task type because different tasks re
 
 ---
 
-## Q74 · single choice
+## Q64 · single choice
 
 You are a knowledge worker preparing a summary of common prompt-failure patterns for the team.
 
@@ -2187,41 +1855,7 @@ A prompt that identifies only a topic leaves the intended task, audience, and re
 
 ---
 
-## Q75 · single choice
-
-You are a Claude associate evaluating a proposed Claude use case before approving it for your team. What is the correct sequence of assessment steps?
-
-1. Compare the use case with the organization’s policies and the relevant regulatory considerations.  
-2. Document the assessment outcome and rationale for traceability.  
-3. Identify the audience, decision impact, and reversibility of the outputs.  
-4. Decide whether the use case proceeds, needs modification, or is declined.  
-5. Identify the data types involved and whether sensitive data is implicated.
-
-- **A.** 3, 1, 5, 4, 2
-- **B.** 1, 3, 5, 4, 2
-- **C.** 5, 3, 1, 4, 2
-- ✅ **D.** 3, 5, 1, 4, 2
-
-**Answer:** D
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-D. 3, 5, 1, 4, 2
-
-A sound assessment begins by establishing who will receive or rely on the output, the consequences of an incorrect result, and whether the resulting action can be reversed (3). This initial impact analysis determines the level of scrutiny required. The assessor should then identify the data involved, especially personal, confidential, regulated, or otherwise sensitive information (5). Once the use case and its information exposure are understood, it can be compared meaningfully against organizational AI policies, legal requirements, and regulatory restrictions (1). The next step is to decide whether the use case should proceed, be modified with safeguards, or be rejected (4). Documentation comes last because it records the completed assessment, decision, supporting evidence, restrictions, and rationale for auditability (2).
-
-> **ℹ️ Step numbering corrected**
-> An earlier version of this question listed the five steps in a different order from the one its answer options refer to, which made the marked sequence document the outcome before deciding it. The steps now follow the source numbering, and the answer is 3, 5, 1, 4, 2. Another source marks 1, 3, 5, 4, 2, which would compare the use case against policy before its audience, impact and data are known.
-
-</details>
-
-
----
-
-## Q76 · single choice
+## Q65 · single choice
 
 A project manager is determining how Claude can assist with requirements analysis for an upcoming engagement. The team will conduct stakeholder interviews and review existing process documentation during discovery.
 
@@ -2254,7 +1888,7 @@ Claude can synthesize information from stakeholder interviews and process docume
 
 ---
 
-## Q77 · single choice
+## Q66 · single choice
 
 An account manager used Claude to extract requirements from stakeholder notes. Three requirements seem to be in conflict: two stakeholders specified mutually exclusive workflow steps, and a third requirement presumes an outcome that the first two would prevent.
 
@@ -2281,7 +1915,7 @@ Requirements conflicts should be explicitly documented with traceability to each
 
 ---
 
-## Q78 · single choice
+## Q67 · single choice
 
 A knowledge worker is describing the cost, speed, and quality trade-offs among Claude models to a colleague. Which generalization accurately characterizes this trade-off?
 
@@ -2310,7 +1944,7 @@ Claude’s model lineup generally trades efficiency for capability: lighter mode
 
 ---
 
-## Q79 · single choice
+## Q68 · single choice
 
 A finance manager needs to choose a Claude feature for work requiring deterministic calculations across a multi-tab spreadsheet. Which option best meets this requirement?
 
@@ -2339,7 +1973,7 @@ Claude Code Execution can run code in a secure sandbox, process uploaded files, 
 
 ---
 
-## Q80 · single choice
+## Q69 · single choice
 
 A Claude associate is investigating a Claude response that answered only one of three required questions in a prompt. The prompt presented all three questions in one paragraph, separated by commas.
 
@@ -2366,7 +2000,7 @@ When a prompt contains several required items, explicitly numbering or otherwise
 
 ---
 
-## Q81 · single choice
+## Q70 · single choice
 
 A sales manager is refining a Claude-generated solution prototype after a stakeholder review identified two particular concerns. The remainder of the prototype was approved as written.
 
@@ -2393,51 +2027,7 @@ A focused revision incorporates the specific stakeholder feedback while retainin
 
 ---
 
-## Q82 · single choice
-
-As a senior analyst, you use Claude to analyze requirements from several stakeholder sources.
-
-What is the correct sequence of steps?
-
-1. Group related requirements and flag conflicts or ambiguities for stakeholder review.  
-2. Validate the structured output against the original sources for accuracy and completeness.  
-3. Submit the consolidated inputs to Claude using a structured extraction prompt.  
-4. Gather and label the source materials so that every requirement can be traced.  
-5. Document the final requirements set with source traceability and status.
-
-- **A.** 4, 1, 3, 2, 5
-- ✅ **B.** 4, 3, 1, 2, 5
-- **C.** 1, 4, 3, 2, 5
-- **D.** 3, 4, 1, 2, 5
-
-**Answer:** B
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-B. 4, 3, 1, 2, 5
-
-Source materials must be gathered and labeled before consolidation so each requirement remains traceable. The consolidated material is then submitted to Claude with a structured extraction prompt; the extracted requirements can subsequently be grouped and reviewed for conflicts or ambiguities. Validation against the original sources must occur before documenting the final, traceable requirements set. Anthropic’s citations documentation supports providing documents to Claude and retaining source references for verification.
-
-#### Learn more
-
-- Anthropic Claude Platform Docs: Citations
-
-> **⚠️ Answer keys disagree**
-> Another practice source marks A (4, 1, 3, 2, 5). This course keeps B: requirements can only be grouped and checked for conflicts after Claude has extracted them from the consolidated inputs, so step 3 comes before step 1.
-
-#### Alternative reasoning (supports A)
-
-- Gather and label the sources first, then group related requirements and flag conflicts before submitting the consolidated inputs to Claude, validate the output against the sources, and document the final set.
-
-</details>
-
-
----
-
-## Q83 · single choice
+## Q71 · single choice
 
 You are assessing whether a request to “redesign new-hire onboarding” should be broken into parts before prompting Claude. Which characteristic of the request most strongly suggests that decomposition would be useful?
 
@@ -2466,67 +2056,7 @@ Decomposition is most valuable when work contains multiple distinct deliverables
 
 ---
 
-## Q84 · single choice
-
-You are a procurement associate breaking down a vendor-evaluation task. Which dependency sequence represents sound ordering?
-
-- ✅ **A.** Define evaluation criteria first, gather vendor data against those criteria, then score and rank.
-- **B.** Rank vendors before any data is collected.
-- **C.** Score vendors first and decide on the criteria afterward.
-- **D.** Skip criteria and ask Claude to produce a vendor recommendation from no inputs.
-
-**Answer:** A
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-A. Define evaluation criteria first, gather vendor data against those criteria, then score and rank.
-
-A defensible vendor evaluation defines the assessment criteria before collecting evidence, then gathers vendor information aligned to those criteria, and finally uses that information to score and rank the vendors.
-
-</details>
-
-
----
-
-## Q85 · single choice
-
-You are a knowledge worker determining whether to escalate Claude-generated output. What is the correct sequence of decision steps?
-
-1. Identify the audience and the impact if the output is incorrect.  
-2. Document the decision and its rationale for traceability.  
-3. Compare the output’s risk profile with the organization’s escalation criteria.  
-4. Decide whether to use the output, iterate further, or escalate.  
-5. Evaluate the output’s accuracy, completeness, and any unverified claims.
-
-- **A.** 5, 1, 3, 4, 2
-- **B.** 3, 1, 5, 4, 2
-- ✅ **C.** 1, 5, 3, 4, 2
-- **D.** 1, 3, 5, 4, 2
-
-**Answer:** C
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-C. 1, 5, 3, 4, 2
-
-Assessing the audience and consequences establishes the potential impact, while evaluating accuracy, completeness, and unverified claims establishes the output’s quality risk. Those factors can then be measured against organizational escalation criteria before selecting use, iteration, or escalation; recording the decision and rationale provides traceability. Claude outputs can contain factual errors or unsupported claims, so critical and high-stakes information requires validation.
-
-#### Learn more
-
-- Reduce hallucinations — Claude Platform Docs
-
-</details>
-
-
----
-
-## Q86 · single choice
+## Q72 · single choice
 
 You are a product designer using Claude in a solution-design exercise. Which solution-design step should be completed first when using Claude?
 
@@ -2555,7 +2085,7 @@ Defining the problem to solve and the applicable constraints establishes the goa
 
 ---
 
-## Q87 · single choice
+## Q73 · single choice
 
 A marketing manager is preparing a constrained brainstorming task: produce ten campaign ideas, each tied to a stated audience segment and each fitting one of three defined budget bands.
 
@@ -2583,7 +2113,7 @@ Answer B is correct. This is a constrained brainstorming task with three explici
 
 ---
 
-## Q88 · single choice
+## Q74 · single choice
 
 An analyst is working in a long Claude conversation. The conversation contains roughly 60 turns covering an initial requirements analysis, several rounds of data review, and a current drafting phase. Recent responses have started to drift from the agreed requirements.
 
@@ -2611,7 +2141,7 @@ Option D most directly corrects the observed drift while preserving the work alr
 
 ---
 
-## Q89 · single choice
+## Q75 · single choice
 
 A knowledge worker notices that a Claude output may have repeated a confidential financial figure from an internal source that the user was told to treat as restricted. The output has not yet been shared outside the user.
 
@@ -2639,7 +2169,7 @@ Option A is the correct immediate response because potential mishandling of rest
 
 ---
 
-## Q90 · single choice
+## Q76 · single choice
 
 A knowledge worker is defining what "workflow optimization" means at the Associate level for the team's recurring AI-supported workflows. Which description is most accurate?
 
@@ -2665,7 +2195,7 @@ Option B gives the most accurate definition of workflow optimization. The object
 
 ---
 
-## Q91 · single choice
+## Q77 · single choice
 
 A knowledge worker has noticed that the same prompt for a recurring weekly task produces inconsistent outputs across runs. Some weeks the output uses the right sections but the wrong tone; other weeks the tone is right but a section is missing. The source inputs change each week but follow the same structure.
 
@@ -2693,7 +2223,7 @@ Answer A is correct. The pattern shows inconsistent compliance with requirements
 
 ---
 
-## Q92 · single choice
+## Q78 · single choice
 
 A Claude associate is applying the AI Fluency Framework Diligence competency to ongoing Claude usage. Which practice best reflects Diligence in a governance context?
 
@@ -2719,7 +2249,7 @@ Answer A is correct. Within the AI Fluency Framework, Diligence means taking res
 
 ---
 
-## Q93 · single choice
+## Q79 · single choice
 
 After importing context from another AI platform into Claude's Memory, a knowledge worker notices that some imported details did not appear in subsequent responses. Which explanation is most accurate?
 
@@ -2745,7 +2275,7 @@ Answer C is correct. Anthropic identifies Memory importing as an experimental ca
 
 ---
 
-## Q94 · single choice
+## Q80 · single choice
 
 Your conversation context has grown long, and the model is producing inconsistent outputs. Which context-management step should be performed first?
 
@@ -2770,7 +2300,7 @@ $1b
 
 ---
 
-## Q95 · single choice
+## Q81 · single choice
 
 A procurement manager is evaluating a Claude-generated vendor proposal summary against the original RFP. The RFP lists twelve numbered requirements across pricing, security, and service levels.
 
@@ -2797,7 +2327,7 @@ $1c
 
 ---
 
-## Q96 · single choice
+## Q82 · single choice
 
 You are setting up a Connector for a shared data source that several colleagues will use. Which Connector setup step should be performed first?
 
@@ -2822,7 +2352,7 @@ $1d
 
 ---
 
-## Q97 · single choice
+## Q83 · single choice
 
 You are a product manager asking Claude to produce an interactive prototype of a small landing-page mockup that the team will iterate on and share. Which Claude feature is best suited to this output?
 
@@ -2847,7 +2377,7 @@ $1e
 
 ---
 
-## Q98 · single choice
+## Q84 · single choice
 
 You are an operations lead choosing actions when a Claude conversation has degraded in quality. Which recovery action should be tried first when conversation quality degrades?
 
@@ -2872,7 +2402,7 @@ $1f
 
 ---
 
-## Q99 · single choice
+## Q85 · single choice
 
 A knowledge worker is explaining context-window basics to a teammate. Which statement most accurately describes a context window?
 
@@ -2898,7 +2428,7 @@ Answer B is correct. A context window is the bounded amount of information that 
 
 ---
 
-## Q100 · single choice
+## Q86 · single choice
 
 A product manager is using Claude to ideate options for a new self-service portal. The team needs breadth before narrowing and will evaluate trade-offs across the options in a separate session.
 
@@ -2926,7 +2456,7 @@ Answer C is correct. The team is in a divergent ideation stage, where the object
 
 ---
 
-## Q101 · single choice
+## Q87 · single choice
 
 A prompt describes a multi-step setup process, such as configuring an environment and then running a script, but Claude sometimes performs the steps out of order. What change would make the required order unambiguous?
 
@@ -2959,7 +2489,7 @@ Correct. Providing instructions as sequential steps using numbered lists or bull
 
 ---
 
-## Q102 · single choice
+## Q88 · single choice
 
 A marketing manager needs to draft a persuasive email campaign to launch a new product. The email should capture attention, highlight benefits, and include a call to action. Which prompting approach is best?
 
@@ -2992,7 +2522,7 @@ Correct. This prompt gives step-by-step guidance tailored to marketing email cre
 
 ---
 
-## Q103 · single choice
+## Q89 · single choice
 
 Over eight rounds of revision, a team notices that fixing the newest complaint often brings back a problem they had solved three rounds earlier. Nothing about their requirements is written down.
 
@@ -3027,7 +2557,7 @@ Correct. Without a written list of everything the document must satisfy, each ro
 
 ---
 
-## Q104 · single choice
+## Q90 · single choice
 
 A support lead finds a Claude-drafted troubleshooting article accurate but written at a reading level too advanced for the average customer.
 
@@ -3062,7 +2592,7 @@ Correct. Simplifying sentence structure and vocabulary while preserving the accu
 
 ---
 
-## Q105 · single choice
+## Q91 · single choice
 
 A retention lead asked why cancellations rose sharply in the last quarter. The answer explains at length what cancellation rates are and how they are generally measured. How should she judge this output?
 
@@ -3095,7 +2625,7 @@ Correct. Everything present may be correct while the question remains unanswered
 
 ---
 
-## Q106 · single choice
+## Q92 · single choice
 
 A Claude draft attributes a sentence to a named industry report as a direct quotation. What is the appropriate validation step?
 
@@ -3128,7 +2658,7 @@ Correct. A quotation asserts that specific words appear in a specific document, 
 
 ---
 
-## Q107 · single choice
+## Q93 · single choice
 
 A manager needs a comparison of six suppliers across five criteria. The information is currently spread across several separate Claude answers. What should she do first?
 
@@ -3161,7 +2691,7 @@ Correct. A comparison is only as good as its frame. Fixing the rows and columns 
 
 ---
 
-## Q108 · single choice
+## Q94 · single choice
 
 A communications officer must publish a Claude-drafted market briefing on the company blog within the hour. Claude used web search to produce it, and every figure in the draft carries a citation.
 
@@ -3196,7 +2726,7 @@ Correct. Where web search was used, the help centre's recommendation is to revie
 
 ---
 
-## Q109 · single choice
+## Q95 · single choice
 
 A communications assistant receives an answer containing a clearly incorrect statement about her organisation. She corrects her own draft in a follow-up message, and also wants the problem itself recorded rather than just worked around.
 
@@ -3231,7 +2761,7 @@ Correct. The thumbs-down feedback control on the response is the mechanism provi
 
 ---
 
-## Q110 · single choice
+## Q96 · single choice
 
 A marketer is midway through a one-off brainstorm that will not be revisited, and the conversation is approaching its limit. What is the most appropriate action?
 
@@ -3264,40 +2794,7 @@ Correct. When the output is disposable, allowing automatic context management to
 
 ---
 
-## Q111 · single choice
-
-A team is setting up a new recurring weekly task and has to decide how much reasoning depth it needs. Which sequence is correct?
-
-- **A.** Pick a tier by how important the task feels, then run it for a month, then write down what good output means, then compare the month's results against that.
-- **B.** Run the task on several tiers at once, then write down what good output means, then compare the results against that definition, then keep the tier that did best.
-- **C.** Compare a sample of results with what colleagues produce by hand, then write down what good output means, then pick a tier on that basis, then run the task each week from then on.
-- ✅ **D.** Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short.
-
-**Answer:** D
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-D. Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short.
-
-Correct. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.
-
-**A.** Choosing on instinct and defining quality a month later means there is no standard to judge the intervening results against, and a month of work has already been committed to an unexamined choice.
-
-**B.** Committing several tiers to the task before any standard exists means the trial is designed without knowing what it is testing for, and it duplicates the work and the allowance draw on every run.
-
-**C.** Comparing results before the task has been run is out of order, and benchmarking against manual work is not the same as agreeing what this task's output has to achieve.
-
-**D.** Correct. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.
-
-</details>
-
-
----
-
-## Q112 · single choice
+## Q97 · single choice
 
 A team runs two workloads that are alike in volume and subject matter. One is edited line by line by a specialist before use; the other is published automatically with no human reading it.
 
@@ -3332,7 +2829,7 @@ Correct. The strength of the downstream check changes how much the output has to
 
 ---
 
-## Q113 · single choice
+## Q98 · single choice
 
 Reviewing a backlog of intake forms, an analyst notices that most entries name a solution rather than a need, for example "we need a dashboard." How can Claude best help with this backlog?
 
@@ -3365,7 +2862,7 @@ Correct. The analytical move is to convert stated solutions back into the outcom
 
 ---
 
-## Q114 · single choice
+## Q99 · single choice
 
 In a pilot of a new Claude-assisted briefing arrangement, three of eight testers report that the output is "not quite right" but say nothing more specific. What should the pilot's owner do first?
 
@@ -3398,7 +2895,7 @@ Correct. "Not quite right" is not actionable, and the cheapest way to make it ac
 
 ---
 
-## Q115 · single choice
+## Q100 · single choice
 
 A manager is about to tell her team that Claude will now produce the first draft of every incident report. What should the announcement make clear above all?
 
@@ -3431,7 +2928,7 @@ Correct. People need to know exactly where the boundary now sits: which part Cla
 
 ---
 
-## Q116 · single choice
+## Q101 · single choice
 
 An operations manager has two things to add to a project: the team's two-page approved abbreviation list, and the rule that answers must never use abbreviations outside that list. What is the best placement?
 
@@ -3464,7 +2961,7 @@ Correct. Reference material belongs in knowledge; the standing behaviour rule be
 
 ---
 
-## Q117 · single choice
+## Q102 · single choice
 
 A project shared with a Team plan workspace has just had its escalation matrix replaced with a new version. What else should the project owner do?
 
@@ -3497,7 +2994,7 @@ Correct. Maintaining shared configuration includes informing the people whose pa
 
 ---
 
-## Q118 · single choice
+## Q103 · single choice
 
 An operations lead creates a project on an Enterprise plan and shares it with the whole organisation. To save time she uploads a complete team folder into the project knowledge, and that folder includes a spreadsheet of individual salary bands.
 
@@ -3532,7 +3029,7 @@ Correct. Project knowledge is background for every chat in the project, so shari
 
 ---
 
-## Q119 · single choice
+## Q104 · single choice
 
 A developer integrating Claude into an internal analytics agent wants to give it broad, unsupervised authority to automatically send emails and modify production database records without any human approval step.
 
@@ -3567,7 +3064,7 @@ Correct. Granting an agent unsupervised authority over irreversible, high-impact
 
 ---
 
-## Q120 · single choice
+## Q105 · single choice
 
 A Team-plan owner is uneasy about conversation content leaving the organisation when members rate Claude's answers. What control is available to them?
 
@@ -3600,7 +3097,7 @@ Correct. Team and Enterprise owners can disable rating so that conversations are
 
 ---
 
-## Q121 · single choice
+## Q106 · single choice
 
 A team lead asks whether using incognito chats on his personal plan makes it acceptable to paste regulated customer records into Claude. What is the best response?
 
@@ -3633,7 +3130,7 @@ Correct. Incognito chats are not used to improve Claude, but the policy question
 
 ---
 
-## Q122 · single choice
+## Q107 · single choice
 
 A consultant is about to send a client a report she drafted with Claude. Her firm's AI policy sets out several requirements for client-facing work produced with AI, and she is unsure which of them apply to a report of this kind.
 
@@ -3668,7 +3165,7 @@ Correct. The firm has a written standard covering exactly this situation, so the
 
 ---
 
-## Q123 · single choice
+## Q108 · single choice
 
 A school district's operations team wants Claude to work through the admissions criteria and produce the letters telling families whether their child has a place at an oversubscribed school.
 
@@ -3703,40 +3200,7 @@ Correct. A school place materially affects a child's life and the decision is ha
 
 ---
 
-## Q124 · single choice
-
-A market research manager has been asked to summarise survey free-text responses that include respondents' names and employers, using the company's Claude for Work plan. In which order should these steps be taken?
-
-- **A.** Remove the names and employers that the summary does not need; check what the participant consent and company policy allow; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.
-- **B.** Run the summary and review it before it is circulated; check what the participant consent and company policy allow; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly.
-- ✅ **C.** Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.
-- **D.** Check what the participant consent and company policy allow; run the summary and review it before it is circulated; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly.
-
-**Answer:** C
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-C. Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.
-
-Correct. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.
-
-**A.** Data is edited before anyone has established what participants agreed to, so the amount of personal detail removed is guesswork and may be either too little or more than the analysis can afford.
-
-**B.** The personal data is processed and the output reviewed before either the consent position or the minimisation step, which is the sequence that causes the exposure rather than preventing it.
-
-**C.** Correct. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.
-
-**D.** The consent check happens first, but the full identifiable transcripts are still put into the tool before the names and employers are removed, so the minimisation step comes too late to protect anyone.
-
-</details>
-
-
----
-
-## Q125 · single choice
+## Q109 · single choice
 
 A support-ticket triage prompt gives Claude a single sentence: "Categorize this ticket." Categories come back inconsistent between runs, and the team wants a fix that addresses the root cause rather than adding post-processing.
 
@@ -3771,40 +3235,7 @@ Correct. Claude responds well to clear, explicit instructions; a vague one-line 
 
 ---
 
-## Q126 · single choice
-
-An analyst wants to get more done inside her weekly allowance without the quality of her work dropping. Which sequence of working habits is correct?
-
-- **A.** Put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting.
-- **B.** Open a new chat for the next unrelated task; decide what she needs before starting; work through follow-ups that refer back to it; put the request and the relevant material in the opening message.
-- ✅ **C.** Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task.
-- **D.** Work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting; put the request and the relevant material in the opening message.
-
-**Answer:** C
-
-**Nguồn:** from ThinhNH39's data
-
-<details><summary>Explanation</summary>
-
-Correct answer from the source:
-C. Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task.
-
-Correct. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.
-
-**A.** Everything here is done before she has decided what she needs, so the opening message is assembled blind.
-
-**B.** Opening a chat for the next task before the current one has been started puts the last step first.
-
-**C.** Correct. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.
-
-**D.** Following up before the request has even been made, and deciding what is needed last, inverts the whole habit.
-
-</details>
-
-
----
-
-## Q127 · single choice
+## Q110 · single choice
 
 A researcher is doing straightforward drafting work while several connectors and tools she does not need for it remain switched on. What is a reasonable step to make routine work leaner?
 
@@ -3840,7 +3271,7 @@ Correct. Turning off tools and connectors that a task does not need is a recogni
 
 ---
 
-## Q128 · pick 2
+## Q111 · pick 2
 
 You are an operations lead classifying proposed Claude use cases according to whether they are acceptable for your team to pursue.
 
@@ -3877,7 +3308,7 @@ Synthesizing approved customer feedback under aggregation controls and creating 
 
 ---
 
-## Q129 · pick 2
+## Q112 · pick 2
 
 Before uploading a customer file for Code Execution analysis, a customer-success associate at Noventra, Ltd. is reviewing the planned task.
 
@@ -3908,7 +3339,7 @@ Data should be handled according to the organization’s classification policy, 
 
 ---
 
-## Q130 · pick 2
+## Q113 · pick 2
 
 You are assessing proposed workflow changes to determine whether they materially improve the workflow. Which two proposed changes meaningfully improve a recurring Claude workflow?
 
@@ -3945,7 +3376,7 @@ Claude Projects use uploaded knowledge as context across all chats in the Projec
 
 ---
 
-## Q131 · pick 2
+## Q114 · pick 2
 
 You are a marketing manager determining what to put in custom instructions for a writing-focused Project.
 
@@ -3982,7 +3413,7 @@ Writing-project instructions should set the reusable requirements that apply to 
 
 ---
 
-## Q132 · pick 2
+## Q115 · pick 2
 
 An operations assistant is redesigning a recurring data-processing workflow step to use Code Execution. Which two design decisions best promote reliable integration?
 
@@ -4011,7 +3442,7 @@ Recurring automated processing is most reliable when each execution receives a c
 
 ---
 
-## Q133 · pick 2
+## Q116 · pick 2
 
 You are assessing proposed evaluation criteria for a Claude-generated business brief. Which two criteria are valid for evaluating a brief produced by Claude?
 
@@ -4055,7 +3486,7 @@ A reliable evaluation of an LLM-generated business brief measures factual ground
 
 ---
 
-## Q134 · pick 2
+## Q117 · pick 2
 
 A manager is determining which changes to make during a memory-maintenance review for a long-running workflow. Which two actions most effectively support memory quality over time?
 
@@ -4088,7 +3519,7 @@ Effective memory maintenance includes reviewing and updating stored context so i
 
 ---
 
-## Q135 · pick 2
+## Q118 · pick 2
 
 You are a business analyst assessing prompt drafts prepared by teammates.
 
@@ -4121,7 +3552,7 @@ Effective business prompts specify the task the model is expected to perform and
 
 ---
 
-## Q136 · pick 2
+## Q119 · pick 2
 
 You are organizing connected data sources for a team and must finish the planning steps before authorizing a connection. Which two planning steps must be completed BEFORE authorizing a new Connector?
 
@@ -4152,7 +3583,7 @@ Authorizing a connector requires governance validation: the connector must be ap
 
 ---
 
-## Q137 · pick 2
+## Q120 · pick 2
 
 You are an operations lead assessing prompting strategies proposed by teammates for different task types.
 
@@ -4185,7 +3616,7 @@ Open exploratory prompting supports divergent thinking during early-stage strate
 
 ---
 
-## Q138 · pick 2
+## Q121 · pick 2
 
 You are an HR specialist assessing model selections made by colleagues for different tasks. Which two model choices are appropriate matches between the model and the task?
 
@@ -4220,7 +3651,7 @@ Higher-capability models are appropriate for complex, multi-step reasoning tasks
 
 ---
 
-## Q139 · pick 2
+## Q122 · pick 2
 
 You are a project manager at Orinexa, Inc. You are selecting a Claude model for a new production workload and must finish the requirements steps before testing candidates.
 
@@ -4259,7 +3690,7 @@ A production model evaluation needs measurable success criteria and operational 
 
 ---
 
-## Q140 · pick 2
+## Q123 · pick 2
 
 You are a communications specialist who is preparing to explain Claude’s role in a workflow to several stakeholder groups and must finish the preparation activities before drafting messages.
 
@@ -4292,7 +3723,7 @@ Effective stakeholder messaging requires identifying each stakeholder group and 
 
 ---
 
-## Q141 · pick 2
+## Q124 · pick 2
 
 You are a project manager having an extended planning conversation with Claude and need to keep it productive as it expands. Which two practices help keep a long planning conversation productive?
 
@@ -4327,7 +3758,7 @@ Reasserting goals and constraints when the discussion moves to a new subtopic ma
 
 ---
 
-## Q142 · pick 2
+## Q125 · pick 2
 
 A finance manager is preparing to discuss a confidential pre-announcement figure with Claude. Which two settings most closely follow sound privacy practices for this discussion?
 
@@ -4360,7 +3791,7 @@ Confidential financial information should not be allowed to become persistent co
 
 ---
 
-## Q143 · pick 2
+## Q126 · pick 2
 
 You are a knowledge manager organizing source material within the context window for a lengthy Claude evaluation task.
 
@@ -4397,7 +3828,7 @@ Clear, descriptive delimiters such as XML tags separate documents, metadata, ins
 
 ---
 
-## Q144 · pick 2
+## Q127 · pick 2
 
 You are optimizing a recurring Claude workflow and must finish the diagnostic steps before modifying the workflow. Which two diagnostic steps must be completed BEFORE changing the recurring workflow?
 
@@ -4428,7 +3859,7 @@ Workflow optimization requires a baseline measurement of current quality, time, 
 
 ---
 
-## Q145 · pick 2
+## Q128 · pick 2
 
 You are using Claude to redesign an employee onboarding workflow and must finish the high-level decomposition steps before defining detailed artifacts.
 
@@ -4461,7 +3892,7 @@ A sound high-level decomposition begins by defining the onboarding experience’
 
 ---
 
-## Q146 · pick 2
+## Q129 · pick 2
 
 You are assessing items proposed for inclusion in a Project that supports policy summaries.
 
@@ -4498,7 +3929,7 @@ Project instructions can define how ChatGPT should respond, including required f
 
 ---
 
-## Q147 · pick 2
+## Q130 · pick 2
 
 You are assessing Connector configurations that colleagues have suggested for different tasks. Which two Connector configurations are safe and suitable uses?
 
@@ -4535,7 +3966,7 @@ Appropriate Connector use follows least privilege, approved role-scoped access, 
 
 ---
 
-## Q148 · pick 2
+## Q131 · pick 2
 
 You are an HR specialist categorizing potential ethical risks in a Claude-supported workflow.
 
@@ -4568,7 +3999,7 @@ High-impact employment decisions require human accountability because they can m
 
 ---
 
-## Q149 · pick 2
+## Q132 · pick 2
 
 You are a project manager assessing Claude usage methods that teammates have proposed for a project workflow.
 
@@ -4601,7 +4032,7 @@ Claude can synthesize information across uploaded research documents to support 
 
 ---
 
-## Q150 · pick 2
+## Q133 · pick 2
 
 You are an operations lead aligning production tasks with Claude’s model strengths to establish realistic expectations.
 
@@ -4640,7 +4071,7 @@ Claude is designed for language and analysis tasks, including generating text an
 
 ---
 
-## Q151 · pick 2
+## Q134 · pick 2
 
 You are a project manager evaluating stakeholder messages that teammates have drafted regarding Claude’s role in a workflow. Which two messages are appropriate for stakeholder communication about Claude?
 
@@ -4675,7 +4106,7 @@ Claude can generate factually incorrect or contextually inconsistent output, and
 
 ---
 
-## Q152 · pick 2
+## Q135 · pick 2
 
 You are creating a checklist to evaluate Claude outputs and must finish the upstream steps before scoring an output. Which two steps must be completed BEFORE scoring a Claude output against the checklist?
 
@@ -4706,7 +4137,7 @@ An evaluation checklist requires task-relevant criteria to determine what qualit
 
 ---
 
-## Q153 · pick 2
+## Q136 · pick 2
 
 You are a business analyst determining which output-formatting and context-window practices to recommend to teammates. Which two practices constitute effective use of the context window?
 
@@ -4743,7 +4174,7 @@ A context window has finite input capacity, so removing irrelevant content keeps
 
 ---
 
-## Q154 · pick 2
+## Q137 · pick 2
 
 You are reviewing colleagues’ claims from a recent training about prompt iteration. Which two claims about prompt iteration are accurate?
 
@@ -4774,7 +4205,7 @@ Prompt iteration should be guided by explicit evaluation criteria: comparing rev
 
 ---
 
-## Q155 · pick 2
+## Q138 · pick 2
 
 As part of a workflow redesign, a process analyst is applying the AI Fluency Framework’s Delegation competency. Which two criteria most directly guide Delegation decisions?
 
@@ -4807,7 +4238,7 @@ Delegation strategically divides work between humans and AI based on the nature 
 
 ---
 
-## Q156 · pick 2
+## Q139 · pick 2
 
 A Claude associate is assessing whether to enable a Skill supplied by an unfamiliar third party. Which two checks best support a sound trust decision?
 
@@ -4840,7 +4271,7 @@ Third-party Skills should be enabled only from trusted, organization-approved so
 
 ---
 
-## Q157 · pick 2
+## Q140 · pick 2
 
 You are an HR specialist assessing data items proposed for inclusion in a Claude prompt. Which two data items are suitable to include in a Claude prompt for a routine task?
 
@@ -4871,7 +4302,7 @@ A redacted job description and an anonymized HR-policy summary are appropriately
 
 ---
 
-## Q158 · pick 2
+## Q141 · pick 2
 
 Claude’s first output is partly useful, but it has issues with tone and detail.
 
@@ -4908,7 +4339,7 @@ A representative example gives Claude a concrete standard for the desired respon
 
 ---
 
-## Q159 · pick 2
+## Q142 · pick 2
 
 You are reviewing colleagues’ replies to feedback received on communications drafted by Claude. Which two feedback responses are productive?
 
@@ -4943,7 +4374,7 @@ Ambiguous feedback should be clarified before it is applied so that revisions re
 
 ---
 
-## Q160 · pick 2
+## Q143 · pick 2
 
 You are a marketing manager using Claude to develop ideas for a campaign and must complete the framing steps before generating concepts. Which two framing steps must be completed BEFORE asking Claude to generate concepts?
 
@@ -4980,7 +4411,7 @@ Campaign ideation should begin with a clear objective and measurable success met
 
 ---
 
-## Q161 · pick 2
+## Q144 · pick 2
 
 You are a knowledge worker evaluating which Claude feature matches each proposed use case. Which two feature-to-use-case matches are appropriate? (Select two.) Each correct answer presents a complete solution.
 
@@ -5007,7 +4438,7 @@ $1a
 
 ---
 
-## Q162 · pick 2
+## Q145 · pick 2
 
 A business analyst is deciding whether to send one large request or break it into stages. Which two features of a request are the strongest signals that it should be decomposed? Select two.
 
@@ -5046,7 +4477,7 @@ E. Correct. Dependency is a separate signal from bundling: when step two builds 
 
 ---
 
-## Q163 · pick 2
+## Q146 · pick 2
 
 A market analyst must produce a competitor briefing drawn from many public sources, and the team will keep editing that briefing for weeks afterwards. Which two Claude features fit this job? Select two.
 
@@ -5085,7 +4516,7 @@ D. Correct. An artifact is the durable, editable deliverable format, so weeks of
 
 ---
 
-## Q164 · pick 2
+## Q147 · pick 2
 
 A support operations lead must classify a large daily backlog of short inbound messages, and separately needs one deep analysis of a tangled contract dispute. Which two choices fit? Select two.
 
@@ -5124,7 +4555,7 @@ C. Correct. High-volume, low-complexity classification is exactly where the fast
 
 ---
 
-## Q165 · pick 2
+## Q148 · pick 2
 
 A new team member asks how the Claude model tiers actually differ from one another in everyday use. Which two statements are accurate? Select two.
 
@@ -5163,7 +4594,7 @@ D. Correct. The middle tier is positioned as the fast, capable default that hand
 
 ---
 
-## Q166 · pick 2
+## Q149 · pick 2
 
 A strategy lead is planning a market-entry study and wants Claude to help with the research phase of it. Which two approaches are sound? Select two.
 
@@ -5202,7 +4633,7 @@ E. Correct. Drafting the plan and the open questions is planning work Claude doe
 
 ---
 
-## Q167 · pick 2
+## Q150 · pick 2
 
 An analyst is presenting a Claude-assisted workflow to sceptical senior stakeholders next week. Which two things should the presentation include? Select two.
 
@@ -5241,7 +4672,7 @@ D. Correct. A measured pilot result is concrete evidence of value rather than an
 
 ---
 
-## Q168 · pick 2
+## Q151 · pick 2
 
 A policy team keeps a handbook in a Drive folder that changes weekly, and also has one annual report that never changes. Which two set-ups fit best? Select two.
 
@@ -5280,7 +4711,7 @@ E. Correct. A stable document is well suited to a one-time upload into Project k
 
 ---
 
-## Q169 · pick 2
+## Q152 · pick 2
 
 Several engineers tell a site coordinator that Claude's shift-handover digests 'skip the open risks', but nobody says which risks or which shifts. Which two steps should the coordinator take first? Select two.
 
@@ -5313,5 +4744,577 @@ C. Correct on separate grounds: only the source shows whether the risk was absen
 **D.** A score captures sentiment but still never says which risks went missing, or why they went missing.
 
 **E.** A format change may help presentation, but it cannot add a risk the digest never captured.
+
+</details>
+
+
+# Nhóm: Sắp xếp thứ tự (sequence) — 17 câu
+
+
+---
+
+## Q153 · single choice
+
+You are breaking down a “build a customer journey map” request.
+
+Which sequence of decomposed steps is correct?
+
+1. Identify the touchpoints the customer experiences during each stage.  
+2. Define the persona and the journey scope that will be mapped.  
+3. Document pain points and opportunities at every touchpoint.  
+4. Synthesize the findings into the finished journey-map artifact.  
+5. Identify the primary stages the persona progresses through.
+
+- ✅ **A.** 2, 5, 1, 3, 4
+- **B.** 1, 2, 5, 3, 4
+- **C.** 5, 2, 1, 3, 4
+- **D.** 2, 1, 5, 3, 4
+
+**Answer:** A
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+A. 2, 5, 1, 3, 4
+
+A customer journey map is grounded in a defined persona and journey scope. Its structure is then established by identifying the persona’s major stages, followed by the touchpoints within those stages. Pain points and opportunities are evaluated at those touchpoints before all findings are synthesized into the final journey map.
+
+</details>
+
+
+---
+
+## Q154 · single choice
+
+You are a knowledge worker moving from a long, drifting conversation to a fresh, focused session. What is the correct sequence of transition steps?
+
+1. Start a new chat and paste the summary as its initial context.  
+2. Summarize the goals, key decisions, and open questions from the lengthy conversation.  
+3. Determine which references should remain available beyond the current chat.  
+4. Place persistent references in a Project’s knowledge base or attach them as needed.  
+5. Verify that the new chat is on-task before resuming the work.
+
+- **A.** 1, 2, 3, 4, 5
+- ✅ **B.** 2, 3, 4, 1, 5
+- **C.** 2, 4, 3, 1, 5
+- **D.** 3, 2, 4, 1, 5
+
+**Answer:** B
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+B. 2, 3, 4, 1, 5
+
+A focused continuation requires a usable summary before a new chat can receive its starting context. References intended for reuse should be identified and added to Project sources or attached before continuing, because Projects keep related chats, files, and instructions together to preserve context and stay on-task. The new chat can then be validated for alignment before work resumes.
+
+#### Learn more
+
+- Projects in ChatGPT
+
+</details>
+
+
+---
+
+## Q155 · single choice
+
+A business analyst is transforming a stakeholder’s sticky-note request into a structured prompt for Claude. What is the correct sequence of conversion steps?
+
+1. Confirm the audience and the decision that the response needs to support.  
+2. Submit the structured prompt to Claude.  
+3. Identify the underlying task concealed in the sticky-note language.  
+4. Specify the required length, tone, and output format.  
+5. Add the supporting facts and constraints that are relevant to the task.
+
+- **A.** 3, 5, 1, 4, 2
+- **B.** 1, 3, 5, 4, 2
+- ✅ **C.** 3, 1, 5, 4, 2
+- **D.** 2, 3, 1, 5, 4
+
+**Answer:** C
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+C. 3, 1, 5, 4, 2
+
+A useful structured prompt progresses from the underlying task and intended audience or decision to the relevant context and constraints, followed by explicit output requirements such as length, tone, and format. The complete prompt is submitted only after those elements are defined. Anthropic guidance likewise recommends clear instructions, relevant context, and explicit expected output.
+
+#### Learn more
+
+- Claude 4 Prompt Engineering Best Practices
+
+</details>
+
+
+---
+
+## Q156 · single choice
+
+You are a Claude associate conducting an ethics review of a Claude-assisted deliverable before it is published. What is the correct sequence of review steps?
+
+1. Confirm that transparency requirements are satisfied for the audience that will receive the deliverable.  
+2. Record the review result and any modifications made.  
+3. Identify the audience and the deliverable’s potential impact on that audience.  
+4. Make focused revisions, or escalate when a concern needs greater authority to resolve.  
+5. Review the content for unsupported generalizations, fairness concerns, and accuracy issues.
+
+- **A.** 5, 3, 1, 4, 2
+- **B.** 3, 1, 5, 4, 2
+- ✅ **C.** 3, 5, 1, 4, 2
+- **D.** 1, 3, 5, 4, 2
+
+**Answer:** C
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+C. 3, 5, 1, 4, 2
+
+An ethics review should establish who may be affected and how, assess the content for fairness and accuracy problems, determine the transparency required for that audience, address or escalate identified concerns, and retain a record of the final outcome and changes.
+
+</details>
+
+
+---
+
+## Q157 · single choice
+
+You are a business analyst assessing a Claude-generated business case against the agreed acceptance criteria. What is the correct sequence of evaluation steps?
+
+1. Compare the business case against the source data and required topics.  
+2. Record gaps and inaccuracies for follow-up or correction.  
+3. Reconfirm the acceptance criteria for the business case.  
+4. Determine whether to use the business case, iterate, or escalate.  
+5. Read the business case from start to finish to form an initial impression.
+
+- **A.** 3, 1, 5, 2, 4
+- **B.** 1, 3, 5, 2, 4
+- **C.** 5, 3, 1, 2, 4
+- ✅ **D.** 3, 5, 1, 2, 4
+
+**Answer:** D
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+D. 3, 5, 1, 2, 4
+
+A sound evaluation establishes the acceptance criteria before review, reads the complete business case for context, validates it against source data and required content, records deficiencies, and only then decides whether it is acceptable, needs iteration, or should be escalated.
+
+</details>
+
+
+---
+
+## Q158 · single choice
+
+You are a Claude associate investigating a recurring instance of poor output.
+
+Which diagnostic-step sequence is correct?
+
+1. Develop a hypothesis about the prompt element most likely responsible for the deficiency.  
+2. Make one targeted change and observe its effect on the output.  
+3. Read the output from beginning to end and identify the specific deficiency.  
+4. Compare the deficient output with the prompt to find mismatches between the input and output.  
+5. Record the root cause and resolution for future reference.
+
+- **A.** 1, 3, 4, 2, 5
+- **B.** 4, 3, 1, 2, 5
+- **C.** 3, 1, 4, 2, 5
+- ✅ **D.** 3, 4, 1, 2, 5
+
+**Answer:** D
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+D. 3, 4, 1, 2, 5
+
+Effective prompt-output troubleshooting first identifies the precise output defect and compares it with the prompt to establish the relevant mismatch. The resulting evidence supports a causal hypothesis, which should be tested by changing only one targeted element. Documenting the confirmed cause and resolution preserves the result for later reuse.
+
+</details>
+
+
+---
+
+## Q159 · single choice
+
+You are conducting a weekly feedback-and-adjustment cycle.
+
+What is the correct sequence of cycle steps?
+
+1. Turn feedback into one or two focused adjustments for the next cycle.  
+2. Run the following cycle and compare its results with the previous cycle.  
+3. Record the specific feedback received during the review.  
+4. Document what changed, the effect it created, and any unresolved issues.  
+5. Determine whether to keep iterating, change approaches, or escalate.
+
+- **A.** 2, 3, 1, 4, 5
+- **B.** 1, 3, 2, 4, 5
+- ✅ **C.** 3, 1, 2, 4, 5
+- **D.** 3, 2, 1, 4, 5
+
+**Answer:** C
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+C. 3, 1, 2, 4, 5
+
+A closed feedback loop records the review feedback before selecting targeted adjustments. The adjusted cycle is then run and measured against the prior cycle; its changes and outcomes are documented so there is a basis for deciding whether to iterate further, change direction, or escalate.
+
+</details>
+
+
+---
+
+## Q160 · single choice
+
+You are a process consultant incorporating Claude into an existing weekly workflow. Which sequence of integration steps is correct?
+
+1. Pilot the integrated workflow with a small group and collect feedback.  
+2. Document the current workflow’s steps, owners, and decision points.  
+3. Update the documented workflow and deploy it to the broader team.  
+4. Identify the steps where Claude can augment work and where humans must remain.  
+5. Define the inputs Claude requires, the outputs Claude provides, and the hand-offs around each step.
+
+- ✅ **A.** 2, 4, 5, 1, 3
+- **B.** 2, 5, 4, 1, 3
+- **C.** 4, 2, 5, 1, 3
+- **D.** 1, 2, 4, 5, 3
+
+**Answer:** A
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+A. 2, 4, 5, 1, 3
+
+Workflow integration should begin with documenting the current process so its ownership and decision points are understood. That enables appropriate allocation of Claude-assisted and human-controlled work, followed by a clear specification of inputs, outputs, and hand-offs. A limited pilot validates the integrated process and gathers feedback before the workflow is revised and rolled out broadly. Anthropic guidance similarly recommends breaking an interaction into tasks, defining success criteria, and evaluating it systematically before production deployment.
+
+#### Learn more
+
+- Customer Support Agent — Claude Platform Docs
+
+</details>
+
+
+---
+
+## Q161 · single choice
+
+You are reviewing a competitor brief generated by Claude for unsupported claims.
+
+What is the correct sequence of review steps?
+
+1. Cross-check each specific claim against the provided source material or reliable external references.  
+2. Determine whether to correct, re-prompt, or escalate based on the findings.  
+3. Record every unsupported or inconsistent claim with its location and severity.  
+4. Identify the specific factual claims, statistics, and citations in the brief.  
+5. Read the brief from start to finish and flag any claims that seem surprising.
+
+- **A.** 1, 4, 5, 3, 2
+- **B.** 4, 5, 1, 3, 2
+- **C.** 5, 1, 4, 3, 2
+- ✅ **D.** 5, 4, 1, 3, 2
+
+**Answer:** D
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+D. 5, 4, 1, 3, 2
+
+An effective unsupported-claim review starts with a complete read-through to spot potentially questionable content, followed by identifying the exact claims, statistics, and citations requiring validation. Those items are then checked against authoritative evidence, documented when unsupported or inconsistent, and used to determine the appropriate remediation or escalation.
+
+</details>
+
+
+---
+
+## Q162 · single choice
+
+You are conducting an optimization pass on a recurring workflow.
+
+What is the correct sequence of optimization steps?
+
+1. Apply targeted optimization to the bottleneck step  
+2. Roll out the optimized workflow to the wider team and document the change  
+3. Identify the bottleneck step by using measured time per step and queue length  
+4. Map the existing workflow steps, owners, and decision points  
+5. Pilot the change with a small group and measure its effect against the previous baseline
+
+- **A.** 4, 1, 3, 5, 2
+- ✅ **B.** 4, 3, 1, 5, 2
+- **C.** 3, 4, 1, 5, 2
+- **D.** 1, 4, 3, 5, 2
+
+**Answer:** B
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+B. 4, 3, 1, 5, 2
+
+Workflow optimization begins by mapping the current process, then using performance measurements to identify the bottleneck. A targeted improvement is applied to that constraint, tested in a limited pilot against the established baseline, and only then rolled out broadly with documentation.
+
+</details>
+
+
+---
+
+## Q163 · single choice
+
+You are a Claude associate evaluating a proposed Claude use case before approving it for your team. What is the correct sequence of assessment steps?
+
+1. Compare the use case with the organization’s policies and the relevant regulatory considerations.  
+2. Document the assessment outcome and rationale for traceability.  
+3. Identify the audience, decision impact, and reversibility of the outputs.  
+4. Decide whether the use case proceeds, needs modification, or is declined.  
+5. Identify the data types involved and whether sensitive data is implicated.
+
+- **A.** 3, 1, 5, 4, 2
+- **B.** 1, 3, 5, 4, 2
+- **C.** 5, 3, 1, 4, 2
+- ✅ **D.** 3, 5, 1, 4, 2
+
+**Answer:** D
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+D. 3, 5, 1, 4, 2
+
+A sound assessment begins by establishing who will receive or rely on the output, the consequences of an incorrect result, and whether the resulting action can be reversed (3). This initial impact analysis determines the level of scrutiny required. The assessor should then identify the data involved, especially personal, confidential, regulated, or otherwise sensitive information (5). Once the use case and its information exposure are understood, it can be compared meaningfully against organizational AI policies, legal requirements, and regulatory restrictions (1). The next step is to decide whether the use case should proceed, be modified with safeguards, or be rejected (4). Documentation comes last because it records the completed assessment, decision, supporting evidence, restrictions, and rationale for auditability (2).
+
+> **ℹ️ Step numbering corrected**
+> An earlier version of this question listed the five steps in a different order from the one its answer options refer to, which made the marked sequence document the outcome before deciding it. The steps now follow the source numbering, and the answer is 3, 5, 1, 4, 2. Another source marks 1, 3, 5, 4, 2, which would compare the use case against policy before its audience, impact and data are known.
+
+</details>
+
+
+---
+
+## Q164 · single choice
+
+As a senior analyst, you use Claude to analyze requirements from several stakeholder sources.
+
+What is the correct sequence of steps?
+
+1. Group related requirements and flag conflicts or ambiguities for stakeholder review.  
+2. Validate the structured output against the original sources for accuracy and completeness.  
+3. Submit the consolidated inputs to Claude using a structured extraction prompt.  
+4. Gather and label the source materials so that every requirement can be traced.  
+5. Document the final requirements set with source traceability and status.
+
+- **A.** 4, 1, 3, 2, 5
+- ✅ **B.** 4, 3, 1, 2, 5
+- **C.** 1, 4, 3, 2, 5
+- **D.** 3, 4, 1, 2, 5
+
+**Answer:** B
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+B. 4, 3, 1, 2, 5
+
+Source materials must be gathered and labeled before consolidation so each requirement remains traceable. The consolidated material is then submitted to Claude with a structured extraction prompt; the extracted requirements can subsequently be grouped and reviewed for conflicts or ambiguities. Validation against the original sources must occur before documenting the final, traceable requirements set. Anthropic’s citations documentation supports providing documents to Claude and retaining source references for verification.
+
+#### Learn more
+
+- Anthropic Claude Platform Docs: Citations
+
+> **⚠️ Answer keys disagree**
+> Another practice source marks A (4, 1, 3, 2, 5). This course keeps B: requirements can only be grouped and checked for conflicts after Claude has extracted them from the consolidated inputs, so step 3 comes before step 1.
+
+#### Alternative reasoning (supports A)
+
+- Gather and label the sources first, then group related requirements and flag conflicts before submitting the consolidated inputs to Claude, validate the output against the sources, and document the final set.
+
+</details>
+
+
+---
+
+## Q165 · single choice
+
+You are a procurement associate breaking down a vendor-evaluation task. Which dependency sequence represents sound ordering?
+
+- ✅ **A.** Define evaluation criteria first, gather vendor data against those criteria, then score and rank.
+- **B.** Rank vendors before any data is collected.
+- **C.** Score vendors first and decide on the criteria afterward.
+- **D.** Skip criteria and ask Claude to produce a vendor recommendation from no inputs.
+
+**Answer:** A
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+A. Define evaluation criteria first, gather vendor data against those criteria, then score and rank.
+
+A defensible vendor evaluation defines the assessment criteria before collecting evidence, then gathers vendor information aligned to those criteria, and finally uses that information to score and rank the vendors.
+
+</details>
+
+
+---
+
+## Q166 · single choice
+
+You are a knowledge worker determining whether to escalate Claude-generated output. What is the correct sequence of decision steps?
+
+1. Identify the audience and the impact if the output is incorrect.  
+2. Document the decision and its rationale for traceability.  
+3. Compare the output’s risk profile with the organization’s escalation criteria.  
+4. Decide whether to use the output, iterate further, or escalate.  
+5. Evaluate the output’s accuracy, completeness, and any unverified claims.
+
+- **A.** 5, 1, 3, 4, 2
+- **B.** 3, 1, 5, 4, 2
+- ✅ **C.** 1, 5, 3, 4, 2
+- **D.** 1, 3, 5, 4, 2
+
+**Answer:** C
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+C. 1, 5, 3, 4, 2
+
+Assessing the audience and consequences establishes the potential impact, while evaluating accuracy, completeness, and unverified claims establishes the output’s quality risk. Those factors can then be measured against organizational escalation criteria before selecting use, iteration, or escalation; recording the decision and rationale provides traceability. Claude outputs can contain factual errors or unsupported claims, so critical and high-stakes information requires validation.
+
+#### Learn more
+
+- Reduce hallucinations — Claude Platform Docs
+
+</details>
+
+
+---
+
+## Q167 · single choice
+
+A team is setting up a new recurring weekly task and has to decide how much reasoning depth it needs. Which sequence is correct?
+
+- **A.** Pick a tier by how important the task feels, then run it for a month, then write down what good output means, then compare the month's results against that.
+- **B.** Run the task on several tiers at once, then write down what good output means, then compare the results against that definition, then keep the tier that did best.
+- **C.** Compare a sample of results with what colleagues produce by hand, then write down what good output means, then pick a tier on that basis, then run the task each week from then on.
+- ✅ **D.** Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short.
+
+**Answer:** D
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+D. Write down what good output means, then run a real sample on the default tier, then compare that sample against the definition, then change tier only where it falls short.
+
+Correct. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.
+
+**A.** Choosing on instinct and defining quality a month later means there is no standard to judge the intervening results against, and a month of work has already been committed to an unexamined choice.
+
+**B.** Committing several tiers to the task before any standard exists means the trial is designed without knowing what it is testing for, and it duplicates the work and the allowance draw on every run.
+
+**C.** Comparing results before the task has been run is out of order, and benchmarking against manual work is not the same as agreeing what this task's output has to achieve.
+
+**D.** Correct. Define the quality bar, test the default tier on real work, check that sample against the bar, and change tier only where the evidence shows the default falls short or is more than the task needs.
+
+</details>
+
+
+---
+
+## Q168 · single choice
+
+A market research manager has been asked to summarise survey free-text responses that include respondents' names and employers, using the company's Claude for Work plan. In which order should these steps be taken?
+
+- **A.** Remove the names and employers that the summary does not need; check what the participant consent and company policy allow; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.
+- **B.** Run the summary and review it before it is circulated; check what the participant consent and company policy allow; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly.
+- ✅ **C.** Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.
+- **D.** Check what the participant consent and company policy allow; run the summary and review it before it is circulated; remove the names and employers that the summary does not need; note what was removed so the result can be interpreted properly.
+
+**Answer:** C
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+C. Check what the participant consent and company policy allow; remove the names and employers that the summary does not need; run the summary and review it before it is circulated; note what was removed so the result can be interpreted properly.
+
+Correct. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.
+
+**A.** Data is edited before anyone has established what participants agreed to, so the amount of personal detail removed is guesswork and may be either too little or more than the analysis can afford.
+
+**B.** The personal data is processed and the output reviewed before either the consent position or the minimisation step, which is the sequence that causes the exposure rather than preventing it.
+
+**C.** Correct. Consent and policy set the boundary for what may be used at all; that boundary determines which identifiers can be stripped before anything is uploaded; the summary is then produced and reviewed within those limits; and recording what was removed lets colleagues read the findings knowing what the data no longer contains.
+
+**D.** The consent check happens first, but the full identifiable transcripts are still put into the tool before the names and employers are removed, so the minimisation step comes too late to protect anyone.
+
+</details>
+
+
+---
+
+## Q169 · single choice
+
+An analyst wants to get more done inside her weekly allowance without the quality of her work dropping. Which sequence of working habits is correct?
+
+- **A.** Put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting.
+- **B.** Open a new chat for the next unrelated task; decide what she needs before starting; work through follow-ups that refer back to it; put the request and the relevant material in the opening message.
+- ✅ **C.** Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task.
+- **D.** Work through follow-ups that refer back to it; open a new chat for the next unrelated task; decide what she needs before starting; put the request and the relevant material in the opening message.
+
+**Answer:** C
+
+**Nguồn:** from ThinhNH39's data
+
+<details><summary>Explanation</summary>
+
+Correct answer from the source:
+C. Decide what she needs before starting; put the request and the relevant material in the opening message; work through follow-ups that refer back to it; open a new chat for the next unrelated task.
+
+Correct. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.
+
+**A.** Everything here is done before she has decided what she needs, so the opening message is assembled blind.
+
+**B.** Opening a chat for the next task before the current one has been started puts the last step first.
+
+**C.** Correct. Planning before starting, front-loading the material in one well-specified message, then building on it, is what keeps the exchange short; unrelated work starts fresh rather than dragging old context along.
+
+**D.** Following up before the request has even been made, and deciding what is needed last, inverts the whole habit.
 
 </details>
